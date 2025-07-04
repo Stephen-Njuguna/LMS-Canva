@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 9.2: HTML Comments</title>
+<meta name="identifier" content="gbc181816178b4faf77da0bf3254cae2f"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>In the previous lesson we saw what a comment looks like. In HTML, comments are written with an opening<span>&nbsp;</span><code>&lt;!--</code><span>&nbsp;</span>tag and a closing<span>&nbsp;</span><code>--&gt;</code><span>&nbsp;</span>tag. As mentioned in the previous lesson, comments are not executed so we can use them to hide some of our HTML from being rendered.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>HTML_comments</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;HTML Comments&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="heading"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;No Comments&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="headline"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Following recent investigations, the police are still searching for the nefarious robot burglar &lt;em&gt;(pictured)&lt;/em&gt; who has been tied to several &nbsp; &nbsp; &nbsp; &nbsp; robberies of flash drives and pirated software.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="https://3.bp.blogspot.com/-xIq3W1PP4IA/V57ik8z86AI/AAAAAAAAMAs/TKXLi1aimNs12vhizJe8C4UCL64GhtYyACLcB/s640/Johnny52k_g22_v2.jpg"/&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Now you see me, now you don't&lt;/p&gt; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;span&gt;Going under the guise of a vacuum cleaner, the highly wanted robot is still very much at large. Any leads to the robot will be highly appreciated by the authorities.<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>.heading{<br>&nbsp; display: flex;<br>&nbsp; flex-direction: column;<br>}<br>h1{<br>&nbsp; align-self: center;<br>&nbsp; padding: 20px;<br>&nbsp; font-family: Helvetica;<br>&nbsp; text-align: center;<br>&nbsp; color: white;<br>&nbsp; background-color: black;<br>&nbsp; width: 30%;<br>}<br>img{<br>&nbsp; height: 300px;<br>&nbsp; width: 400px;<br>&nbsp; float: right;<br>}<br>span{<br>&nbsp; font-size: 24px;<br>}<br>p{<br>&nbsp; font-size: 30px;<br>&nbsp; color: white;<br>&nbsp; font-family: Comic Sans MS;<br>&nbsp; background-color: black;<br>&nbsp; padding: 20px;<br>}</pre>
+<ul>
+<li><span>Run the code on your browser and &nbsp;to see the rendered page as it is</span></li>
+<li>Comment out the<span>&nbsp;</span>&lt;p&gt;<span>&nbsp;</span>tag in the index.html so that it now looks like this:</li>
+</ul>
+<pre><span> &lt;!-- &lt;p&gt;Now you see me, now you don't &lt;/p&gt; --&gt;</span></pre>
+<ul>
+<li>Refresh the page on your browser.&nbsp; The<span>&nbsp;</span>&lt;p&gt;<span>&nbsp;</span>tag is now not seen in the rendered page.</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 11.4: Top Property</title>
+<meta name="identifier" content="gfbb95f9794653ba6e99e3eb36a8f8eea"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>The<span>&nbsp;</span><code>top</code><span>&nbsp;</span>property is used to set the top margin edge of an element and takes values in pixels. To move elements away from the top, we add more pixels and vice versa.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>top_property</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="main"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Top property&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="relative"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;When we use the top property, the element can move away or towards the top.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;You can move an element down enough to block content of another element&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>
+<span>Add the following css code to the</span><span>&nbsp;</span><em>index.css</em><span>&nbsp;</span><span>file</span>
+</li>
+</ul>
+<pre><span>#relative{<br>&nbsp; background-color: lime;<br>&nbsp; padding: 10px;<br>&nbsp; color: white;<br>&nbsp; position: relative;<br>&nbsp; /* add the styling here*/<br>}</span></pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>In the<span>&nbsp;</span><em>index.css,</em><span>&nbsp;</span>set the<span>&nbsp;</span><code>top</code><span>&nbsp;</span>property of the div with the id "relative" and give it the value of<span>&nbsp;</span><code>'-20px'</code>.</li>
+<li>Refresh the page to see the rendered page and see the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>having moved more to the top.</li>
+<li>Set the<span>&nbsp;</span><code>top</code><span>&nbsp;</span>property of the div with the id "relative" and give it the value of<span>&nbsp;</span><code>'20px'</code>.</li>
+<li>Refresh the page see the rendered page with the div in its new position.</li>
+</ul>
+</body>
+</html>

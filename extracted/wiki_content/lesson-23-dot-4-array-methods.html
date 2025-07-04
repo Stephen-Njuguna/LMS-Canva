@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> Lesson 23.4: Array Methods</title>
+<meta name="identifier" content="g1109bde18a97e839e97af2d0b9151347"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>We are going to cover more of the<span>&nbsp;</span><code>.push()</code><span>&nbsp;</span>method we already introduced in the beginning of this lesson.</p>
+<p>Create <span>a javascript file&nbsp; and name it push_array_method</span><em>.js</em></p>
+<p>Say we are going for our trip and we want to make a packing list.</p>
+<p>Let's create an empty array and call it<span>&nbsp;</span><code>packingList</code><span>&nbsp;</span>.</p>
+<pre><code>`var packingList = [];` </code></pre>
+<p>Now let's get packing .</p>
+<p>We can add elements into our array by using the<span>&nbsp;</span><code>.push()</code><span>&nbsp;</span>method.</p>
+<p>We'll probably need binoculars, a journal, a camera, and a tourist hat.</p>
+<p>Let's add the first item on our list into our array.</p>
+<pre><code class="language-js">packingList.push("binoculars");
+console.log(packingList);</code></pre>
+<p>The code has been typed for you in the editor.</p>
+<p><em>Click run</em><span>&nbsp;</span>to see that binoculars has been added to your list.</p>
+<p>Now let's add the rest of our list.</p>
+<pre><code class="language-js">packingList.push("journal");
+packingList.push("camera");
+packingList.push("touristy hat");
+console.log(packingList); // ["binoculars", "journal", "camera", "touristy hat"]</code></pre>
+<p>To add an item to the top of our list we can use<span>&nbsp;</span><code>.unshift()</code><span>&nbsp;</span>method.</p>
+<p>Here's how it would look like.</p>
+<p><code>packingList.unshift("sunglasses");</code></p>
+<h3>Instructions</h3>
+<ol>
+<li>Push the rest of the things we want to pack into<span>&nbsp;</span><code>packingList.</code>
+</li>
+<li>You just remembered you need money for your trip. Use the<span>&nbsp;</span><code>.unshift()</code><span>&nbsp;</span>method to add it to the top of the list.</li>
+<li>
+<code>console.log()</code><span>&nbsp;</span>the list to print it out</li>
+<li>Click run and observe the results in the console</li>
+</ol>
+</body>
+</html>

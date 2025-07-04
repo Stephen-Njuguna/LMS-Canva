@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> Lesson 22.12: Comparison Operator</title>
+<meta name="identifier" content="g677cbf172f7690a6706acfb2c9705c4a"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction:</h3>
+<p>We have learnt about the Math operators and the assignment operators.</p>
+<p>Next up we have the comparison operators. They do not change any values. They compare two values, and return<span>&nbsp;</span><code>true</code><span>&nbsp;</span>or<span>&nbsp;</span><code>false</code><span>&nbsp;</span>(Boolean) depending on whether the statements are true or false.</p>
+<pre><code class="language-js">var newNumber = 10; &nbsp;// declaring a new variable newNumber and assigning it a value of 10.
+
+  
+
+newNumber === 9; &nbsp;&nbsp;// a statement checking if newNumber is equal to 9.
+
+  </code></pre>
+<p>Notice the 3<span>&nbsp;</span><code>=</code><span>&nbsp;</span>signs in the example above.</p>
+<p>This<span>&nbsp;</span><code>===</code><span>&nbsp;</span>asks whether something is equal.</p>
+<p>In this case, we are asking whether newNumber is equal to 9.</p>
+<p>That is not true hence when we console.log<span>&nbsp;</span><code>newNumber === 9</code><span>&nbsp;</span>&nbsp;what appears on the console is the word<span>&nbsp;</span><code>false</code>.</p>
+<p>That is because we see that the value of newNumber is<span>&nbsp;</span><code>10</code>.</p>
+<h4>NOTE:</h4>
+<p>In comparison operators we have both<span>&nbsp;</span><code>==</code><span>&nbsp;</span>and<span>&nbsp;</span><code>===</code><span>&nbsp;</span>They both compare values, however,<span>&nbsp;</span><code>==</code><span>&nbsp;</span>compares<span>&nbsp;</span><em>,</em><span>&nbsp;</span><strong>loose equality</strong><span>&nbsp;</span><em>while<span>&nbsp;</span></em><code>===</code><em><span>&nbsp;</span>compares<span>&nbsp;</span><strong>strict equality</strong>.</em></p>
+<p>In loose equality, for example</p>
+<pre><code class="language-js">console.log(77 == '77'); //the console should return a true value.</code></pre>
+<p>Although the console returns a<span>&nbsp;</span><code>true</code><span>&nbsp;</span>value, we know that 77 and '77' are not completely the same as they both have different data types, one being a number data type and the other being a string data type</p>
+<p>In strict equality, for example</p>
+<pre><code class="language-js">console.log(77 === '77'); //the console should return a false value</code></pre>
+<p>Here, everything should be the same, from the value to the data type and the number of characters.</p>
+<p>Comparison operators work for strings as well:</p>
+<pre><code class="language-js">var animal = "giraffe";
+
+console.log(animal);
+
+  
+
+animal === "elephant";
+
+console.log(animal === "elephant);
+
+//false is printed out because animal is equal to giraffe and not elephant.</code></pre>
+<p>Other comparison operators include:</p>
+<p>Other comparison operators include:</p>
+<p><code>&lt;</code><span>&nbsp;</span>this operator means<span>&nbsp;</span><strong>less</strong><span>&nbsp;</span>than but<span>&nbsp;</span><strong>not</strong><span>&nbsp;</span>equal to.</p>
+<p><code>&gt;</code><span>&nbsp;</span>this operator means<span>&nbsp;</span><strong>greater</strong><span>&nbsp;</span>than but<span>&nbsp;</span><strong>not</strong><span>&nbsp;</span>equal to.</p>
+<p><code>&lt;=</code><span>&nbsp;</span>this operator means<span>&nbsp;</span><strong>less</strong><span>&nbsp;</span>than and equal to.</p>
+<p><code>&gt;=</code><span>&nbsp;</span>this operator means<span>&nbsp;</span><strong>greater</strong><span>&nbsp;</span>than and equal to.</p>
+<p><code>!==</code><span>&nbsp;</span>this one looks new to us, it means<span>&nbsp;</span><strong>not</strong><span>&nbsp;</span>equal to.</p>
+<p>We will practice more on these operators in a few lessons.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>
+<span>Create a javascript file&nbsp; and name it comparison_operator</span><em>.js</em>
+</li>
+<li>Create a variable named myNumber and give it the value 10.</li>
+<li>Console log that variable just to confirm that the value is 10.</li>
+<li>Create another variable and name it yourNumber give it a value of 17.</li>
+<li>Console log the variable just to confirm that the value is indeed 17.</li>
+<li>Compare myNumber with yourNumber with the<span>&nbsp;</span><code>===</code><span>&nbsp;</span>operator and console log this just like we practiced in the above introduction.</li>
+<li>Do the same with the<span>&nbsp;</span><code>&lt;</code><span>&nbsp;</span>than operator and remember to console log.</li>
+<li>Click<span>&nbsp;</span><em>Run</em><span>&nbsp;</span>and observe your results.</li>
+</ul>
+</body>
+</html>

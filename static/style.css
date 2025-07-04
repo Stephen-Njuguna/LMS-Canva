@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.indent-0 {
+    margin-left: 0;
+}
+
+.indent-1 {
+    margin-left: 20px;
+}
+
+.indent-2 {
+    margin-left: 40px;
+}
+
+.indent-3 {
+    margin-left: 60px;
+}
+
+.indent-4 {
+    margin-left: 80px;
+}
+
+.list-group-item {
+    border: none;
+    background-color: #fff;
+}

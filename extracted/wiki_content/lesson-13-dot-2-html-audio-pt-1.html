@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 13.2: HTML audio pt 1</title>
+<meta name="identifier" content="g827bb1dbc883fed1dd3281f1d52d7914"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>When we want to add audio into our website, we use the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag. Let us look at an example of how an audio file is added to HTML.</p>
+<pre><code> &lt;audio controls&gt;</code></pre>
+<pre><code>    &lt;source src="https://html5tutorial.info/media/vincent.mp3" type="audio/mp3"&gt;</code></pre>
+<pre><code>      Your browser does not support the audio element </code></pre>
+<pre><code>  &lt;/audio&gt;</code></pre>
+<p><em>(Credits: HTML5tutorial)</em></p>
+<p>We see several additional elements and attributes here. Let's go through them and see what they do. The<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag is used to define an audio file that is being embedded into the HTML file. The<span>&nbsp;</span><code>controls</code><span>&nbsp;</span>attribute we will look into in the next lesson.The<span>&nbsp;</span><code>&lt;source&gt;</code><span>&nbsp;</span>tag, inside of the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag, is used to define the source of the audio file and is a<span>&nbsp;</span><strong>self-closing</strong><span>&nbsp;</span>tag. The first attribute in the<span>&nbsp;</span><code>&lt;source&gt;</code><span>&nbsp;</span>tag is the<span>&nbsp;</span><code>src</code><span>&nbsp;</span>attribute. The<span>&nbsp;</span><code>src</code><span>&nbsp;</span>attribute is used to define the URL for the audio file. We will look into the<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute in the next lesson.Sometimes the source format of the audio file is not compatible with the browser meaning the audio cannot be played.</p>
+<p>To help with this problem, you can add more<span>&nbsp;</span><code>&lt;source&gt;</code><span>&nbsp;</span>tags with other sources of the audio file that can be compatible with the browser.The final text,<span>&nbsp;</span><code>'Your browser does not support the audio element'</code><span>&nbsp;</span>is written as a<span>&nbsp;</span><strong>fallback message</strong>. This means, in case the browser in use does not support HTML audio, that text is displayed.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span> <em>html_audio</em></span>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br><br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Add an<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag into the body of the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file.</li>
+<li>Give the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag the<span>&nbsp;</span><code>controls</code><span>&nbsp;</span>attribute.</li>
+<li>Add a<span>&nbsp;</span><code>&lt;source&gt;</code><span>&nbsp;</span>tag inside the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag.
+<ul>
+<li>Give the<span>&nbsp;</span><code>src</code><span>&nbsp;</span>attribute the following value<span>&nbsp;</span><code>'https://www.elated.com/res/File/articles/authoring/html/html5-audio/WhiteChristmas.mp3'.</code>
+</li>
+<li>
+<p>Give the<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute the value<span>&nbsp;</span><code>audio/mp3</code>.</p>
+</li>
+</ul>
+</li>
+<li>Add the following text as the fallback message:<span>&nbsp;</span><code>"Your browser does not support the audio element"</code>. The following code will look like this:</li>
+</ul>
+<pre style="padding-left: 40px;">&lt;audio controls&gt;<br>&nbsp; &nbsp; &nbsp; &lt;source src="https://www.elated.com/res/File/articles/authoring/html/html5-audio/WhiteChristmas.mp3" type="audio/mp3"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;Your browser does not support the audio element<br>&lt;/audio&gt;</pre>
+<ul>
+<li><span>Refresh the page to see the rendered page with a white bar that has a play button. Click the play button to listen to the audio.</span></li>
+</ul>
+<p><span><em>(Audio credits: Elated.com)</em></span></p>
+</body>
+</html>

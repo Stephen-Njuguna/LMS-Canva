@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Wednesday: Debugging HTML and CSS.</title>
+<meta name="identifier" content="g26c264637ecabf03849b4094eade595d"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>Learning to debug your code is an essential skill as a developer. There are many debugging techniques out there, and I'm going to introduce you to a few techniques you will use all the time for HTML and CSS.</p>
+<p>These instructions are for Google Chrome. Both the JavaScript Console and Inspect panel discussed below are part of Chrome Developer Tools, or DevTools.</p>
+<h2>JavaScript Console</h2>
+<p>To access DevTools, select<span>&nbsp;</span><em>More Tools</em><span>&nbsp;</span>&gt;<span>&nbsp;</span><em>Developer Tools</em><span>&nbsp;</span>from Chrome's main menu (the three dots in the top right corner of the window). As a shortcut, you can also press<span>&nbsp;</span><em>Ctrl</em><span>&nbsp;</span>+<span>&nbsp;</span><em>Shift</em><span>&nbsp;</span>+<span>&nbsp;</span><em>J</em><span>&nbsp;</span>(Linux or Windows) or<span>&nbsp;</span><em>Cmd</em><span>&nbsp;</span>+<span>&nbsp;</span><em>Option</em><span>&nbsp;</span>+<span>&nbsp;</span><em>J</em>(Mac). You may also have to click the<span>&nbsp;</span><em>Console</em><span>&nbsp;</span>tab at the top of the window that pops open.</p>
+<p>This window is called the<span>&nbsp;</span><em>JavaScript Console</em>. Although we're not working with JavaScript, this is also where errors in the web page are logged. If you see something that looks like<span>&nbsp;</span><code>Failed to load resource file:///Users/moringa/css/styles.css</code>, Chrome is telling you that it was instructed to look for your CSS file at<span>&nbsp;</span><em>Users/moringa/css/styles.css</em>, but the file wasn't there. In other words, you either gave the wrong path to the file, or you put the file in the wrong place.</p>
+<p><img style="border: 1px solid #000000; padding: 2px;" src="$IMS-CC-FILEBASE$/MP-W1D2-02-failed_to_load_resource.png" alt="MP-W1D2-02-failed_to_load_resource.png"></p>
+<h2>Inspect Element</h2>
+<p>Another very useful tool in debugging web pages is<span>&nbsp;</span><em>Inspect Element</em>. To access this tool, open any webpage and right-click a page element and select<span>&nbsp;</span><em>Inspect</em>. As a shortcut, you can also press<span>&nbsp;</span><em>Ctrl</em><span>&nbsp;</span>+<span>&nbsp;</span><em>Shift</em><span>&nbsp;</span>+<span>&nbsp;</span><em>I</em>(Linux or Windows) or<span>&nbsp;</span><em>Cmd</em><span>&nbsp;</span>+<span>&nbsp;</span><em>Opt</em><span>&nbsp;</span>+<span>&nbsp;</span><em>I</em><span>&nbsp;</span>(Mac). You may click the<span>&nbsp;</span><em>Elements</em><span>&nbsp;</span>tab at the top of the DevTools window. A window will pop open revealing the source code for the page, with the selected element highlighted in blue.</p>
+<p>With an element selected, you can see CSS in the<span>&nbsp;</span><em>Styles</em><span>&nbsp;</span>tab. This makes it easy to see what rules have been applied, including those that have been overridden due to specificity or order of other rules (these will be crossed out). Here is what the<span>&nbsp;</span><em>Styles</em><span>&nbsp;</span>tab looks like with overridden rules:</p>
+<p><img style="border: 1px solid #000000; padding: 2px;" src="$IMS-CC-FILEBASE$/MP-W1D2-04-overridden_rules.png" alt="MP-W1D2-04-overridden_rules.png" width="367" height="522"></p>
+<p>You can also uncheck a rule to disable it, or double-click a rule to edit it and see the change live. You can even add new rules and see what they would do live.</p>
+<p>You won't have much space to work with<span>&nbsp;</span><em>Inspect Element</em><span>&nbsp;</span>at the bottom of your screen, so click the three vertical dots on the top right-hand side of the inspect element pane near the "X" (which you'd click to close the pane). Now, you'll see an option to move the pane to the right-hand side of your browser (dock to right), move the pane to the bottom of the browser window (dock to bottom) or to open the pane in a completely separate window (undock into separate window).</p>
+<p><img style="border: 1px solid #000000; padding: 2px;" src="$IMS-CC-FILEBASE$/MP-W1D2-03-inspect_element_dock_options.png" alt="MP-W1D2-03-inspect_element_dock_options.png" width="798" height="329"></p>
+<p>Inspecting a web page is a fantastic way to see for yourself what makes a website tick. Try inspecting elements on this page to see what CSS rules are being applied.</p>
+</body>
+</html>

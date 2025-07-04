@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 13.3: HTML audio pt 2</title>
+<meta name="identifier" content="g3457e192a6662952e29fb1af1c61b82d"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>In the previous lesson, we covered some of the elements and attributes used in adding audio into HTML where we saw the<span>&nbsp;</span><code>controls</code><span>&nbsp;</span>attribute and<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute.The<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute is used to specify what<span>&nbsp;</span><strong>type</strong><span>&nbsp;</span>of file we are sourcing. If the file is an audio mp3 file, the value of the<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute will be<span>&nbsp;</span><code>audio/mp3</code>. If the URL ends with<span>&nbsp;</span><code>.mp3</code><span>&nbsp;</span>then it's an mp3 file. The<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute is a little complex and so we will leave it at that.When adding (also referred to as embedding) audio to the HTML, we can give the audio controls like pausing, playing and seeking (playing certain sections of the audio/video). To add these controls manually requires a lot of code and is beyond the scope of this lesson. In place of that, you can simply add the<span>&nbsp;</span><code>controls</code><span>&nbsp;</span>attribute to the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>(which takes no value) and then the HTML will provide some default controls for you. Easy as that!</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;<em>html_audio_pt_2</em></span>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br><br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Add an<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag into the body of the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file.</li>
+<li>Give the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag the<span>&nbsp;</span><code>controls</code><span>&nbsp;</span>attribute.</li>
+<li>Add a<span>&nbsp;</span><code>&lt;source&gt;</code><span>&nbsp;</span>tag inside the<span>&nbsp;</span><code>&lt;audio&gt;</code><span>&nbsp;</span>tag.
+<ul>
+<li>Give the<span>&nbsp;</span><code>src</code><span>&nbsp;</span>attribute the following value<span>&nbsp;</span><code>'https://html5tutorial.info/media/vincent.mp3'</code>.</li>
+<li>
+<p>Give the<span>&nbsp;</span><code>type</code><span>&nbsp;</span>attribute the value<span>&nbsp;</span><code>audio/mp3</code>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Add the following text as the fallback message:<span>&nbsp;</span><code>"Your browser does not support the audio element"</code>.</p>
+</li>
+<li>
+<p>Refresh the page to see the rendered page with a white bar that has a play button. Click the play button to listen to the audio.</p>
+</li>
+</ul>
+<p><em>(Credits: HTML5tutorial)</em></p>
+</body>
+</html>

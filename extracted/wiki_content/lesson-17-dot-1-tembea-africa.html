@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 17.1: Tembea Africa</title>
+<meta name="identifier" content="g64c683fd1c306f153f8c0772269dbe97"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h4>Introduction:</h4>
+<p>Welcome back to the third module of SPOC for your first year.</p>
+<p>You have come such a long way learning tonnes of new HTML and CSS concepts.</p>
+<p>Throughout this term, you will be required to build HTML and CSS websites based on the different projects you will be assigned to be working on.</p>
+<p>In this project, we will build a website that helps us view stories on different sites and destinations across Africa.</p>
+<p>The website is going to look like this.</p>
+<p>We will break the project into smaller sections just to familiarize ourselves with the concepts needed to build this project. The first step in this lesson is the background image.</p>
+<h4>Instructions:</h4>
+<ul>
+<li>Create a new folder and name it<span> Tembea Africa</span>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp;&nbsp;<br>&nbsp; &lt;/head&gt;<br>&nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &lt;!--Write your code in here--&gt;<br>&nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>Link the CSS file to the HTML file as always.</li>
+<li>Create a div with the class name container in the html file.</li>
+<li>Within the div container, create a new div this time giving it an id overlay.</li>
+<li>In the index.css file we will style the .container in order to achieve the desired background as follows:</li>
+</ul>
+<pre>.container {<br>&nbsp; &nbsp;position: absolute;<br>&nbsp; &nbsp;top: 0;<br>&nbsp; &nbsp;bottom: 0;<br>&nbsp; &nbsp;right: 0;<br>&nbsp; &nbsp;left: 0;&nbsp;<br>  &nbsp;background-image: url(https://i.imgur.com/m2GPoD5.jpg);<br>&nbsp; &nbsp;background-repeat: no-repeat;<br>&nbsp; &nbsp;background-size: cover;<br>}&nbsp;</pre>
+<ul>
+<li>
+<p>Refresh the page to see the rendered page.</p>
+</li>
+<li>
+<p>Next, we will be making the image appear a little darker by adding an<span>&nbsp;</span><strong>overlay</strong><span>&nbsp;</span>to it.</p>
+</li>
+<li>
+<p>To achieve this, we will style our div given the id overlay, as follows:</p>
+</li>
+</ul>
+<pre>#overlay{<br>&nbsp; &nbsp;position: fixed;<br>&nbsp; &nbsp;overflow: auto;<br>&nbsp; &nbsp;width: 100%;<br>&nbsp; &nbsp;height: 100%;<br>&nbsp; &nbsp;top: 0;<br>&nbsp; &nbsp;left: 0;<br>&nbsp; &nbsp;right: 0;<br>&nbsp; &nbsp;bottom: 0;<br>&nbsp; &nbsp;background-color: rgba(0, 0, 0, 0.5);<br>&nbsp; &nbsp;z-index: 2;<br>}</pre>
+</body>
+</html>

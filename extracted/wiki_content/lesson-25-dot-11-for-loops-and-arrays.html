@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 25.11: For Loops and Arrays</title>
+<meta name="identifier" content="gde8aab54fa16fa6bfa6322af387ad82e"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>We can also loop arrays as easily as we did with variables in the lessons before.</p>
+<p>We can start by creating an array to hold a list of a menu at a cafe.</p>
+<pre><code class="language-js">var menu = ["sandwich", "coffee","cookie","muffin", "water"];</code></pre>
+<p>If we go to the cafe and ask the waiter what they are serving today, we can do this by looping the array using a<span>&nbsp;</span><code>for</code><span>&nbsp;</span>loop.</p>
+<pre><code>for (var i = 0; i &lt; menu.length; i++) {</code></pre>
+<pre><code>	console.log("We are serving " + menu[i]+ " today.");</code></pre>
+<pre><code>}</code></pre>
+<p>As compared to our previous<span>&nbsp;</span><code>for</code><span>&nbsp;</span>loops the condition, in this case, has changed.</p>
+<p>As you notice, we have used<span>&nbsp;</span><code>i</code><span>&nbsp;</span>as our variable in the condition. This is actually a very common convention in<span>&nbsp;</span><code>for</code><span>&nbsp;</span>loops, because<span>&nbsp;</span><code>i</code><span>&nbsp;</span>means "index". If you recall, the position in an array is called the index.</p>
+<p>The condition<span>&nbsp;</span><code>i &lt; menu.length</code><span>&nbsp;</span>is a little bit different from the previous lessons. Before, we used a number as the condition (for example,<span>&nbsp;</span><code>steps &lt;= 10</code><span>&nbsp;</span>In this example, we have used a property instead of a number. In fact,<span>&nbsp;</span><code>menu.length</code><span>&nbsp;</span>evaluates as a number, and is the number of items in our array.<span>&nbsp;</span><code>i</code><span>&nbsp;</span>is less than the number of items in our menu then the block of code can executed.</p>
+<pre>`<br>var menu =<span>&nbsp;</span><a href="https://repl.it/@AccessPrePrepJS/Lesson-25-11-For-Loops-and-Arrays?v=1">"</a>sandwich", "coffee","cookie","muffin", "water<a href="https://repl.it/@AccessPrePrepJS/Lesson-25-11-For-Loops-and-Arrays?v=1">"</a>;<br><br>for (var i = 0; i &lt; menu.length; i++) {<br>console.log("We are serving " + menu<a href="https://repl.it/@AccessPrePrepJS/Lesson-25-11-For-Loops-and-Arrays?v=1">i</a>+ " today");`<br><br><code>}</code></pre>
+<p><br>We should expect the waiter to tell us everything that is on the menu.</p>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it for</span><em>_loop_and_arrays.js.</em>
+</li>
+<li>Type the code above.</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results.</li>
+</ol>
+</body>
+</html>

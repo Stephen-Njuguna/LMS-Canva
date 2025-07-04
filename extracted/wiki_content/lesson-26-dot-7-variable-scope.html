@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 26.7: Variable Scope</title>
+<meta name="identifier" content="g557709973be55701218516606ffd26cb"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>Now that we are working with functions, we need to learn more about variable scopes.</p>
+<p>A variable scope determines the accessibility of variables within a program. There are two types of variable scopes.</p>
+<ol>
+<li>Global Scopes</li>
+<li>Local Scopes</li>
+</ol>
+<p>We have been using the global variables since we learnt how to create variables. Global variables can be accessed at any point of the program, that is, if you create a variable eg:</p>
+<pre><code class="language-js">var x = 10;</code></pre>
+<p>it can be used anywhere in your program as long as you use<span>&nbsp;</span><code>x</code><span>&nbsp;</span>to call the variable. Therefore, meaning it has a global scope.</p>
+<p>A local variable is can only be accessed where they have been created, for instance, if we declare a variable within a function like so:</p>
+<pre><code class="language-js">var car = function (model, numberPlate) {
+	var wheels = 4; //this is a local variable
+	console.log( "I drive a " + model +  "with a number plate of  " + numberPlate + " and it has " + wheels 
+	+ " wheels.");
+	
+};
+
+car ("Toyota", "KBP 123");</code></pre>
+<p>In this case,<span>&nbsp;</span><code>var wheels = 4;</code><span>&nbsp;</span>is a local variable and can only be accessed by the function when it is called.</p>
+<p>If we create another function in our program and try to access the local scope variable in the<span>&nbsp;</span><code>car</code><span>&nbsp;</span>function, we will get an error in the console. Let's try it out.</p>
+<pre><code class="language-js">var car = function (model, numberPlate) {
+  var wheels = 4; //this is a local variable
+  console.log( "I drive a " + model +  "with a number plate of " + numberPlate + " and it has " + wheels
+  + " wheels.");
+};
+
+var bicycle = function (model, numberPlate) {
+ 
+console.log( "I drive a " + model +  "with a number plate of " + numberPlate + " and it has " + wheels
+  + " wheels.");
+};
+
+//we can call our functions from here
+car ("Toyota", "KBP 123");
+bicycle("Honda", "ABSC 526");</code></pre>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it&nbsp; variable_scope</span><em>.js.</em>
+</li>
+<li>Type the code above in your editor.</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console. Notice that there is an error and the second function is not called.</li>
+<li>Within the bicycle function add<span>&nbsp;</span><code>var wheels = 2;</code>
+</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console. This time around all the functions should be called.</li>
+</ol>
+</body>
+</html>

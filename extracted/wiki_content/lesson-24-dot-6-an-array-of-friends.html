@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 24.6: An Array of Friends</title>
+<meta name="identifier" content="g3a3459ec324226242a72140cdcf052db"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>Now that we have mastered how to combine arrays and objects in different ways.</p>
+<p>Let's have a little challenge right here.</p>
+<p>We will create an array of friend objects, where each object also contains arrays. Sounds tricky huh? We can totally hack this.</p>
+<p>Let's start by creating three objects that have arrays in them. Each object has three properties, that is,<span>&nbsp;</span><code>name</code><span>&nbsp;</span><code>age</code><span>&nbsp;</span>and<span>&nbsp;</span><code>favoriteAnimals</code><span>&nbsp;</span>Each<span>&nbsp;</span><code>favoriteAnimals</code><span>&nbsp;</span>property is an array. . ,</p>
+<pre><code>var kiro = {
+ name: "Kiro",
+ age: 15,
+ favoriteAnimals: ["Duck", "Monkey", "Whale"]
+};
+var patty = {
+ name: "Patty",
+ age: "17",
+ favoriteAnimals: ["Snake", "Lion", "Zebra"]
+};
+var sandy = {
+ name: "Sandy",
+ age: "16",
+ favoriteAnimals: ["Flamingo", "Chicken", "Gecko"]
+};</code></pre>
+<p>Next we will create an array of Wambui's friends to hold the objects we just created.</p>
+<pre><code class="language-js">var friends = [kiro, patty, sandy]; //array to hold our objects.</code></pre>
+<p>We can now try to access any information about Wambui's friends. For example if we want to get Sandy's information from our array, this is how we'd do it.</p>
+<p>In our previous lessons, we learnt how to access arrays, using indices (the position of the array). In the same exact way we can access Sandy's information.</p>
+<pre><code class="language-js">console.log(friends[2]);</code></pre>
+<p>Now let's get specific information about Sandy, say, her 2nd favorite animal.</p>
+<pre><code class="language-js">console.log(friends[2].favoriteAnimals[1]); 
+/*console should display chicken
+her second favorite animal is index 1 since we start counting arrays from 0, </code></pre>
+<p>The key<span>&nbsp;</span><code>favoriteAnimals</code><span>&nbsp;</span>is an array too. We will use the dot notation to access the<span>&nbsp;</span><code>favoriteAnimals</code><span>&nbsp;</span>key in the object and include its index since we need to know what that animal is.</p>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it&nbsp;</span><em>array_of_friends.js.</em>
+</li>
+<li>Using the example above, Console log Wambui's 1st friend's last favorite animal</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 11.7: Fixed Position</title>
+<meta name="identifier" content="g62f93671314535365db30ed07c7ccae5"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>In this lesson, we are going to learn about the<span>&nbsp;</span><code>fixed</code><span>&nbsp;</span>position property. Unlike the<span>&nbsp;</span><code>relative</code><span>&nbsp;</span>property which positions itself relative to its original position, the<span>&nbsp;</span><code>fixed</code><span>&nbsp;</span>property positions elements relative to the<span>&nbsp;</span><strong>viewport</strong>. A viewport is the screen size of the browser window on a device. When using the fixed property, the element will remain in that position on the screen even when scrolling.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>fixed_position</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;The fixed position&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Unlike other elements&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;When an element is set to have a fixed position&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="fixed"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Like myself. I am somewhere on the right of the screen&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>In the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file, add the following code:</li>
+</ul>
+<pre>.fixed{<br>&nbsp; &nbsp;position: relative;<br>&nbsp; &nbsp;top: 30px;<br>&nbsp; &nbsp;right: 25px;<br>&nbsp; &nbsp;border: 3px solid blue;<br>}</pre>
+<ul>
+<li>
+<p>Change the value of the<span>&nbsp;</span><code>position</code><span>&nbsp;</span>property of the "<code>.fixed</code>" selector to have the value 'fixed '.</p>
+</li>
+<li>
+<p>Change the value of the<span>&nbsp;</span><code>top</code><span>&nbsp;</span>property of the ".fixed" selector to have the value<span>&nbsp;</span><code>'10px</code>'.</p>
+</li>
+<li>
+<p>Change the value of the<span>&nbsp;</span><code>right</code><span>&nbsp;</span>property of the "<code>.fixed</code>" selector to have the value 0. The final code should look like this:</p>
+</li>
+</ul>
+<pre><code>.fixed{</code></pre>
+<pre><code>   position: fixed;</code></pre>
+<pre><code>   top: 10px;</code></pre>
+<pre><code>   right: 0;</code></pre>
+<pre><code>   border: 3px solid blue;</code></pre>
+<pre><code>}</code></pre>
+<ul>
+<li>
+<p><span>Refresh the page </span>to see the rendered page.</p>
+</li>
+<li>
+<p>Scroll up and down. You will notice that the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>does not move from its position.</p>
+</li>
+</ul>
+</body>
+</html>

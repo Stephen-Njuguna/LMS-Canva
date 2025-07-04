@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Tuesday: Getting Started</title>
+<meta name="identifier" content="g010cded075ab94f4e5c496481e5319e9"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>We hope you are excited to start this amazing journey with us!&nbsp;</p>
+<p>Before we start our first lesson, let's go over some of the software that we will be using in the course</p>
+<ul>
+<li>
+<strong>Chrome</strong>&nbsp;</li>
+</ul>
+<p style="padding-left: 40px;"><span>At Moringa School, we typically use </span><strong>Google Chrome </strong><span>as the default browser for all of our web development, and our curriculum is written assuming that you are using Chrome. The additional tools built for programmers for Chrome are the best, though you may explore cross-compatibility between web browsers later.</span></p>
+<ul>
+<li><span><strong>GitHub</strong></span></li>
+</ul>
+<p style="padding-left: 40px;"><span>When we get started writing a new program, the last thing we want to happen is to lose any of our hard work. To prevent that terrible possibility from happening, we will save versions of our code on our computer AND also save a version of our code on a location on the web. The reason why we store our code on the web is to prevent loss of versions that you may have made on your computer. In case your hard drive gets corrupted or worse, you lose your laptop, all you need to do is retrieve your work from the web. Storing our code on the web via Github is also a great avenue for collaboration. When working with other people, you and your teammates can all contribute to the same project. At Moringa School, we will learn to manage these different versions of our code using two tools: </span><strong>Git</strong><span> and </span><strong>GitHub</strong><span>.</span></p>
+<p style="padding-left: 40px;"><span>Git is a </span><strong>version control system</strong><span> that we install on the computers where we write code. Git allows us to take a snapshot of our program, called a </span><strong>commit</strong><span>, at important points along the way as we work. You can think of a commit like a save on a document that you are writing. Although unlike a save, once a commit is made, it is permanently stored in the history of the project. A newer commit does not overwrite the previous commit. If we ever want to go back to the place in time where the commit was made, where all the files looked exactly as they did when we committed, we will be able to do so.</span></p>
+<p style="padding-left: 40px;"><span>When we are ready to save the code from our computers to a location on the web, we will use </span><a href="https://github.com/"><span>GitHub</span></a><span>. GitHub allows us to create </span><strong>repositories</strong><span> to store the code and code history for each of our projects. A repository is what we call the container that holds all of the files from our project with all of the commits that have been made to it.</span></p>
+<p style="padding-left: 40px;"><span>Each project that we create will be saved to a repository on GitHub. By the end of your time here, you will have a portfolio of your work represented by all of your GitHub repositories. LinkedIn will be your employment resume and GitHub will serve as your coding resume.</span></p>
+<p style="padding-left: 40px;"><span>Note that all repositories on GitHub are public by default. For a monthly fee, GitHub offers </span><a href="https://github.com/blog/2164-introducing-unlimited-private-repositories"><span>unlimited private repositories</span></a><span>. However, this is entirely optional. Private repos are </span><i><span>not</span></i><span> required for this course.</span></p>
+<h2 style="padding-left: 40px;"><strong>Installation Instructions: Linux</strong></h2>
+<p style="padding-left: 40px;"><span>To use these instructions, you will need to use your computer's command prompt, an application named </span><i><span>Terminal</span></i><span>. The Terminal application on a PC with Linux installed can be accessed by pressing </span><i><span>Ctrl </span></i><span>+ </span><i><span>Alt </span></i><span>+ </span><i><span>T</span></i><span>. Alternatively, you can locate the Terminal application by searching "Terminal" once you click on the Linux icon on the upper left side of your screen.</span></p>
+<p style="padding-left: 40px;"><span>We will go much more into detail about how to use the command prompt when we start coding, but for now, simply note that the commands here are preceded by a </span><span>$</span><span>. When typing the commands yourself, do not type the $ - this is simply a common convention used to indicate that what follows is a command to be run.</span></p>
+<p style="padding-left: 40px;"><span>Linux has a powerful software installation tool known as Advanced Packaging Tool, which is accessed with the </span><span>apt</span><span> command. To install Git via apt, run the following commands:</span></p>
+<p style="padding-left: 40px;"><span>$ sudo apt-get update</span></p>
+<p style="padding-left: 40px;"><span>$ sudo apt-get install git</span></p>
+<p style="padding-left: 40px;"><span>Next, open your terminal application and run $ git --version which should return the version of your git installation.</span></p>
+<h2 style="padding-left: 40px;"><span style="font-size: 14pt;"><strong>Creating a Github Account</strong></span></h2>
+<p style="padding-left: 40px;"><span>If you have not already created a personal GitHub account, head over to the </span><a href="https://github.com/"><span>GitHub website</span></a><span> and sign up for a free account now. Take note of the email address you use, because you are going to use it to connect your computer's Git installation with GitHub.</span></p>
+<p style="padding-left: 40px;"><span>When creating an account, consider choosing a username that you will feel comfortable sharing in a professional setting. Also, keep in mind that all of the work that you will be adding to your GitHub account is viewable to the public. Make a commitment to always present the best version of your code. Again, your Github profile will serve as your resume and portfolio of coding abilities. Make sure your username is professional, and code within it is clean and presentable.</span></p>
+<p style="padding-left: 40px;"><span>Once you have created an account on Github, set your personal info by setting global, or computer-wide, variables on your computer for your name and email. Open Terminal, then run the following commands (insert your Github username and email when you do this - these details will be associated with any commits that you create):</span></p>
+<p style="padding-left: 40px;"><span>$ git config --global user.name "first-name second-name"</span></p>
+<p style="padding-left: 40px;"><span>$ git config --global user.email "email@example.com"</span></p>
+<p style="padding-left: 40px;"><span>Replace </span><span>first-name</span><span> with your first name and </span><span>second-name</span><span> with your second name. On the second line, replace </span><span>email@example.com</span><span> with the email you used to register on GitHub.</span></p>
+<p style="padding-left: 40px;"><span>Once this is done, the name and email are set for any project located anywhere on the computer. If you run these on your personal computer, you only need to run these commands one time for the names to be set for every project.</span></p>
+<ul>
+<li>
+<h1><strong>Visual Studio Code</strong></h1>
+</li>
+</ul>
+<p style="padding-left: 40px;"><span>When we write code, we do it in a text editor. Word processing programs like Microsoft Word are not ideal for writing code because they add styles and formatting that can get in the way of our code. We want plain, raw text without any extras for our coding files.</span></p>
+<p style="padding-left: 40px;"><span><strong>If you have a Mac, your device comes with a text editor called TextEdit which can be found in your <i>Applications </i>list. If you have a PC, the default text editor is Notepad (Windows) or Gedit (Linux), which can be found through the <i>Start </i>menu. The Mac and Linux Terminal applications also include a console-based text editor called Nano. These text editors allow you to write code with plain, raw text.</strong></span></p>
+<p style="padding-left: 40px;"><span>For this course, we'll use the free text editor, <strong>Visual Studio Code (Vs Code)</strong>. Vs Code was designed with the developer in mind by adding features and customization that help developers write their code more productive.</span></p>
+<h2 style="padding-left: 40px;"><span style="font-size: 18pt;"><strong>Overview</strong></span></h2>
+<p style="padding-left: 40px;"><span>To open vs code, press the <img src="$IMS-CC-FILEBASE$/Uploaded%20Media/windows%20button.jpg" alt="windows button.jpg" width="40" height="23" data-api-endpoint="https://moringaschool.instructure.com/api/v1/courses/333/files/49456" data-api-returntype="File">&nbsp; button on the keyboard and type 'visual studio code' in the search bar. </span></p>
+<p style="padding-left: 40px;"><span>Let's take a quick tour of Vs Code. Vs Code offers developers the ability to customize the editor's settings and shortcuts. Press <i>Ctrl</i> + , [<i>Ctrl </i>+ comma] (Linux) to see the <i>Settings</i> view</span></p>
+<p style="padding-left: 40px;"><span>One setting that we want to make sure we have in place is the tab length. Writing good code means making a habit of using consistent indentation. The standard for indenting lines of code is 2 spaces. We have confirmed that this is set to 2. So, rather than hitting the spacebar twice, we can use the tab key for indentation.</span></p>
+<p style="padding-left: 40px;"><span>You won't need to worry too much about all of the customization possibilities now but as you start gaining coding experience, remember that you can return to the <i>Settings</i> view to make updates to keyboard shortcuts, themes, or packages that add other functionality to the editor.</span></p>
+<p style="padding-left: 40px;"><span><strong>Additional installation</strong></span></p>
+<p style="padding-left: 40px;"><span>Vs Code has additional packages called <strong>Extensions</strong> built to make writing code easy that you can install. You can think of extensions as kind of like apps - - they don't come with the program when you install it, but you can add them separately. They can be incredibly powerful and can change everything from the very look and feel of the entire interface to the basic operation of even core functionality.</span></p>
+<p style="padding-left: 40px;"><span>To install extensions, b<span>ring up the Extensions view by clicking on the Extensions icon <img src="$IMS-CC-FILEBASE$/Uploaded%20Media/extensions-view-icon.png" alt="extensions-view-icon.png" width="30" height="31" data-api-endpoint="https://moringaschool.instructure.com/api/v1/courses/333/files/49457" data-api-returntype="File">&nbsp; &nbsp;</span><span>on the side of VS Code and type the name extension that you want into the&nbsp; search box</span></span></p>
+<p style="padding-left: 40px;"><span>To get started, install the following packages:</span></p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li><span>Beautify - Enforces coding standards by aligning your code</span></li>
+<li><span>Live Server -&nbsp; Allows us to run html file on the browser and reloads the page every time we make a change in the editor</span></li>
+<li><span>Live Share - allows developers to share their code with other developers so that they can collaborate.</span></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p><span>Now that we have everything ready, let's get coding :-)</span></p>
+</body>
+</html>

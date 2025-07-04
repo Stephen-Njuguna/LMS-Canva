@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 4.15: Summary</title>
+<meta name="identifier" content="gfd682247a8b30b37461b7ab4b339d9ea"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>
+<p>All HTML elements have a box model which has the following properties:</p>
+<ol>
+<li>Content-box - Where the element's content is located.</li>
+<li>Width - The width of the content-box.</li>
+<li>Height - The height of the content-box.</li>
+<li>Padding - The space between the content and the border.</li>
+<li>Border - The separation between the padding and the margin.</li>
+<li>Margin - The space around an element.</li>
+</ol>
+</li>
+<li>
+<p>We can style all the above properties for block-level elements.</p>
+</li>
+<li>However, we<span>&nbsp;</span><strong>cannot</strong><span>&nbsp;</span>set the 'width' or 'height' of inline-level elements as it is dependent on the content.</li>
+<li>We can style each side of the padding, border and margin separately.</li>
+<li>&lt;div&gt; is a generic block level element used for grouping other elements for styling.</li>
+<li>&lt;span&gt;<span>&nbsp;</span>is a generic inline level element used also for grouping other elements for styling or for content that has no other appropriate semantic element.</li>
+</ul>
+<p>We have created a congratulatory page for your efforts so far.</p>
+<p><strong>Instructions:</strong></p>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>congratulations</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Great job&lt;/title&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link href="index.css" rel="stylesheet"&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Great job!&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="http://i.123g.us/c/bus_relation/card/306919.gif"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Great job on getting this far in learning web development. You<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; now know enough to create a cool minimalistic website. Keep at<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; it and enjoy the journey to web development guru.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Add the following css code to the index.css file</li>
+</ul>
+<pre>html, body {<br>&nbsp; margin: 0;<br>&nbsp; padding: 0;<br>}<br>div {<br>&nbsp; display: flex;<br>&nbsp; flex-direction: column;<br>&nbsp; align-items: center;<br>&nbsp; background-color: #66035f;<br>&nbsp; background-clip: content-box;<br>&nbsp; padding: 20px;<br>&nbsp; border: 10px inset grey;<br>&nbsp; color: #04f240;<br>}<br><br>h1 {<br>&nbsp; font: italic bold 2em 'Open Sans', serif;<br>}<br><br>img {<br>&nbsp; height: 200px;<br>&nbsp; width: 300px;<br>}<br><br>p {<br>&nbsp; font-size: 30px;<br>&nbsp; font-style: italic;<br>&nbsp; font-family: fantasy;<br>}</pre>
+<ul>
+<li>Run the code on the browser to see the <span>congratulatory message for your hard work this far.</span>
+</li>
+</ul>
+</body>
+</html>

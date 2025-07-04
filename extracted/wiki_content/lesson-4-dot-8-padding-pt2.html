@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 4.8: Padding pt2</title>
+<meta name="identifier" content="g708ae1b06cd74241912b65a7072f528a"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Introduction:</strong></p>
+<ul>
+<li>We can also set the size of individual sides of the padding using the CSS properties: padding-top, padding-bottom, padding-right and padding-left.</li>
+<li>For example, the following code sets the:
+<ul>
+<li>top padding of the heading to 10 pixels</li>
+<li>Right and left padding to 5 pixels</li>
+<li>Bottom padding to 15 pixels</li>
+</ul>
+</li>
+</ul>
+<pre><code>h1 {
+padding-top: 10px;
+padding-right: 5px;
+padding-bottom: 15px;
+padding-left: 5px;
+}</code></pre>
+<p>Let's use a different code example&nbsp;</p>
+<p><strong>Instructions:</strong></p>
+<ul>
+<li>Create a new folder and name it <em>padding</em>. Inside the folder create the <em>index.html </em>and <em>index.css</em> files.</li>
+<li>Add the following code in the <em>index.html</em> file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;repl.it&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2&gt;Padding&lt;/h2&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Padding can be described as the inner margin of an element.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; It is the space between an element's content and its border.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We can say that elements with a padding value other than zero are padded.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; To learn more about it, click &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding"&gt;here&lt;/a&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Add the following css code to the index.css file</li>
+</ul>
+<pre>a {<br>&nbsp; background-color: red;<br>&nbsp;&nbsp;<br>&nbsp; /*Add your CSS below this line*/<br>&nbsp; &nbsp;&nbsp;<br>}</pre>
+<ul>
+<li>Run the code on the browser to see the initial appearance of the page</li>
+<li>
+<span>Set the padding of the anchor element (</span><span>&lt;a&gt;</span><span>) as follows;</span>
+<ul>
+<li>Top padding to 10 pixels (px). Hint: <code>padding-top: 10px</code>
+</li>
+<li>Left padding to 5 pixels(px).</li>
+<li>Right and bottom padding to 0 pixels (px).</li>
+</ul>
+</li>
+<li>Refresh the page to see the changes&nbsp;</li>
+</ul>
+<p>Your css code should look like this;</p>
+<pre>a {<br>&nbsp; background-color: red;<br>&nbsp;&nbsp;<br>&nbsp; /*Add your CSS below this line*/<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; padding-top: 10px;<br>&nbsp; &nbsp; padding-right: 0px;<br>&nbsp; &nbsp; padding-bottom: 0px;<br>&nbsp; &nbsp; padding-left: 5px;<br>&nbsp; &nbsp;&nbsp;<br>}</pre>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Tuesday: Introduction and Interaction with the Command Line.</title>
+<meta name="identifier" content="g783159cb955810e1058d96b0fd273940"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>One of the first tools every developer needs to get familiar with is the terminal. No matter which language you use, you will be using the terminal a lot. As a person new to programming, using the terminal interface of a computer may be something you'll do for the first time in this lesson.</p>
+<p>When you open up your computer and want to access a file or program, it's likely that you do this using a<span>&nbsp;</span><strong>graphical user interface</strong>, or<span>&nbsp;</span><strong>GUI</strong>. This is simply the graphical, or visual, part of a computer program that the user can interact with.</p>
+<p>For example, when you want to open up your internet browser and you click on the icon in your computer's menu bar, you are using the GUI of your computer's operating system to access the program. The cursor to indicate where on the screen you are clicking and the icons that represent programs are both parts of the graphical user interface.</p>
+<p>Another example of a program with a GUI is a word processor. The GUI gives us a document to type in, a cursor to see where we're typing, letters on the screen to represent the text we've typed, menu options to format our text and save or documents, and more.</p>
+<p>The GUI gives us a visual representation of what the computer program is doing underneath the hood. However, it's not the only way to interact with a computer. We can also use our computer's terminal interface, and you often will when developing. The<span>&nbsp;</span><strong>terminal</strong><span>&nbsp;</span>is a text-based interface that allows users to interact with the computer by typing commands into the<span>&nbsp;</span><strong>command prompt</strong>.</p>
+<p>You have probably navigated the folders and files on your computer using a GUI such as<span>&nbsp;</span><em>Finder</em><span>&nbsp;</span>on Mac or<span>&nbsp;</span><em>Files</em><span>&nbsp;</span>on Linux. In the next lesson, we'll see how we can create, update, delete, and navigate folders and files using the terminal. We'll also learn some additional functionality not available by using a GUI.</p>
+<hr>
+<h2>Accessing the Terminal</h2>
+<h3>Ubuntu Setup</h3>
+<p>The Terminal application on a PC with Ubuntu installed can be accessed by pressing<span>&nbsp;</span><em>ctrl + Alt + T</em>. Alternatively, you can locate the Terminal application by searching<span>&nbsp;</span><em>Terminal</em><span>&nbsp;</span>once you click on the ubuntu icon on the upper left side of your screen.</p>
+<h3>Mac Setup</h3>
+<p>The Terminal application on a Mac is located in the<span>&nbsp;</span><em>Utilities</em><span>&nbsp;</span>folder, which is located inside the<span>&nbsp;</span><em>Applications</em>folder. Alternatively, you can locate the Terminal application by clicking on the magnifying glass icon at the upper right corner of the screen and typing<span>&nbsp;</span><em>Terminal</em>.</p>
+<hr>
+<h2>Command Prompt</h2>
+<p>When you open up your computer's terminal, you should see a blank screen with a few lines of text in the corner, followed by a<span>&nbsp;</span><code>$</code>. This is called the<span>&nbsp;</span><strong>prompt</strong>. It usually provides some contextual information such as who you are, your location on the computer, and other useful info. For example, the prompt on your computer might look something like this:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~</span>$</code></pre>
+<p>In this example,</p>
+<ul>
+<li>
+<code>guest</code><span>&nbsp;</span>is the name of the user currently logged in</li>
+<li>
+<code>moringa-Lenovo-B50-80</code><span>&nbsp;</span>is the nickname of the computer we're using</li>
+<li>
+<code>~</code><span>&nbsp;</span>indicates that we are located in the Home directory (we'll learn more about what this means later)</li>
+<li>
+<code>$</code><span>&nbsp;</span>is the end of the prompt</li>
+</ul>
+<p>Take note here that not all command prompts look the same. Your computer will likely have a different nickname or username, and you may be located somewhere else in the filesystem. There's no need to worry if the prompt on your computer looks different from the example above - this is totally normal.</p>
+<p>After the prompt is a blinking grey rectangle, called the<span>&nbsp;</span><strong>cursor</strong>. This is where you will be typing commands.</p>
+<p>Both in the curriculum and in resources online, you will often see commands preceded by a<span>&nbsp;</span><code>$</code>. When typing the commands yourself, do not type the<span>&nbsp;</span><code>$</code><span>&nbsp;</span>- this is simply a common convention used to indicate that what follows is a command to be run.</p>
+<p>Now that we have covered the basics of the terminal and command line, let's start using it. In the next lesson, we will learn some common and very useful commands, what they do, and how to use them.</p>
+<h1>Interacting with the Command Line</h1>
+<p>Now that we know what the command line is, how to access it, and what to use it for, let's start interacting with it. In this lesson, we will explore some of the most frequently used terminal commands. You will use these commands all the time at Moringa School, so start getting comfortable with them now.</p>
+<p>To type a command, simply open your terminal program and start typing. Anything you type will appear where the cursor is. Once you've typed the command, hit<span>&nbsp;</span><em>Enter</em><span>&nbsp;</span>(Linux or Windows) or<span>&nbsp;</span><em>Return</em><span>&nbsp;</span>(Mac) to run it. For the remainder of this lesson,<span>&nbsp;</span><em>Enter</em><span>&nbsp;</span>and<span>&nbsp;</span><em>Return</em><span>&nbsp;</span>will be used interchangeably.</p>
+<h3>See current location with<span>&nbsp;</span><code>$ pwd</code>
+</h3>
+<p>The first command on our journey will be<span>&nbsp;</span><code>pwd</code>, which prints your current location to the screen. It stands for "print working directory".</p>
+<p>See what happens when we use this command:</p>
+<pre><code class="language-bash">guest@moringa-Lenovo-B50-<span class="hljs-number">80</span>:~$ <span class="hljs-built_in">pwd</span></code></pre>
+<p>After we hit<span>&nbsp;</span><em>Return or Enter</em>, we see a series of words separated by slashes (<code>/</code>), also known as a<span>&nbsp;</span><strong>file path</strong>. Each of the words is a<span>&nbsp;</span><strong>directory</strong>, which is another word for a folder. So, in the example, the terminal returned:</p>
+<pre><code class="hljs">/home/nancy</code></pre>
+<p>This tells us that we are located inside of the<span>&nbsp;</span><em>nancy&nbsp;</em>directory, which is inside of the<span>&nbsp;</span><em>home</em><span>&nbsp;</span>directory.</p>
+<p>This default directory is also called the<span>&nbsp;</span><strong>home directory</strong>, and it is a sort of "entry point" for a system, and contains all of a user's files, directories, and programs. Remember when we first opened up the terminal and saw that our location was represented by a<span>&nbsp;</span><code>~</code>? The<span>&nbsp;</span><code>~</code><span>&nbsp;</span>symbol refers to the home directory.</p>
+<h3>List out contents of folder with<span>&nbsp;</span><code>$ ls</code>
+</h3>
+<p>Now that we know which folder we are in, let's see what's inside of the folder. The next command we will learn is<span>&nbsp;</span><code>ls</code>, which lists all the content of a folder (<code>ls</code><span>&nbsp;</span>stands for "list"). When I type it on my computer, I see a list of all files and directories in that folder.</p>
+<p>This tells us that I have each of the following folders in my<span>&nbsp;</span><em>Users</em>/<em>Guest</em><span>&nbsp;</span>directory:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~</span><span class="hljs-variable">$ </span>ls
+<span class="hljs-constant">Documents</span>  <span class="hljs-constant">Downloads</span>  <span class="hljs-constant">Music</span>  <span class="hljs-constant">Pictures</span>  <span class="hljs-constant">Public</span>  <span class="hljs-constant">Templates</span>  <span class="hljs-constant">Videos</span></code></pre>
+<p>Remember, just like<span>&nbsp;</span><em>Finder</em><span>&nbsp;</span>or<span>&nbsp;</span><em>File Explorer</em>, the terminal interface lets us navigate and interact with our computer.<span>&nbsp;</span><code>ls</code><span>&nbsp;</span>tells us which files and folders are inside of a directory, just like the icons in the Graphical User Interface.</p>
+<h3>Change folders with<span>&nbsp;</span><code>$ cd</code>
+</h3>
+<p>When we're using Finder and we want to move to a different folder, we find the icon for the folder where we want to go and double-click on it. In Terminal, we use the command<span>&nbsp;</span><code>$ cd folder-name</code><span>&nbsp;</span>(replacing<span>&nbsp;</span><code>folder-name</code><span>&nbsp;</span>with the name of the folder to which you'd like to navigate).<span>&nbsp;</span><code>cd</code><span>&nbsp;</span>stands for "change directory". Be sure to always type a space after any command that has an additional argument, such as the name of a directory in this example.</p>
+<p>For instance, in order to navigate to my<span>&nbsp;</span><em>Documents</em><span>&nbsp;</span>folder, I use the command</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~</span><span class="hljs-variable">$ </span>cd <span class="hljs-constant">Documents</span></code></pre>
+<p>After hitting<span>&nbsp;</span><em>Return</em>, the prompt reads</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents</span>$</code></pre>
+<p>Notice how<span>&nbsp;</span><code>Documents</code><span>&nbsp;</span>now precedes the <code>$</code>, indicating that our location has changed.</p>
+<p>Here are a few more options to help you navigate your computer:</p>
+<ul>
+<li>If you type<span>&nbsp;</span><code>cd</code><span>&nbsp;</span>and press the<span>&nbsp;</span><em>Return</em><span>&nbsp;</span>key - with no directory specified - you'll go back to your<span>&nbsp;</span><em>Home&nbsp;</em>folder. (You can also type<span>&nbsp;</span><code>cd ~</code><span>&nbsp;</span>to go there.)</li>
+<li>If you type<span>&nbsp;</span><code>cd ..</code><span>&nbsp;</span>(that's two periods), you'll go to the directory above the one you're currently in. So if you're in your<span>&nbsp;</span><em>Home</em><span>&nbsp;</span>folder, and type<span>&nbsp;</span><code>cd ..</code><span>&nbsp;</span>you'll go to your<span>&nbsp;</span><em>Users</em><span>&nbsp;</span>folder.</li>
+</ul>
+<h3>Create folders with<span>&nbsp;</span><code>$ mkdir</code>
+</h3>
+<p>The command<span>&nbsp;</span><code>mkdir</code><span>&nbsp;</span>stands for "make directory". We create a folder with a command like<span>&nbsp;</span><code>$ mkdir name-of-directory</code>, replacing<span>&nbsp;</span><code>name-of-directory</code><span>&nbsp;</span>with whatever we would like to name the folder. Make sure you are in your computer's<span>&nbsp;</span><em>Desktop</em><span>&nbsp;</span>directory and let's create a folder named<span>&nbsp;</span><em>moringa-prep</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents</span><span class="hljs-variable">$ </span>mkdir moringa-prep</code></pre>
+<p>Now, if we run<span>&nbsp;</span><code>ls</code><span>&nbsp;</span>on our current folder, we can see that it contains a new folder named<span>&nbsp;</span><em>moringa-prep</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents</span><span class="hljs-variable">$ </span>ls
+moringa-prep</code></pre>
+<h3>Create new files with<span>&nbsp;</span><code>$ touch</code>
+</h3>
+<p>The<span>&nbsp;</span><code>touch</code><span>&nbsp;</span>command works a lot like<span>&nbsp;</span><code>mkdir</code>, but instead of creating a new directory, it creates a new file. The structure looks like<span>&nbsp;</span><code>$ touch new-file-name</code>. For example, let's move to the<span>&nbsp;</span><em>moringa-prep&nbsp;</em>directory we just made:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents</span><span class="hljs-variable">$ </span>cd moringa-prep</code></pre>
+<p>And let's create a new file named<span>&nbsp;</span><em>my-first-file.html</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>touch my-first-file.html</code></pre>
+<p>Now when we list the files in the<span>&nbsp;</span><em>moringa-prep</em><span>&nbsp;</span>directory, we see that it contains<span>&nbsp;</span><em>my-first-file.html</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>ls
+my-first-file.html</code></pre>
+<h3>Copy items with<span>&nbsp;</span><code>$ cp</code>
+</h3>
+<p>The command<span>&nbsp;</span><code>cp</code><span>&nbsp;</span>stands for "copy", and it is used to copy files and directories. The basic structure of this command is<span>&nbsp;</span><code>$ cp original-file new-file</code>, where<span>&nbsp;</span><code>original-file</code><span>&nbsp;</span>is the name of the original file, and<span>&nbsp;</span><code>new-file</code><span>&nbsp;</span>is what you want to name the copy. Here's how we would use it to create a copy of<span>&nbsp;</span><em>my-first-file.html</em><span>&nbsp;</span>named<span>&nbsp;</span><em>another-file.html</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>cp my-first-file.html another-file.html</code></pre>
+<p>Now when we list the contents of the directory, we can see that there are two files:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>ls
+another-file.html    my-first-file.html</code></pre>
+<p>The new file is an<span>&nbsp;</span><em>independent</em><span>&nbsp;</span>copy of the original, meaning that any changes to one do not affect the other.</p>
+<p>A word of caution in naming copies. If there is already a file with the name of the new file in a folder, the old file will be overwritten and its contents will be lost, so be careful to give your new documents and folders a unique name.</p>
+<h3>Move and rename items with<span>&nbsp;</span><code>$ mv</code>
+</h3>
+<p>The<span>&nbsp;</span><code>$ mv</code><span>&nbsp;</span>command stands for "move". It can both move and rename files. To see how this works, let's list the contents of our current directory:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>ls
+another-file.html    my-first-file.html</code></pre>
+<p>Now, let's say we want to call it<span>&nbsp;</span><em>my-second-file.html</em><span>&nbsp;</span>instead of<span>&nbsp;</span><em>another-file.html</em>. We use the<span>&nbsp;</span><code>$ mv&nbsp;</code>command to rename it like this:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>mv another-file.html my-second-file.html</code></pre>
+<p>Like<span>&nbsp;</span><code>$ cp</code>, the basic structure of the<span>&nbsp;</span><code>$ mv</code><span>&nbsp;</span>command requires two pieces of information: the name of the file we would like to rename or move; and the new name or location for the file or folder.</p>
+<p>Now we can use<span>&nbsp;</span><code>$ ls</code><span>&nbsp;</span>to see that the file has been renamed:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>ls
+my-first-file.html    my-second-file.html</code></pre>
+<p>Let's see how we can use<span>&nbsp;</span><code>$ mv</code><span>&nbsp;</span>to move a file. First, let's create a folder named<span>&nbsp;</span><em>brand-new-folder</em><span>&nbsp;</span>to hold the file:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>mkdir brand-new-folder</code></pre>
+<p>Here is how we move<span>&nbsp;</span><em>my-second-file</em><span>&nbsp;</span>into<span>&nbsp;</span><em>brand-new-folder</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>mv my-second-file.html brand-new-folder/my-second-file.html</code></pre>
+<p>Here, we provided the name of the file that we want to move, which is<span>&nbsp;</span><code>my-second-file.html</code><span>&nbsp;</span>in this case. Then, separated by a space, we provided the new name and location of the file:<span>&nbsp;</span><code>brand-new-folder/my-second-file.html</code>. By changing the name of the file from<span>&nbsp;</span><code>my-second-file.html</code><span>&nbsp;</span>to<span>&nbsp;</span><code>brand-new-folder/my-second-file.html</code>, we are actually moving the file into the<span>&nbsp;</span><em>brand-new-folder</em><span>&nbsp;</span>directory.</p>
+<p>See for yourself! List the contents of the<span>&nbsp;</span><em>moringa-prep</em><span>&nbsp;</span>directory, and see that<span>&nbsp;</span><em>my-second-file</em><span>&nbsp;</span>is no longer there:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>ls
+brand-new-folder    my-first-file.html</code></pre>
+<p>Then, navigate to the<span>&nbsp;</span><em>brand-new-folder</em><span>&nbsp;</span>directory:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>cd brand-new-folder</code></pre>
+<p>List the contents of the folder:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep/brand-new-folder</span><span class="hljs-variable">$ </span>ls
+my-second-file.html</code></pre>
+<p>And we can see that we have successfully used the<span>&nbsp;</span><code>$ mv</code><span>&nbsp;</span>command to move<span>&nbsp;</span><em>my-second-file.html</em><span>&nbsp;</span>into<span>&nbsp;</span><em>brand-new-folder</em>.</p>
+<h3>Delete files with<span>&nbsp;</span><code>$ rm</code>
+</h3>
+<p>We can delete files using the<span>&nbsp;</span><code>$ rm</code><span>&nbsp;</span>command. Let's see how it works. Here is how we delete<span>&nbsp;</span><em>my-second-file.html</em>:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep/brand-new-folder</span><span class="hljs-variable">$ </span>rm my-second-file.html</code></pre>
+<p>The basic structure of this command is<span>&nbsp;</span><code>$ rm file-to-delete</code>, with a space between<span>&nbsp;</span><code>$ rm</code><span>&nbsp;</span>and the name of the file you'd like to delete. We can see with<span>&nbsp;</span><code>$ ls</code><span>&nbsp;</span>that the file has been removed:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep/brand-new-folder</span><span class="hljs-variable">$ </span>ls</code></pre>
+<p>Now that the folder is empty, let's delete it as well. Note that we can not delete a folder from inside of it, so first, navigate up one folder:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep/brand-new-folder</span><span class="hljs-variable">$ </span>cd ..</code></pre>
+<p>Then we can delete the<span>&nbsp;</span><em>brand-new-folder</em><span>&nbsp;</span>directory like this:</p>
+<pre><code class="hljs ruby">guest<span class="hljs-variable">@moringa</span>-<span class="hljs-constant">Lenovo</span>-<span class="hljs-constant">B50</span>-<span class="hljs-number">80</span><span class="hljs-symbol">:~/Documents/moringa-prep</span><span class="hljs-variable">$ </span>rm -r brand-new-folder</code></pre>
+<p>Notice that this looks a little different from removing a file: we have an extra option in there,<span>&nbsp;</span><code>-r</code>. As a safety measure,<span>&nbsp;</span><code>$ rm</code><span>&nbsp;</span>does not delete directories by default. In order to delete directories, we need to include the<span>&nbsp;</span><code>-r</code><span>&nbsp;</span>after the<span>&nbsp;</span><code>$ rm</code>, which stands for "recursive".</p>
+<p>If we would like to delete a folder that contains files, we use the<span>&nbsp;</span><code>-rf</code><span>&nbsp;</span>flag instead:<span>&nbsp;</span><code>$ rm -rf folder-name</code>.</p>
+<h3>Clear the terminal screen with<span>&nbsp;</span><code>$ clear</code>
+</h3>
+<p>Finally, our terminal screen is getting pretty crowded with all of these commands! Sometimes it's nice to start with a blank screen. To clear the screen from previous commands, we use the command<span>&nbsp;</span><code>$ clear</code>.</p>
+<p>After the<span>&nbsp;</span><code>$ clear</code><span>&nbsp;</span>command has been issued, all that remains on the display screen is the command prompt. This does not actually clear any data, it simply gives us a blank screen to work with.</p>
+<p>There are a<span>&nbsp;</span><em>ton</em><span>&nbsp;</span>of commands for the terminal, but knowing the commands covered in this lesson will make you pretty effective at using the command line. Being able to use the command line is one way to make yourself a powerful and efficient developer, so get in the habit early!</p>
+</body>
+</html>

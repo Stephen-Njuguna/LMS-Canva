@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 7.10 - 3-column page continued</title>
+<meta name="identifier" content="g047c531a9ae611841062f85eb9598522"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<ul>
+<li>Our page now looks pretty good except for some few areas such as the links in our left column which are not very visible on a blue background.</li>
+<li>In addition, it is common for link to change their style when you hover the mouse over them. Let's add a few modifications to our links to make them prettier.</li>
+<li>We'll start by modifying the links in our left column by making use of CSS specificity rules.</li>
+</ul>
+<h3>Instructions:</h3>
+<ol>
+<li>Use the following selectors to select only the links in the left column of our page,</li>
+</ol>
+<pre><code>#content-1 a:hover {......}</code></pre>
+<ol start="2">
+<li>Note that the space between the id and the<span>&nbsp;</span><em>a</em><span>&nbsp;</span>selector is required. Now add the following CSS declaration to the above rule:</li>
+</ol>
+<pre><code>color: rgb(250, 255, 0);
+font-weight: 900;</code></pre>
+<ol start="3">
+<li>Now lets style the rest of the links in the right column and the<span>&nbsp;</span>&lt;footer&gt;. We'll use the CSS pseudo-class,</li>
+</ol>
+<pre><code>a:hover{.....}</code></pre>
+<ol start="4">
+<li>Add the following CSS declaration to the above rule:</li>
+</ol>
+<pre><code>font-weight: 900;
+font-style: italic;
+color: rgb(255, 0, 250);</code></pre>
+<ol start="5">
+<li>Refresh the page to see our fully styled web page.</li>
+</ol>
+<ul>
+<li>Remember that we provided you with some of the CSS that was used to style the page, such as the CSS for the background image of the page.</li>
+<li>However, the CSS you wrote is the<span>&nbsp;</span><strong>key</strong><span>&nbsp;</span>to making the web page appear as it is.</li>
+</ul>
+<p>Your page should look like this;</p>
+<p><img src="$IMS-CC-FILEBASE$/Uploaded%20Media/flex.png" alt="flex.png">&nbsp;&nbsp;</p>
+</body>
+</html>

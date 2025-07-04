@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 9.7: HTML Tables Styling</title>
+<meta name="identifier" content="g9456f162dc7fc82c0443fcabadfe4f3e"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>In these previous lessons we have managed to build HTML tables. In this lesson we will style our HTML tables using CSS. We will give the table borders.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span><span>&nbsp;</span><em>html_tables_styling</em></span>. Inside the folder create the<span>&nbsp;</span><em>index.html, style.css<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;HTML Tables Styling&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Knoughts and Crosses&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Kids these days will never understand the joy of board games. Most notably &lt;span&gt;Knoughts and Crosses&lt;/span&gt; also called &lt;span&gt;X's and O's&lt;/span&gt;&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Common traps in the game would include one like this:&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;table&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;X&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;X&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;O&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;X&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;O&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;O&lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/table&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>*{<br>&nbsp;font-family: Consolas;<br>&nbsp;color: blue;<br>&nbsp;font-size: 25px;<br>}</pre>
+<ul>
+<li>In the styles.css file add the following CSS:</li>
+</ul>
+<pre>table{<br>&nbsp; padding: 5px;<br>&nbsp; border: 1px solid black;<br>&nbsp; border-collapse: collapse;<br>}<br>&nbsp;tr{<br>&nbsp; padding: 5px;<br>&nbsp; border: 1px solid black;<br>&nbsp; border-collapse: collapse;<br>}<br>&nbsp;td{<br>&nbsp; padding: 5px;<br>&nbsp; border: 1px solid black;<br>&nbsp; border-collapse: collapse;<br>}</pre>
+<ul>
+<li>Remember to link the style.css file in the html file</li>
+<li>Run the code on your browser <span>to see the rendered page with a table with collapsed borders.</span>
+</li>
+</ul>
+</body>
+</html>

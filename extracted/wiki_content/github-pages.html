@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>GitHub Pages.</title>
+<meta name="identifier" content="g03b01bfa1a49fad06dc3663a30dba76a"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>We've made some web pages that we can view on our personal computers. Now let's learn how we can host our sites online. There are a number of ways to do this, and GitHub offers an option that is free and one of the easiest out there. GitHub Pages lets us turn a GitHub repository into a website with a URL that we can access from any browser. Pretty neat!</p>
+<p>In this lesson, we will walk through the steps to get a website from an existing repository hosted. We are going to use the overiding_styles project that we created in lesson 5 to demonstrate. Feel free to use your version of this project, or a different project that you would like to see online. The directions will be the same, and GitHub does not limit the number of sites that you can host online. However, make sure that the project is already pushed to github and has an existing repository.</p>
+<p>One of the most important features when using Git or any other version control system is the ability to create a branch. We will go more into detail about what exactly a branch is and how it works in an upcoming lesson, but for now, you can think of it like an exact copy of the code at the point when the branch is created. Each branch exists independent of each other, so once you create a branch, any changes you make to one branch won’t affect the code in another branch. GitHub Pages looks for content to display online in a branch called<span>&nbsp;</span><code>gh-pages</code>. Let's create that branch now. Run these commands in the Terminal:</p>
+<pre><code><span class="hljs-variable">$ </span>git branch gh-pages
+  </code></pre>
+<p>We used the<span>&nbsp;</span><code>git branch</code><span>&nbsp;</span>command to create a new branch called<span>&nbsp;</span><code>gh-pages</code>. Again, we will go more into detail about branching in an upcoming lesson. For now, what matters is that we have a branch called<span>&nbsp;</span><code>gh-pages</code>, and it is a copy of the code in the<span>&nbsp;</span><code>master</code><span>&nbsp;</span>branch. Next, we push the code to GitHub:</p>
+<pre><code>$ git <span class="hljs-keyword">push</span> origin gh-pages
+  </code></pre>
+<p>Notice that the last argument in this command is<span>&nbsp;</span><code>gh-pages</code>, which means that we are pushing the<span>&nbsp;</span><code>gh-pages</code><span>&nbsp;</span>branch.</p>
+<p>Once the project is pushed to GitHub, you will be able to view it online at<span>&nbsp;</span><em>github-username.github.io/repository-name</em>. For example, if our GitHub username was<span>&nbsp;</span><em>moringa-school-student</em>, and our repository was named<span>&nbsp;</span><em>hello-world</em>, we would navigate to<span>&nbsp;</span><em>moringa-school-student.github.io/hello-world</em><span>&nbsp;</span>in the browser.</p>
+<p>One last thing to note here. For now, if you want to continue making changes to a project, you should edit the code in the<span>&nbsp;</span><code>master</code><span>&nbsp;</span>branch, not<span>&nbsp;</span><code>gh-pages</code>. Then, when you want to update the live site on<span>&nbsp;</span><em>github.io</em>, delete the<span>&nbsp;</span><code>gh-pages</code><span>&nbsp;</span>branch and then create it again using the steps above.</p>
+<p>To delete a branch, first click on the<span>&nbsp;</span><em>Branches</em><span>&nbsp;</span>tab at the top of the repository's main page:</p>
+<p><img style="border: 1px solid #000000; padding: 2px;" src="$IMS-CC-FILEBASE$/Tuesday%20Content%20Images/MP-W1D2-05-github_branch_tab.png" alt="MP-W1D2-05-github_branch_tab.png" width="774" height="247" data-api-endpoint="https://moringaschool.instructure.com/api/v1/courses/333/files/49499" data-api-returntype="File"></p>
+<p>This will take you to a page where all of the repository's branches are listed. Delete a branch by clicking on the red trash can symbol in the branch's row on the right side of the page:</p>
+<p><img style="border: 1px solid #000000; padding: 2px;" src="$IMS-CC-FILEBASE$/Tuesday%20Content%20Images/MP-W1D2-06-github_branch_delete.png" alt="MP-W1D2-06-github_branch_delete.png" data-api-endpoint="https://moringaschool.instructure.com/api/v1/courses/333/files/49500" data-api-returntype="File"></p>
+</body>
+</html>

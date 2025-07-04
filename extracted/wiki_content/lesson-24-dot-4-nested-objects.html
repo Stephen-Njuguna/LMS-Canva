@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 24.4: Nested Objects</title>
+<meta name="identifier" content="g3765b30a74d1509edf85feb1494f134b"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>A<span>&nbsp;</span><strong>nested object</strong><span>&nbsp;</span>is an object inside an object.</p>
+<p>Just like objects can have an array as a property, they can also have other objects as properties.</p>
+<pre><code class="language-js">var person = {
+	name : "Wambui Kinyua",
+	age : 16,
+	gender : "Female",
+	hobbies : ["Dancing", "Reading", "Nature trails", "Cooking"],
+	isAwesome : true,
+	sibling: { //this is the nested object
+                  name : "Mwangi Kinyua",
+                  age :  13,</code></pre>
+<pre><code>                 }
+};</code></pre>
+<p>We can also access the nested object in this case. Here's how:</p>
+<pre><code class="language-js">console.log(person.sibling.name); // "Mwangi Kinyua"</code></pre>
+<h3>Instructions</h3>
+<ol>
+<li>Type the object above into the editor.</li>
+<li>Console log the<span>&nbsp;</span><code>age</code><span>&nbsp;</span>of the<span>&nbsp;</span><code>sibling</code>.</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console.</li>
+</ol>
+</body>
+</html>

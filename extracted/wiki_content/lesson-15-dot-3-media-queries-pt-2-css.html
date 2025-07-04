@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 15.3: Media queries pt 2( CSS)</title>
+<meta name="identifier" content="g112dcb34739a492718c9729e986ba59e"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>When styling websites that are responsive, we will want to apply different styles to different screen sizes so that if the screen width is at least 480 pixels, elements will look different from when the screen width is at least 720 pixels. To set such conditions, we will need to<span>&nbsp;</span><strong>query</strong>(ask) the browser if the screen size has met these conditions. We are going to make these queries using our stylesheet with the help of something called a<span>&nbsp;</span><code>@media</code><span>&nbsp;</span>rule. Queries made using the<span>&nbsp;</span><code>@media</code><span>&nbsp;</span>rule are called<span>&nbsp;</span><code>media queries</code>. Below is an example of a media query in use:</p>
+<pre><code>@media only screen and (min-width: 480px){</code></pre>
+<pre><code>  div{</code></pre>
+<pre><code>      width: 200px;</code></pre>
+<pre><code>      padding: 0px;</code></pre>
+<pre><code>   }</code></pre>
+<pre><code>}</code></pre>
+<p>The<span>&nbsp;</span><code>@media</code><span>&nbsp;</span>part is used to declare a media query.<span>&nbsp;</span><code>only screen</code><span>&nbsp;</span>means that the media query will only be applied to screen viewers (media queries can also be applied to other devices like screen readers which are used by blind people).<span>&nbsp;</span><code>and</code><span>&nbsp;</span>is used to chain together the conditions that must be met for the styling in the media query to be applied. The<span>&nbsp;</span><code>(min-width: 480px)</code><span>&nbsp;</span>part means the media query will only be applied to screens with a width of at least 480px. The block of styling inside of the media query:</p>
+<pre><code>div{</code></pre>
+<pre><code>   width: 200px;</code></pre>
+<pre><code>   padding: 0px;</code></pre>
+<pre><code>}</code></pre>
+<p>is the styling that will be applied once the conditions of the media query have been met.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it Media_queries_pt2. Inside the folder create the index.html and index.css files.</li>
+<li>Add the following code in the index.html file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Responsive Design 101&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Life is all just black and white.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Unless it's on a screen smaller than 300px where it becomes white and black&lt;/p&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>In the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file create a<span>&nbsp;</span><strong>media query</strong><span>&nbsp;</span>for<span>&nbsp;</span><code>only screen</code><span>&nbsp;</span>and screen width of 300px and above. The code will look like this:</li>
+</ul>
+<pre>&nbsp;@media only screen and (min-width:500px){<br>}</pre>
+<ul>
+<li>
+<p>Inside the media query, we will style the<span>&nbsp;</span><code>body</code><span>&nbsp;</span>element to have a<span>&nbsp;</span><code>background-color</code><span>&nbsp;</span>of<span>&nbsp;</span><code>black</code><span>&nbsp;</span>and a<span>&nbsp;</span><code>color</code><span>&nbsp;</span>of<span>&nbsp;</span><code>white</code>.</p>
+</li>
+<li>
+<p>The final code will look like this:</p>
+</li>
+</ul>
+<pre>@media only screen and (min-width:500px){<br>&nbsp; body{<br>&nbsp; &nbsp; background-color: black;<br>&nbsp; &nbsp; color: white;<br>&nbsp; }<br>}</pre>
+<ul>
+<li><span>Refresh the page to see the rendered page. Drag the borders of the&nbsp;<strong>result</strong>&nbsp;window at the highlighted section in the picture below to resize it. Notice how the background color changes when the result window is very small (less than 500px) and when it is large (larger than 500px).</span></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Monday: Lesson 6.1 - CSS Float intro</title>
+<meta name="identifier" content="gd5bdcb92faf68abee52b7b792e119595"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Introduction:</strong></p>
+<ul>
+<li>The float CSS property specifies that an element should be placed on the right or left side of its container where other inline elements such as text wrap around it.</li>
+<li>
+<p>The following image illustrates floated elements:</p>
+</li>
+</ul>
+<pre><code>   **image credits** https://css-tricks.com/all-about-floats/</code></pre>
+<ul>
+<li>The default value of the float property is none, which specifies that elements must not float.</li>
+<li>In order to float an element, we change the value of its float property from none to the position we want it floated.</li>
+<li>We can float an element: left, right, start or end.</li>
+<li>Note: Float values other than none modify the layout of the elements on which they are applied to block. This means that inline elements with a float value other than none will be displayed as block elements.</li>
+</ul>
+<p><strong>Instructions:</strong></p>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>css_float</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Bezel-less Phones&lt;/title&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link type="text/css" href="index.css" rel="stylesheet"&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Bezel-less Phones&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Essential_Phone_in_ocean_depths.jpg"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With technological advancement happening at an unprecedented<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rate, yesterday's science fiction is quickly turning into<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; today's reality. From self-driving cars, the space-station,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; virtual and augmented reality and now bezel-less phones. This<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; year alone, four major smartphones with minimal bezels have hit<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the market. It would appear that indeed, human exploits are<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; limited only by imagination. What do you suppose will be the<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; next science fiction to be actualised?<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the index.css file</li>
+</ul>
+<pre>html {<br>&nbsp; background-color: rgb(0, 0, 0);&nbsp;<br>}<br>body {<br>&nbsp; width: 60%;<br>&nbsp; margin: auto;<br>&nbsp; background-color: rgb(247, 247, 247);<br>}<br>h1 {<br>&nbsp; text-align: center;<br>}<br>img {<br>&nbsp; height: 200px;<br>&nbsp; width: auto;<br>&nbsp; float: left;<br>&nbsp; margin-right: 10px;<br>}<br><br>p {<br>&nbsp; margin-top: 40px;<br>}</pre>
+<ul>
+<li>Run the code on your browser to see the current appearance of the webpage</li>
+<li><span>Take a look at the CSS code; can you tell what line is responsible for floating the image?</span></li>
+</ul>
+</body>
+</html>

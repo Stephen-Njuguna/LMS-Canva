@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="gcf97c2ee2d044a4f0e8f6fe0999f5608" xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string>SD- Pre - Prep</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+      <lomimscc:lifeCycle>
+        <lomimscc:contribute>
+          <lomimscc:date>
+            <lomimscc:dateTime>2024-11-26</lomimscc:dateTime>
+          </lomimscc:date>
+        </lomimscc:contribute>
+      </lomimscc:lifeCycle>
+      <lomimscc:rights>
+        <lomimscc:copyrightAndOtherRestrictions>
+          <lomimscc:value>yes</lomimscc:value>
+        </lomimscc:copyrightAndOtherRestrictions>
+        <lomimscc:description>
+          <lomimscc:string>Private (Copyrighted) - http://en.wikipedia.org/wiki/Copyright</lomimscc:string>
+        </lomimscc:description>
+      </lomimscc:rights>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy">
+      <item identifier="LearningModules">
+        <item identifier="gbbd1d7671b1fb2cd42ef27b2e26e7e38">
+          <title>Week 1</title>
+          <item identifier="ge461002d86464294d0f4341922a1ea36" identifierref="g2a750de3a39ce09eceafb77431323111">
+            <title>Tuesday: Making the most of Moringa School</title>
+          </item>
+          <item identifier="gf12dc42a8711fde39451d85fe5571abf" identifierref="g010cded075ab94f4e5c496481e5319e9">
+            <title>Tuesday: Getting Started</title>
+          </item>
+          <item identifier="g3eb203279e6be1124da8a497b4e755e2" identifierref="g9cb849b426c4a353c95b9459036b58ea">
+            <title>Week 1 Objectives </title>
+          </item>
+          <item identifier="g09cd3d8fba2ecc49144104c62126f91d" identifierref="g783159cb955810e1058d96b0fd273940">
+            <title>Tuesday: Introduction and Interaction with the Command Line.</title>
+          </item>
+          <item identifier="g85b77b8d4f27dc517f9445ba4d9b77af" identifierref="gc61e00e9fe9fffb147ce8cf20bbb2a20">
+            <title>Resource: Cheat Sheet - Command Line.</title>
+          </item>
+          <item identifier="g926dac921a3f5c00c2f6ac98db23777c" identifierref="g351ba7f01dc5c1278ee7d8d2a0856148">
+            <title>Tuesday: Practice the Command Line.</title>
+          </item>
+          <item identifier="g232da91e47749880ad9f8207be7686f3" identifierref="g24624370fbd86ccca32e23e7cf2cf982">
+            <title>Introduction to Computers</title>
+          </item>
+          <item identifier="g0546be730ba649f08a9e54353bbe44d8" identifierref="g726786107b56c8390f3738f5e4f7af7b">
+            <title>Lesson 1.1: Introduction to HTML</title>
+          </item>
+          <item identifier="g6a52526c67a464ee6e132473143e4012" identifierref="gdf79fd7f8f1e1ec19f554196492a5636">
+            <title>Lesson 1.2: What is HTML</title>
+          </item>
+          <item identifier="gbd5596fc5884182e9c266b7786cdfbba" identifierref="g9c950e0ee1a93129b7c3c05eec144eb8">
+            <title>Lesson 1.3: Tags</title>
+          </item>
+          <item identifier="g79dcb0545fb687e211fadd53a6a9a924" identifierref="gd2791befc7b67c3f9f4d9c7839c13f9e">
+            <title>Lesson 1.4: DOCTYPE</title>
+          </item>
+          <item identifier="g39e9f4a4d3dbb0ad28df7abaa7030d34" identifierref="gc171854b82bad87e1d90557dfe765287">
+            <title>Lesson 1.5: html</title>
+          </item>
+          <item identifier="gffc3d7c8b99084fbc157484383219304" identifierref="gae96b31bfe663362fbe4088711493cc7">
+            <title>Lesson 1.6: head</title>
+          </item>
+          <item identifier="g8941670086379b1435018d481a87444c" identifierref="g775f28dce5afcaccfa9f2b57c37053b6">
+            <title>Lesson 1.7: title</title>
+          </item>
+          <item identifier="gac83cd65cd755bc99ed4d77cfbe606a6" identifierref="g14799973add8f2b845cfd0674dc634b3">
+            <title>Lesson 1.8: body</title>
+          </item>
+          <item identifier="g71782217df299a2c627841689abcd036" identifierref="gbf9eb0d94261caf11b95bdd258d63fc0">
+            <title>Lesson 1.9: headings</title>
+          </item>
+          <item identifier="g6edb5f7fdffb52132f5f49caa3b2153c" identifierref="g5a051c643f7fa56bf3532cfc4aba1d45">
+            <title>Lesson 1.10: Subheadings</title>
+          </item>
+          <item identifier="g31843f843902650184d004c61ae15748" identifierref="g588841b73e93c817cf28356d471939d4">
+            <title>Lesson 1.11: Subheadings pt2</title>
+          </item>
+          <item identifier="g867a069837b49099f93baffd5c741a65" identifierref="g8a6dc51923804d21a494342d0c21c05c">
+            <title>Lesson 1.12: Paragraph</title>
+          </item>
+          <item identifier="g3bfd4b6abcecf11e8ed8a76fa1e6672d" identifierref="ga7ec60619ec0a607db74f1d05535347d">
+            <title>Lesson 1.13: Paragraph pt2</title>
+          </item>
+          <item identifier="g8d493743b46b6b70be78056ed05eadca" identifierref="gb22c27c6fc859e202f2d02a450723eeb">
+            <title>Lesson 1.14: Unordered List</title>
+          </item>
+          <item identifier="g686f5e23dc9557247966dfebcbac2bc4" identifierref="g89983de18b99dd8a8161480b0de08a8b">
+            <title>Lesson 1.15: Unordered List pt2</title>
+          </item>
+          <item identifier="gca3d6aed5e7435bffdf513fc8f2b7781" identifierref="gc8a5f07921ee52c98eea33cf519b9ad5">
+            <title>Lesson 1.16: Ordered Lists</title>
+          </item>
+          <item identifier="ge8333ba1907cee33b3965c43997285ed" identifierref="g4893cc531746b040a197254bb7ce5c40">
+            <title>Lesson 1.17: Ordered List pt2</title>
+          </item>
+          <item identifier="gf697543e7a4cde36f7e94ab56b017ad3" identifierref="g3abae49ca28208523b54cf93c2a8f444">
+            <title>Lesson 1.18: Review</title>
+          </item>
+          <item identifier="g063e4f71ab287ccc8662a962da522c90" identifierref="g4608235c9dcd534af11e8402544dadbe">
+            <title>Lesson 1.19: Custom Web Page</title>
+          </item>
+          <item identifier="g85d84e2338db5109e0c1b70cf8d1ed11" identifierref="gaad642bec507126f9a5b66984b388c1e">
+            <title>Wednesday: Lesson 2.0 - Review</title>
+          </item>
+          <item identifier="g9e10653d9af1adbe5992663ad438e7ea" identifierref="gb0704c3ee0d71b9255355dfa83cc7025">
+            <title>Lesson 2.1: Images Introduction</title>
+          </item>
+          <item identifier="gdb2c6fb34a2bdb48f87cae21560539ec" identifierref="gf4262d33c770db60b06cfcb9a79e20c5">
+            <title>Lesson 2.2: Images &amp; Attributes (src)</title>
+          </item>
+          <item identifier="g2772fb1a79595b6506068ecc2c450be5" identifierref="gdc1a2320b501d112556fd0092b82b5ce">
+            <title>Lesson 2.3: Images &amp; Attributes (Height &amp; Width)</title>
+          </item>
+          <item identifier="g257ca72494285ada7cfedf55e0ca27fb" identifierref="g1c473dc0b3f4473ba70b778d417002a7">
+            <title>Lesson 2.4: Image Attributes (alt text)</title>
+          </item>
+          <item identifier="g69a1d2131c0b2284279ae179082152a7" identifierref="g061262ec2d89ba83d52e4d79fec027da">
+            <title> Lesson 2.5: Images Exercises - Supermarket Catalogue</title>
+          </item>
+          <item identifier="gfee81c335734c907d7856d21be8207de" identifierref="gb1553caf4f6fd9b8e7e4aa0395415919">
+            <title>Lesson 2.6: Image Exercise(alt text)</title>
+          </item>
+          <item identifier="geb4314f4f3bc9bcaa9e6022745f0c32b" identifierref="gbb0be3005a7f964cdc8e6f6764367d0d">
+            <title>Lesson 2.7: Links Introduction (href part 1)</title>
+          </item>
+          <item identifier="g72f543d7566f94df704a159688aa8a7a" identifierref="gc615ec609374da825a3eb54bcb1e0df5">
+            <title>Lesson 2.8: Link Attributes(href part 2)</title>
+          </item>
+          <item identifier="g2eaa99cd2fd78b3131dbdfa03f2ce574" identifierref="gf15fd8ef8081de0af8ad315341e9a2b9">
+            <title>Lesson 2.9: Links Target Attribute</title>
+          </item>
+          <item identifier="g9582618a338b3fdc5e8ff7842b3e130a" identifierref="g5d2f054344daa9af6e0467a01d8f79ab">
+            <title>Lesson 2.10: Link Exercises</title>
+          </item>
+          <item identifier="ge2df2d98c47082cf3bf1f9ad1a9ca298" identifierref="gc964d18b59be349d6053879b1982ad5f">
+            <title>Lesson 2.11: Images as Links</title>
+          </item>
+          <item identifier="g2826b51cf5486f8420a8de98be8be1b7" identifierref="gcd1839021bdb8de0ff2b13905dac0a60">
+            <title>Lesson 2.12: Lesson Review</title>
+          </item>
+          <item identifier="g21372870fe5d934272fbea24b2d807ea" identifierref="g3cb49de2e50e2c5bb8154e0a9d3ed2ab">
+            <title>Lesson 2.13: Open Project</title>
+          </item>
+          <item identifier="g13253e9b429c84b95ccd5632343210e0" identifierref="gb3035f34df1b6d4fb5c4be4602c1b38d">
+            <title>Lesson 3: Review</title>
+          </item>
+          <item identifier="gf29895c939c176c522fac339e960709a" identifierref="ge9c37ad412233cf9a5612add28c3ccf7">
+            <title>Lesson 3.1: Introduction to CSS</title>
+          </item>
+          <item identifier="g8c0eb3682a759fcdaf19705ba5b345d9" identifierref="gf1e17a2ec81f3615f9adad32676bbc48">
+            <title>Lesson 3.2: Linking a Stylesheet</title>
+          </item>
+          <item identifier="gc116bc86ed78e05f06476b59eef3c92c" identifierref="g1daa9e948b452618c5b77e6d3c7c0346">
+            <title>Lesson 3.3: Selectors pt 1</title>
+          </item>
+          <item identifier="g5259f961256549da117b5c3a3459c8e5" identifierref="g53f7f5341413a4b730bb2d77d2eae493">
+            <title>Lesson 3.4: Selectors pt2</title>
+          </item>
+          <item identifier="g851089244468f10fa80084fe978ee2b9" identifierref="gbdf9220aed9f4a14ee335a0a03cac5d7">
+            <title>Lesson 3.5: Color</title>
+          </item>
+          <item identifier="g496861bc9a4d6b1ce8acb68a2aa0dc44" identifierref="g7811a178dc28cddb8c14472791ce3493">
+            <title>Lesson 3.6: RGB colors</title>
+          </item>
+          <item identifier="g9947e447384b03ad6b2ebe8d0791c0d1" identifierref="g30b2bc9e7973ff2105fa2ff5c365c2a0">
+            <title>Lesson 3.7: Color pt 2</title>
+          </item>
+          <item identifier="g67716b85608f94e8d64c1962e4f91054" identifierref="gc8ecbf5bbb66dc8245151bfca65a9fc9">
+            <title>Lesson 3.8: Background-color</title>
+          </item>
+          <item identifier="g77644f1bf048f91ca7f00fb22ae2b0f5" identifierref="g15ac66ee1ed157e29a7810ac437be561">
+            <title>Lesson 3.9: Background-color pt2</title>
+          </item>
+          <item identifier="g23f4966668f255df3761a634d9a44983" identifierref="g0fd6970c3ea9b839129b4ce8f82f0841">
+            <title>Lesson 3.10: Font-family</title>
+          </item>
+          <item identifier="g8e2617bf91d9547dad11d8a891830287" identifierref="g2f62dcadbc7b0c20d629b363057ee712">
+            <title> Lesson 3.11: Font-family part 2</title>
+          </item>
+          <item identifier="gce967871cf3ec7d36cbd7130226b7f1e" identifierref="gc68ff7df0ae8249f620de3a56575fd20">
+            <title> Lesson 3.12: Font-size</title>
+          </item>
+          <item identifier="g0e730b8b9b3449377ee20c62ddfbb330" identifierref="g4f7e87a1931d9e83c3dd1dfa482bbeec">
+            <title>Lesson 3.13: Font - size pt2</title>
+          </item>
+          <item identifier="g2d46620c85a2b3239c1bbb7188e7b364" identifierref="gb772d1b8e4b5f4e670c8e89a77b4b8c1">
+            <title>Lesson 3.14: Font style</title>
+          </item>
+          <item identifier="gd30b1d3b0ecf966f14d272ebf4e0b34c" identifierref="g889cb56e2aeca918a527f7f6f3c46a32">
+            <title>Lesson 3.15: Font-weight</title>
+          </item>
+          <item identifier="gca1c258d83637397784c9370301a5d90" identifierref="ga471445c423f023385213d0dfe25465a">
+            <title>Lesson 3.16: Font-weight pt2</title>
+          </item>
+          <item identifier="gd7ecf9335428aec84d224b2459dee995" identifierref="g5d60adb1f339d4d76d801f0f100dfc96">
+            <title>Lesson 3.17: Strong tag</title>
+          </item>
+          <item identifier="g15b24540d2804d3a966ce400e0436329" identifierref="g35086fceb8c44b3d585b827636ddb516">
+            <title>Lesson 3.18: Em tag</title>
+          </item>
+          <item identifier="gca677091c8cc47a2ba73ef141d72fc77" identifierref="g0c2eddecb4529545d539d3ecfc3a6aeb">
+            <title>Lesson 3.19: Conclusion</title>
+          </item>
+          <item identifier="g5ba3db1eeb3d05848964c4be6662ed20" identifierref="gb4a4a7b3d8d3fd502a9284c00d3b4996">
+            <title>Lesson 3.20: Project</title>
+          </item>
+          <item identifier="gabf7162e98435bd66ba88f968e7af7c5" identifierref="g8abc5bf70509bbdb6cb0ba554daa7f37">
+            <title>Lesson 3: Review-2</title>
+          </item>
+          <item identifier="g5f60023403b02736326b5c3bc8ce964c" identifierref="g2ba9c22ad36caf1f13dc580a5fd15e5d">
+            <title>Lesson 4.1: Box Model</title>
+          </item>
+          <item identifier="g3d40e3c5c6bf97aa74fa41b188f16547" identifierref="g012aafbe8db475de529e87ce1f414d65">
+            <title>Lesson 4.2: Dimensions</title>
+          </item>
+          <item identifier="gf7fe7322c249464677325317504e5047" identifierref="g2ca5b9f9cf3cc8f8c00b998a4c294aa1">
+            <title>Lesson 4.3: Dimension pt2</title>
+          </item>
+          <item identifier="ge236678ad79e8737f7d4dff616095403" identifierref="g7aecb4a2d94e87c92c291627395563a0">
+            <title>Lesson 4.4: Overflow</title>
+          </item>
+          <item identifier="g284edd4eaa36e35f0cc846938bc7eb37" identifierref="g3f6baef334590b0e6402fac575dc04e5">
+            <title>Lesson 4.5: Border</title>
+          </item>
+          <item identifier="g33492cda8cd30d9f40e0a94d9065b982" identifierref="gbe7cb59755d7ce506a438985d3d60154">
+            <title>Lesson 4.6: Border pt2</title>
+          </item>
+          <item identifier="gfc1a8dc726ba58a479ccc89e9150adcb" identifierref="ga375dc9664de4fc634a4a35219b695fc">
+            <title>Lesson 4.7: Padding</title>
+          </item>
+          <item identifier="g2752b461eb613ebbf6ac836189b39ddb" identifierref="g708ae1b06cd74241912b65a7072f528a">
+            <title>Lesson 4.8: Padding pt2</title>
+          </item>
+          <item identifier="g6040cb0a4ea6d0263324f0b79c4bbd89" identifierref="gdd901e862e893d2797b4be1f7507d429">
+            <title>Lesson 4.9: Margin</title>
+          </item>
+          <item identifier="g45cacf0ce625606ccaae83d49d4ef19a" identifierref="ge4aa5449f1e3357aeee70f73006ae280">
+            <title>Lesson 4.10: Block Elements</title>
+          </item>
+          <item identifier="g121a16dcff29b66660b12b55879c3328" identifierref="g6ddc227cf549c5bb6a8f62f7589531d6">
+            <title>Lesson 4.11: Block Element pt2</title>
+          </item>
+          <item identifier="g317b1c602e25ad5b3b5e9e6d8228dce4" identifierref="g7c0883b1437dcf8deeb70a1f479b85d9">
+            <title>Lesson 4.12: &lt;Div&gt; Element</title>
+          </item>
+          <item identifier="gb5114c831b7df147e6ddee769a1020aa" identifierref="ge2a87d2997420731cf5ca77873abc875">
+            <title>Lesson 4.13: Inline Elements</title>
+          </item>
+          <item identifier="g4e3551e66fa363b9fa6a8438c5de68af" identifierref="ga83f82d479ae5ef7a319ed2319c23527">
+            <title>Lesson 4.14: &lt;span&gt; Elements</title>
+          </item>
+          <item identifier="g5bdf903d5ea2ab0e894f7c5d65c7db8f" identifierref="gfd682247a8b30b37461b7ab4b339d9ea">
+            <title>Lesson 4.15: Summary</title>
+          </item>
+          <item identifier="gc69f1e5d954260e79dc8bdf51870579f" identifierref="g6ed156aad2db8f4aaecdda0e2adbe057">
+            <title>Thursday: Lesson 5.1 - CSS Layout Review</title>
+          </item>
+          <item identifier="gd0ec94d49d0b2833ca6e917315fa7355" identifierref="g07b95a0390fc549071ef58a8ecb07ec1">
+            <title>Lesson 5.2: CSS selectors Introduction</title>
+          </item>
+          <item identifier="gaba5cf451ad89a92804aa12a967d6d28" identifierref="gc4d4afc9c504aa8a2e987c394495f67c">
+            <title>Lesson 5.3: Class Selectors pt1</title>
+          </item>
+          <item identifier="g8f125ba0beca8348d5c9945508cb28b1" identifierref="g26c521c9bf033cac77d3fe05e837931a">
+            <title>Lesson 5.4: Class selectors pt2</title>
+          </item>
+          <item identifier="gdb951cd56256f7975152ee553dafece9" identifierref="g71140ee803d3e18ec73031c1d1c17e28">
+            <title>Lesson 5.5: Type.class selectors</title>
+          </item>
+          <item identifier="g99297dc046dd76d828f377572868114b" identifierref="ga4c7f5668b352970f7dc0405bf488258">
+            <title>Lesson 5.6: Id Selector pt1</title>
+          </item>
+          <item identifier="gb8e3688ce0dcea3162c2a5f132f9ee0b" identifierref="g0849a7ff649baa780f3662ea14ddd6e3">
+            <title>Lesson 5.7: Id Selectors pt2</title>
+          </item>
+          <item identifier="g26e2e0141b9005f6ba6d20c38d12b2b9" identifierref="g8cca54808291ab3b3cf43d268178f082">
+            <title>Lesson 5.8: Inheritance</title>
+          </item>
+          <item identifier="gdb9f8444a1fbb6a44822a5f82ef73432" identifierref="gda80aa3814708e01c7bdb0b14b406c0e">
+            <title>Lesson 5.9: Overriding Styles pt 1</title>
+          </item>
+          <item identifier="g64f712cd7252099e5a15a57f84669a8a" identifierref="gfe2a874223492829064c7707301b7cea">
+            <title>Lesson 5.10: Overriding Styles and Specificity</title>
+          </item>
+          <item identifier="gace0f75597397d0cbb24b37eddb1191d" identifierref="gbe3d4e8ff21ba003ee761a95e784ffdf">
+            <title>Lesson 5.11: Pseudo Classes</title>
+          </item>
+          <item identifier="ge182c324b0d53c775b2563a603282213" identifierref="g9e506c0db69ebb150ad7f15aaa001258">
+            <title>Lesson 5.12: Pseudo-classes pt 2</title>
+          </item>
+          <item identifier="gc8b9878dd97ec6ad616ecc8df869ab5d" identifierref="g8965b3a451797fc20db30ff9dae1ba5e">
+            <title>Lesson 5.13: Lesson Review</title>
+          </item>
+          <item identifier="g07e8317f5e175e381e82881e0808d11b" identifierref="g6243b565426cda79c5c5e662dc654f60">
+            <title>Using Git</title>
+          </item>
+          <item identifier="g503620eff12e4d62f8ab2249f2656b2c" identifierref="g92205886de06f1682186f8195e61a067">
+            <title>Resource: Cheat Sheet - Git Commands.</title>
+          </item>
+          <item identifier="geef3a29f0b66ff673f6a083abcfea3fb" identifierref="g69ed091ea862c8fdb77526f3f95f32fc">
+            <title>Practice: Using Git</title>
+          </item>
+          <item identifier="g13e44de692fee6cfc91eef0a3025cea0" identifierref="g12043554dd0f4dce7e64bfa74881d2da">
+            <title>Forking with Git.</title>
+          </item>
+          <item identifier="g70bfd058a91e5cdb9f24aa8b1e0ed518" identifierref="ga159a5e5f5569457834428ac17c09ce0">
+            <title>README </title>
+          </item>
+          <item identifier="g86c8aa8dcc6f7abe50bae3420b1900ec" identifierref="g329bbcc50e1226b502c82fbb1f4c2ec3">
+            <title>README Practice</title>
+          </item>
+          <item identifier="g09746d8a106aaab070cd916b3a25439a" identifierref="g03b01bfa1a49fad06dc3663a30dba76a">
+            <title>GitHub Pages.</title>
+          </item>
+          <item identifier="gd4c92c59f2074ec97bff3e90203fed3e" identifierref="gda8f05ff64b55999e7ab83305aaba8fd">
+            <title>Practice: GitHub Pages.</title>
+          </item>
+          <item identifier="g890991055556e91e9fb455f48654d3ff" identifierref="g0bf6434738704cb510a416cf21b24c1d">
+            <title>Git Branching.</title>
+          </item>
+          <item identifier="g357cdc516ab527c4189b41dc37918bd6" identifierref="gd52d08baf767bd8ba3d58fe8f63f7aa1">
+            <title>Git Merging.</title>
+          </item>
+          <item identifier="gcd5b99c4225da38e5ccab43c4aa89ecd" identifierref="gc37f49a9dbc6cf0beee935d87b2af6bb">
+            <title>Practice: Branching and Merging.</title>
+          </item>
+          <item identifier="gf1af2242dbc4ed0520f21efb719dec29" identifierref="g34b1f2e6d9b143d6a8085aa15a478253">
+            <title>Week 1 Independent Project | Favorite Band</title>
+          </item>
+          <item identifier="g71fb75e974fa4240d79448dbf3c0bbb0" identifierref="ge3f2b443d505c5ac085ff44f14c87467">
+            <title>Week 1 Independent Project | Photography Website</title>
+          </item>
+        </item>
+        <item identifier="g7972bba373d44b820a8f5f715e55d04d">
+          <title>Week 2</title>
+          <item identifier="gab957a9c29d255798c5a81af57d39805" identifierref="gd5bdcb92faf68abee52b7b792e119595">
+            <title>Monday: Lesson 6.1 - CSS Float intro</title>
+          </item>
+          <item identifier="g39cc19f42f879471ee375e1206a870f5" identifierref="g093de168c17cf1d1085d419b5d4c4103">
+            <title>Lesson 6.2: Float pt 1</title>
+          </item>
+          <item identifier="g3e1454660233bcafec54162ea7df195f" identifierref="gdd8f94d07a7f2f7c989bfc9c125f8da3">
+            <title>Lesson 6.3: Float pt 2</title>
+          </item>
+          <item identifier="g4d76c77affd72100ffc5dafff31b0e67" identifierref="gc5f532443ad733097a3d538bda06b876">
+            <title>Lesson 6.4: Clear Intro</title>
+          </item>
+          <item identifier="g0cb9129b7e3c66df6b0d1e65c99cf068" identifierref="gdc0165a8b859fd09125462ebc7922921">
+            <title>Lesson 6.5: Clear pt 1</title>
+          </item>
+          <item identifier="gdcef5052f5230317a6c88ddbd6c466b2" identifierref="g665288bd1c7f393bce13a0258faec684">
+            <title>Lesson 6.6: Clear pt2</title>
+          </item>
+          <item identifier="gf38009e3022771cf5ebdf1ad544152b9" identifierref="gec6470b8488c81a2ea8502e03da74af7">
+            <title>Lesson 6.7: Float Project*</title>
+          </item>
+          <item identifier="g87ea9b2ee90b03db15e067679f6125f6" identifierref="ga595724bfef2bcd283e33a2762f1f81b">
+            <title>Lesson 7.1: Flexbox Basics</title>
+          </item>
+          <item identifier="gf509fda6f7d5dd7a7198c45cf0c6c5ff" identifierref="ge19b38966b6b101d4cc4fe6fb7f80d99">
+            <title>Lesson 7.2: Flex-direction</title>
+          </item>
+          <item identifier="g1fa8183044025e52550e5f7739241609" identifierref="g658c0ff9e41652669f0c257932db4f1c">
+            <title>Lesson 7.3: Justify-content</title>
+          </item>
+          <item identifier="gf5a0255e257db5e46778dc67912b64dc" identifierref="g61fee6a36dcc22d9c1ed83338fee132a">
+            <title>Lesson 7.4: Align-items</title>
+          </item>
+          <item identifier="g10fe5e332cda1f3d81d02d5ec0068442" identifierref="gfe2cb5a4616e9633ecff8d7ea5078681">
+            <title>Lesson 7.5:Flex-grow</title>
+          </item>
+          <item identifier="gecf6b715b160167e1edfb3febced0704" identifierref="g13ca741b854bbe82e4b8a0ad7afc9cb0">
+            <title>Lesson 7.6: Flex-wrap</title>
+          </item>
+          <item identifier="g5518564334245e0b9bf2abe0081aa695" identifierref="g0945c1c5bce5b2b56263a4fb264e952e">
+            <title>Lesson 7.7: 3 Column Page Using Flexbox</title>
+          </item>
+          <item identifier="gd0c0f6798c361c802d433a53be5ca9bf" identifierref="g3f2f1708094f193a58a33ddeb96e349f">
+            <title>Lesson 7.8: 3 Column Page continued</title>
+          </item>
+          <item identifier="g5d78cdc609611eb7776e064220341aac" identifierref="g06f9d96afc752373a59ab1abd320f6df">
+            <title>Lesson 7.9 - 3-column page continued</title>
+          </item>
+          <item identifier="gbbc9f2e9412a5431d91c122793b15e46" identifierref="g047c531a9ae611841062f85eb9598522">
+            <title>Lesson 7.10 - 3-column page continued</title>
+          </item>
+          <item identifier="g8636b7c08ec686e27ccacd4024ea4321" identifierref="gd1385427f40cce08e0fae2c2a1efa2e6">
+            <title>Lesson 8 - Project 1</title>
+          </item>
+          <item identifier="g80c6ebf775bc29fbd8c1a89e236a81ca" identifierref="g3913e268a1efab54fb0a395b83b1d8cb">
+            <title>Lesson 8.2 - Project 2</title>
+          </item>
+          <item identifier="gaf3dcd7aa25e14b4e4be71b21b8a9f03" identifierref="g150c9b1963e868233c0fdec9d44c02f6">
+            <title>Lesson 9.1: Comments Intro</title>
+          </item>
+          <item identifier="g8c78c5b3f1e0a0533a694d1863da41d1" identifierref="gbc181816178b4faf77da0bf3254cae2f">
+            <title>Lesson 9.2: HTML Comments</title>
+          </item>
+          <item identifier="gf92258ff0f8729611150a09175e9e8d5" identifierref="g3ac96ffb5928714a7bacbf439ff8d788">
+            <title>Lesson 9.3: CSS Comments</title>
+          </item>
+          <item identifier="g6088ee3b9c10c8a7fa0a74ab95bc10cc" identifierref="ged1ddb555b2789f518ba909a4e166559">
+            <title>Lesson 9.4: HTML Tables Pt1</title>
+          </item>
+          <item identifier="gb7feb9fd901fb7dd6f06534f00e1180d" identifierref="g2d487defaa5cfa6028d974d92f60cf30">
+            <title>Lesson 9.5: HTML Tables pt2</title>
+          </item>
+          <item identifier="g5f90c518a5b936ea52e97818135785d8" identifierref="g9fc198170d67d894f3cba55e4ce6d656">
+            <title>Lesson 9.6: HTML Tables pt3</title>
+          </item>
+          <item identifier="g66b05d07fbd574f5590af0a7c8da2250" identifierref="g9456f162dc7fc82c0443fcabadfe4f3e">
+            <title>Lesson 9.7: HTML Tables Styling</title>
+          </item>
+          <item identifier="g1a51abc47a5427907983c09c5470c1ca" identifierref="g053238bb52cc11876f82850643dedfb1">
+            <title>Lesson 9.8: Project</title>
+          </item>
+          <item identifier="g312d68bb9d37c00e6b9f923037e2abc3" identifierref="gb0bfe6a78b45992b83fa9308f4d49c48">
+            <title>Tuesday: Lesson 10.1 - Selectors Review</title>
+          </item>
+          <item identifier="g914b0a361a7f7a6d7e986ec8cf464113" identifierref="g4591369835eb0408e2d4c784b1d488c3">
+            <title>Lesson 10.2: Combining Selectors</title>
+          </item>
+          <item identifier="gff62a490fbc936beb78ebfb08bd3c684" identifierref="g984c9dfe64395acc5bf92d6a59486fb1">
+            <title>Lesson 10.3: Descendant Selector</title>
+          </item>
+          <item identifier="ga37b13fe370fd1e2aba2981b3c33214c" identifierref="g19654f354046a7ce2a1c03b702b92250">
+            <title>Lesson 10.4: Direct Descendant Selector</title>
+          </item>
+          <item identifier="g3158d69f94c1e1729db2f74da97ddd18" identifierref="g28e2d9e0649ec621e2f16e0e3421cfac">
+            <title>Lesson 10.5: First-child Pseudo Selector</title>
+          </item>
+          <item identifier="g8434c145cd80949b0637e52b2af4c938" identifierref="gcf121eb0d0fadb5bdead1141237cf935">
+            <title>Lesson 10.6: Project</title>
+          </item>
+          <item identifier="g43a9a9053a880f4b2a9fc409a142e950" identifierref="g87e2c1c26591b878e7f2c2992a40270e">
+            <title>Lesson 11.1: Relative Position</title>
+          </item>
+          <item identifier="gc96e74d643bbf85b5c1907c609ce9e34" identifierref="g5eaad224188c1c29fe3101b70e63055c">
+            <title>Lesson 11.2: Left Property</title>
+          </item>
+          <item identifier="g10d40650221badcb7d33ada9190caa4d" identifierref="gb5728ae8349c9637ac60c4e50da1b9ce">
+            <title>Lesson 11.3: Right Property</title>
+          </item>
+          <item identifier="gcb8db21037a5eb9b9c29c6416c16891c" identifierref="gfbb95f9794653ba6e99e3eb36a8f8eea">
+            <title>Lesson 11.4: Top Property</title>
+          </item>
+          <item identifier="g1b18a0582a3adaade7b4d8af5f885a81" identifierref="g7459596a18a279be3424ed43d42ee970">
+            <title>Lesson 11.5: Bottom Property</title>
+          </item>
+          <item identifier="g98e1deabcdc00abd9dd1864e1060f968" identifierref="g0e7972922f97b52b5efeefb7f1ca51bb">
+            <title>Lesson 11.6: Static Position</title>
+          </item>
+          <item identifier="gc9a2d55c664802b76e5e08c530bfb00f" identifierref="g62f93671314535365db30ed07c7ccae5">
+            <title>Lesson 11.7: Fixed Position</title>
+          </item>
+          <item identifier="ge1d796945aaee12cc9c5736243d8e124" identifierref="gc077a69d849b3826053f7dd8b840a13c">
+            <title>Lesson 11.8: Absolute Position</title>
+          </item>
+          <item identifier="geb745e846924f9999c45a2c4aba58a78" identifierref="g2e4ebb2d0c9a1f6c513e4d3b320d19e7">
+            <title>Lesson 11.9: Summary</title>
+          </item>
+          <item identifier="gab58b2b591d91c398447d364c38532c2" identifierref="g6705c6173b4984d50e8f39a43e75fc72">
+            <title>Lesson 12.1: Background-color Refresher</title>
+          </item>
+          <item identifier="g3e28678d295e33612e5bfdcbbb2a12e6" identifierref="gbb37ec992700a0a9b268ac719deb5a39">
+            <title>Lesson 12.2: Background-image</title>
+          </item>
+          <item identifier="g1dd845cda820842daaa0bb1b31da950d" identifierref="g4ca4894b2e92e5dbaf4af7a89266db6f">
+            <title>Lesson 12.3: Background-size pt1</title>
+          </item>
+          <item identifier="geca4515cb521e9e49f4a8df60ede29cd" identifierref="g936fa63fcf8b34e9b43177238af06698">
+            <title>Lesson 12.4: Background-size pt2</title>
+          </item>
+          <item identifier="g72990a7cacb8ae19ebbe8429d4fec8de" identifierref="gb68c063dda3ce4cdbd9d55998d426506">
+            <title>Lesson 12.5:Background-repeat pt 1</title>
+          </item>
+          <item identifier="g694dc3d2065bab08eac378a1be767996" identifierref="ga31f802a5e5922711a49b85582c8415d">
+            <title>Lesson 12.6: Background repeat pt 2</title>
+          </item>
+          <item identifier="g918f798633f9302c5ed32948a51fd957" identifierref="gb36d8d62c7d052e01c6cc7cb1d6ace6b">
+            <title>Lesson 12.7: Background-position</title>
+          </item>
+          <item identifier="g079624f66e54da59f3000fbf4c45aa2e" identifierref="g0b005ca756c2073d01db11296d83a928">
+            <title>Lesson 12.8: Project</title>
+          </item>
+          <item identifier="g0bcb4c9ff24d65dadb3d71b3c48be089" identifierref="gac9f3c62454dbc609a1db66931424e3d">
+            <title>Wednesday: Lesson 13.1 - HTML Media Introduction Media Introduction</title>
+          </item>
+          <item identifier="gac3df98cee4dc8a0304c8da4fde1942a" identifierref="g827bb1dbc883fed1dd3281f1d52d7914">
+            <title>Lesson 13.2: HTML audio pt 1</title>
+          </item>
+          <item identifier="g626c43f00f6933c832d9f40ac85a11f2" identifierref="g3457e192a6662952e29fb1af1c61b82d">
+            <title>Lesson 13.3: HTML audio pt 2</title>
+          </item>
+          <item identifier="gbe6e7b6344025506b08c485603f15c5c" identifierref="g3f8e7ffa66f22d2cf01a3d98b5bc772f">
+            <title>Lesson 13.4: HTML audio pt 3</title>
+          </item>
+          <item identifier="g2358183dfee8d3df3c7ba8ae3e3d83b7" identifierref="g1ed2f71782164298e96836a7063836ad">
+            <title>Lesson 13.5: HTML video pt 1</title>
+          </item>
+          <item identifier="g32a43b7dbb802207da1b02081bfed511" identifierref="g206c3ed7d0959014221100c05a0f6707">
+            <title>Lesson 13.6: HTML video pt2</title>
+          </item>
+          <item identifier="g73888852a84b6591a4bd520a038aa339" identifierref="gdbe569543ce7b33b5caefd5901440da3">
+            <title>Lesson 13.7: Project</title>
+          </item>
+          <item identifier="g2fefe6280431580caa5b102af26244d5" identifierref="gc84e0f1879f78943526e183c323d60e4">
+            <title>Lesson 14.1: CSS shadows</title>
+          </item>
+          <item identifier="gc4522e59dcd2383f495a5699719e9d64" identifierref="g1f99eb66409f3686ab1e95ff2ec9c6c9">
+            <title>Lesson 14.2: CSS text shadow</title>
+          </item>
+          <item identifier="gd4acf2ed0e8f5a0d184c00c95b8a1a7e" identifierref="g6e82d3075cfadff90cad29b23f321c7b">
+            <title>Lesson 14.3: CSS box shadow</title>
+          </item>
+          <item identifier="g861f9dbad14dc7bc2d902b255367b082" identifierref="g398f9d011bf06300e3d9bc9620e9f85c">
+            <title>Lesson 14.4: Background Opacity</title>
+          </item>
+          <item identifier="g2467097f128f8e82fbe077785c46b1f5" identifierref="g09a41e5ab97347294dea277c3437f82b">
+            <title>Lesson 14.5: CSS box-sizing</title>
+          </item>
+          <item identifier="g2809e920241905bec6ae837dbea3e76b" identifierref="g74490f29de214c41e9d48ed10c946e36">
+            <title>Lesson 14.6: Project</title>
+          </item>
+          <item identifier="ge0a30251fcdc17b7f5edfc689c593f67" identifierref="ge57c73e55cbbbab5321af8f33d792e40">
+            <title>Lesson 15.1: Responsive Design Intro</title>
+          </item>
+          <item identifier="gfb946e481dea03fc1b45b2ed2c793af4" identifierref="g153a9109bb148936f892680536b722be">
+            <title>Lesson 15.2: Media queries pt 1( The Viewport)</title>
+          </item>
+          <item identifier="gca6a463aead540d0748fc3ea46584a76" identifierref="g112dcb34739a492718c9729e986ba59e">
+            <title>Lesson 15.3: Media queries pt 2( CSS)</title>
+          </item>
+          <item identifier="g6ed59bb08bfe7a0d68e361c470df0279" identifierref="g103da1c262d376c22ce21821276499e0">
+            <title>Lesson 15.4: Media queries pt 3 (CSS)</title>
+          </item>
+          <item identifier="g6cd8decd70d5d8b0b3ba2cf3bf86615e" identifierref="g94db5ae00fed00bf02f423b58eebccc2">
+            <title>Lesson 15.5: Media queries 4 ( Percentages)</title>
+          </item>
+          <item identifier="g2c65466acea2b9ea595d3e8e8b118974" identifierref="gfa3f7aa521682007df7d57917de360ed">
+            <title>Lesson 15.6: Project</title>
+          </item>
+          <item identifier="gefe1765924787bd24fabb40377c66ab5" identifierref="g4e278f058583f24bd84a8b5105e16cb1">
+            <title>Thursday: Lesson 16.1 - Project 1</title>
+          </item>
+          <item identifier="g2f268bb7e3081968d40c936fac84dd8d" identifierref="gf899fbbad53425584b8a93dba5b2e353">
+            <title>Lesson 16.2: Project 2</title>
+          </item>
+          <item identifier="ga8686c18f643f2308caac86cff778d8a" identifierref="g48c39341b42dd6f026caed0b19349a19">
+            <title>Lesson 16.3: Project 3</title>
+          </item>
+          <item identifier="g1bfda6cd57232ed5ca8d0d2f0e17957d" identifierref="g64c683fd1c306f153f8c0772269dbe97">
+            <title>Lesson 17.1: Tembea Africa</title>
+          </item>
+          <item identifier="ga52f0d83ce0d338e66930c28709258cc" identifierref="g239b707db425d25c32233879a8baa6c5">
+            <title>Lesson 17.2: Navigation</title>
+          </item>
+          <item identifier="g4f35b39360ec5e10d77e0199aabfa8ce" identifierref="gaa5f89a7f21874c4e04de4a517ea69a8">
+            <title>Lesson 17.3: Styling the Navigation Bar</title>
+          </item>
+          <item identifier="g763695b4cb8afd31d8acc3bf4b17cdfc" identifierref="ge72c67ddc830fb47d95260883f770731">
+            <title>Lesson 17.4: Styling and add Content to the Divs</title>
+          </item>
+          <item identifier="g5a170ea26f77f709410ca3a996571691" identifierref="gae472157776f99c12d4122164e0d046e">
+            <title>Lesson 18: School Wesite</title>
+          </item>
+          <item identifier="ge654d6a492302dbd09f75727afb26eee" identifierref="g1e50bf1d91a3b731637722b07cfbcbd1">
+            <title>Lesson 19: Spoc Website</title>
+          </item>
+          <item identifier="g967e29cb8c927a5dea5c604db77aab3b" identifierref="g32c5f30589e180f3dd938978a0110aaf">
+            <title>Week 2 Independent Project | Anitas Kitchen</title>
+          </item>
+          <item identifier="ga1180b70ec0dba6e727c69ef9075bfe0" identifierref="g892d516cbbf61c26ed3fb581e2adc476">
+            <title>Week 2 Independent Project | StreetFood Website</title>
+          </item>
+        </item>
+        <item identifier="g02cb8a349c6b4c4b57a536b945cd1d25">
+          <title>Week 3</title>
+          <item identifier="g9bfe47fc3bc67ff71ae39075dea4c602" identifierref="g6f8d74f471146f5a47932da74931c84d">
+            <title> Monday: Introduction to JavaScript</title>
+          </item>
+          <item identifier="g31b6bc729d3772a1b45ac582121911f4" identifierref="g33e9704603ff0006a490a3360a6af35c">
+            <title> Lesson 21.1: Console</title>
+          </item>
+          <item identifier="ga8762c64265081e54d1c3bc27fd2435e" identifierref="g13c1a651eed49d190ca9fd6e8117a617">
+            <title>Lesson 21.2: Pop up</title>
+          </item>
+          <item identifier="g9a1dc404faadc160e5bb1b457bf25de9" identifierref="g448d4ddd1b358ff18aab31e74d47e9de">
+            <title>Lesson 21.3 Introduction to Data Type: Strings</title>
+          </item>
+          <item identifier="gcb4eff77eb6d951bff4ebc33c368e474" identifierref="g60b8a2c88667e32fab68891e1b45cc20">
+            <title> Lesson 21.4: Data Types: Numbers</title>
+          </item>
+          <item identifier="g9b4287854ef3ee1d006cb22c7034c60b" identifierref="g7a36e15000d0ef7cf91769dd1ed2f61f">
+            <title>Lesson 21.5: Data Types: Booleans</title>
+          </item>
+          <item identifier="gbbae53fdbd24d4797ba66cbaec6c42a8" identifierref="ge74ea98367fc3a3b61ec13490c7c64eb">
+            <title>Lesson 21.6: Math Operators</title>
+          </item>
+          <item identifier="gf5fd1c9bdc32e17f75e308950d8b28ea" identifierref="g1e99a8698e7362d2b29528017365668c">
+            <title>Lesson 21.7: The Remainder % Operator</title>
+          </item>
+          <item identifier="g2699833cbea9fd26283a37269801b2cc" identifierref="g4e7418aa1612ab2d47d70aef831cdab7">
+            <title>Lesson 21.8: Math Operator Exercise</title>
+          </item>
+          <item identifier="g4b8a5b13e0a00ba98b3f6b5637048c2e" identifierref="g96808d93d57c9d0c0e65bef5bb549636">
+            <title>Lesson 21.9: JavaScript files </title>
+          </item>
+          <item identifier="ga6fd9b5c1a12e7df22b0966499a6eb9b" identifierref="gd535c60b6b8b9c239be24e1af12eeb87">
+            <title>Lesson 22.0 Variable</title>
+          </item>
+          <item identifier="g008d73dcfab078f75412024cc9b8e446" identifierref="g860ce7f98e51fb11fb0d02235d72e28e">
+            <title>Lesson 22.1: Naming Variables</title>
+          </item>
+          <item identifier="g82ee4c30001b47003c6379a6fb654896" identifierref="g72dc52ac97ce79bad17b0089ba25d6aa">
+            <title>Lesson 22.2: Camelcase</title>
+          </item>
+          <item identifier="gd884a7c30976957e142e89e665e36bae" identifierref="gf65392aa2dded7303ebbc34d16efcb8b">
+            <title>Lesson 22.3: Changing the value of a variable</title>
+          </item>
+          <item identifier="g19554db5cc474422598a0e71fe6ba4fa" identifierref="ge659873a28445987ed5f20589dd00968">
+            <title> Lesson 22.4: Increment and Decrement Operator</title>
+          </item>
+          <item identifier="gc5e60490a130effa3314d29102dec10d" identifierref="g29d3af3f7234b3da9fd9dca6cc2d0102">
+            <title> Lesson 22.5: Review</title>
+          </item>
+          <item identifier="gf33692050bf8cf8b9ed676ab48f603b2" identifierref="g97822a299ce7b08860aa39c49e7f1945">
+            <title>Lesson 22.6: Fun with Strings: Concantenation</title>
+          </item>
+          <item identifier="gd08fe541cc96ab0926535bb87a406b80" identifierref="g66a1dcc883a0690f8a627109435f8b5e">
+            <title>Lesson 22.7: Fun with Strings : Length of a string</title>
+          </item>
+          <item identifier="g36708c6e8dc83921a27570600e819b2d" identifierref="gf318c7cf65b0e04640d49f0d4f6922a3">
+            <title>Lesson 22.8: Fun with Strings - Getting a Single Character</title>
+          </item>
+          <item identifier="g9123065b9683c2e2b8cc973e6c111791" identifierref="g62b98e0d05bc3b3ee85f73e851b1a5b4">
+            <title>Lesson 22.9: Fun with Strings: Cutting Up Strings</title>
+          </item>
+          <item identifier="gdf46a16a74822ab0e848cd5a0026f6b6" identifierref="gd3cdd44b7c1867f6e61e4b411c0c605a">
+            <title>Lesson 22.10: Fun with Strings: Upper Case and Lower Case</title>
+          </item>
+          <item identifier="g3e3d11024c39e7eb67a01a29f62b9409" identifierref="g65ef98ecc0c93faf9ba1caf1024d2bce">
+            <title> Lesson 22.11: Assignment Operators</title>
+          </item>
+          <item identifier="g79a49f82e76492cec2157323f74c6590" identifierref="g677cbf172f7690a6706acfb2c9705c4a">
+            <title> Lesson 22.12: Comparison Operator</title>
+          </item>
+          <item identifier="g51c2705fb2988293dc579709f69efaac" identifierref="gbc4c43e2976a591b346e93db5348f66b">
+            <title>Lesson 22.13: Logical Operator</title>
+          </item>
+          <item identifier="g99433eb2845304fac333c87ae0d6306e" identifierref="gc89bbb1d649888eb1a04f081ec9c4bed">
+            <title> Lesson 22.14: Logical Operators - OR ||</title>
+          </item>
+          <item identifier="gf8856881bed2cb7860c17431adfad05e" identifierref="g3aebff010d29493b93776c36c2ee9b5c">
+            <title> Lesson 22.15: Logical Operator - NOT !</title>
+          </item>
+          <item identifier="g89096668616b7cfdd48fe437913ec78c" identifierref="g6f8b5f71c4e8b72e736e57043cb321b6">
+            <title> Lesson 22.16: Hungry Customer Challenge</title>
+          </item>
+          <item identifier="gb09ed4ee3f2bc0915841dd498dca048a" identifierref="g45420e70a7e8536b23f3101d3c4321ed">
+            <title>Tuesday: Lesson 23.0 - Introduction to Arrays</title>
+          </item>
+          <item identifier="g8f0545f80b3e6ca41512dfe3ee553923" identifierref="gbcd82b3edff2ab5a4ffa4241ae30cc3d">
+            <title>Tuesday:  Giving and Receiving Feedback Workshop</title>
+          </item>
+          <item identifier="g648e276886b566314d3fee7a65f64c64" identifierref="gb4efccaaadb6c147d2d64ae6d4ea6b69">
+            <title>Lesson 23.1: Accessing Arrays</title>
+          </item>
+          <item identifier="g67c66bccb2bcd9d2cf95d37ed5c2fde1" identifierref="g09a12a5f07f355ed0b2fc1262aa02c9d">
+            <title>Lesson 23.2: Setting or Changing Items in Array</title>
+          </item>
+          <item identifier="g6d01d0f9911c51a9b70f519489a41046" identifierref="g59c89638d6d04e02025943f4c22a5511">
+            <title>Lesson 23.3: Finding the Length of an Array</title>
+          </item>
+          <item identifier="gb5669c3e3e3e039ede540637a3ca2985" identifierref="g1109bde18a97e839e97af2d0b9151347">
+            <title> Lesson 23.4: Array Methods</title>
+          </item>
+          <item identifier="gcc40f68ca66d1de0e61ce10e3157a00e" identifierref="g4dd732f0124a5b17e6a39d13e632af25">
+            <title>Lesson 23.5: Joining Arrays</title>
+          </item>
+          <item identifier="gf5de4a8465b057aa1462403da6bc7630" identifierref="ge1c00447c94f118e254c8af9c4dc3df5">
+            <title>Lesson 23.6: Joining Multiple Arrays</title>
+          </item>
+          <item identifier="gebe01229ea9417effac3f93f7b894935" identifierref="gcd581d8506764515fa896777b2958e67">
+            <title>Lesson 23.7: Finding the Index of an Item in an Array</title>
+          </item>
+          <item identifier="g6e3aa7c24a4d0aa031c351ed0231be98" identifierref="g9742ac55bb3d8e88a450bc924968fe73">
+            <title>Lesson 23.8: Turning Arrays into String</title>
+          </item>
+          <item identifier="g5ff56f4c8213ec2197688d10898a95b7" identifierref="gff7c22f1eb35e31472e86faa81a31f7f">
+            <title>Lesson 24.0: Objects</title>
+          </item>
+          <item identifier="ga4433df2295ad97dd87a9f50f54926c3" identifierref="gda1890f29cd7b33ed3a3202483c01016">
+            <title>Lesson 24.1: Accessing Values in Objects</title>
+          </item>
+          <item identifier="gc9e91822315292a6d76e6cfd93a4838b" identifierref="g247ff9eb98aed6dc39c596bb9839ad47">
+            <title>Lesson 24.2: Adding Values to Objects</title>
+          </item>
+          <item identifier="g8bb8c8b2761d81cabdd2805266b23001" identifierref="g46fad6fca73394c907f1e4c9576e6d7e">
+            <title>Lesson 24.3: Deleting Properties</title>
+          </item>
+          <item identifier="g23fb30622add7d6d6d424c82894b2b06" identifierref="g3765b30a74d1509edf85feb1494f134b">
+            <title>Lesson 24.4: Nested Objects</title>
+          </item>
+          <item identifier="ge83fa9d88a813a41d62413eef25aa6c2" identifierref="g78c4cbcf30b3ae35afdb61d15c54e9a6">
+            <title>Lesson 24.5: Combining Arrays and Objects</title>
+          </item>
+          <item identifier="ge98d2b9ba3aefddf233dc946659a3485" identifierref="g3a3459ec324226242a72140cdcf052db">
+            <title>Lesson 24.6: An Array of Friends</title>
+          </item>
+          <item identifier="g2a4e14ab6f543a008b2d496e8e07af75" identifierref="g23ccb1f29502d2ce027af0cd4286ca37">
+            <title>Lesson 24.7: Animal Fun Fact Challenge</title>
+          </item>
+          <item identifier="gdf4ca02f7f104c475453e34024634d70" identifierref="g65f431fd699bccc21a1d978bfbfc43be">
+            <title>Wednesday: Lesson 25.0 - Introduction - Conditional and Loops</title>
+          </item>
+          <item identifier="gd6cbb0f14b257d9c62b42660f925965a" identifierref="g2ed5b9cf3114ced8b6670d17fdbc871f">
+            <title>Lesson 25.1: If Statement pt 1</title>
+          </item>
+          <item identifier="gd4ad76fcdf5949cda99c60c3b25b2510" identifierref="g3675d44ac8daed28fcba5ccfe81204e6">
+            <title>Lesson 25.2: If Statement pt II</title>
+          </item>
+          <item identifier="gbd4073b9bef691b20c6b040729aa1d7d" identifierref="g983c0838d743731e0da1160da396bd31">
+            <title>Lesson 25.3: If Statement pt III</title>
+          </item>
+          <item identifier="g671ac37e45ccf4dab8606895c653112e" identifierref="g69a6ae807a0cd1634dbe415da95bd0cb">
+            <title>Lesson 25.4: If Statement pt IV</title>
+          </item>
+          <item identifier="g771b1079963123f8741629ffd1e0b98a" identifierref="g738cb440793d26a251e79dd40c48e4de">
+            <title>Lesson 25.5: If ....Else Statement</title>
+          </item>
+          <item identifier="g7f72e6ebe8576e9949cdd0915b004e69" identifierref="g225b26f3bce04d3a2083b3eba1bda2fa">
+            <title>Lesson 25.6: Else if Statement</title>
+          </item>
+          <item identifier="g04773b604daaab8c92e506a7c562f94e" identifierref="gfb2d22bfcc13c2720287cfbd9cb6968f">
+            <title>Lesson 25.7: Loops: While Loops</title>
+          </item>
+          <item identifier="gad8f73226a0c93caf58e1f25f29e2aa2" identifierref="gaa027bf21c42c650bc4db6093ed83b49">
+            <title>Lesson 25.8: For Loop</title>
+          </item>
+          <item identifier="gcc424aecff3e5c794a5ad02935ac6a21" identifierref="g2732e27c1f3901d6a5c6be50878b370c">
+            <title>Lesson 25.9: For Loops and If Statements</title>
+          </item>
+          <item identifier="g6d802013a1233ac1a54a833beb0ad3e4" identifierref="gd089479737236674c5ee9d8f85c9e1be">
+            <title>Lesson 25.10: For Loop and If Statement pt II</title>
+          </item>
+          <item identifier="g07b00cdc17eca60090f336fd34b31602" identifierref="gde8aab54fa16fa6bfa6322af387ad82e">
+            <title>Lesson 25.11: For Loops and Arrays</title>
+          </item>
+          <item identifier="ga0da050ac90a9dafaf5cd169da7a8341" identifierref="g5d73ff18e0912185f449a621ede8aa2c">
+            <title>Lesson 25.12: Get Loopy</title>
+          </item>
+          <item identifier="g676a3e2ffbe14ba1735ff1d773188eb0" identifierref="gfaa0a715d2e56bfe6c4ca41e92caa4b5">
+            <title>Lesson 25.13: Not Operator</title>
+          </item>
+          <item identifier="gaa6f9e2072fadd3ad6b7d42a29bf166d" identifierref="g0c91d5eabcadc512f994f87df6f412e2">
+            <title>Lesson 26 - Introduction to Function</title>
+          </item>
+          <item identifier="g5e4f87b39f7bf854e2c512bc094904fa" identifierref="g2704f23f88c6cfc8233556f1262f5266">
+            <title>Lesson 26.1: Creating A Sample Function</title>
+          </item>
+          <item identifier="g16ac348fcf9e769c16f0fb2983447a02" identifierref="g5411e2306fc2267974c384dcc14dd293">
+            <title>Lesson 26.2: Calling A Function</title>
+          </item>
+          <item identifier="gda9bd96cbfce726c1a57578d915efb29" identifierref="g8f4d6a0f7dd2e77f42f289a0f0fff956">
+            <title>Lesson 26.3: Passing Arguments To A Function</title>
+          </item>
+          <item identifier="gc79a2cd44162604d5d4e3fe11d86ba77" identifierref="g85efb5f675f3d8cc3a1cc57a0744f832">
+            <title>Lesson 26.4: Looping Through Functions</title>
+          </item>
+          <item identifier="g81b50836d76fb167ee51161c433c1f80" identifierref="g8e8e9c173b55e513c56fec0515036fc9">
+            <title>Lesson 26.5: Passing Multiple Arguments To A Function</title>
+          </item>
+          <item identifier="g8ad6139858885976d653a0c976e42b2f" identifierref="g2e08a3966e5fe235dae623bc86b3e2af">
+            <title>Lesson 26.6: Returning Values From A Function</title>
+          </item>
+          <item identifier="g9084ef284e958f4a97fef68406c5242b" identifierref="g557709973be55701218516606ffd26cb">
+            <title>Lesson 26.7: Variable Scope</title>
+          </item>
+          <item identifier="gf99e162e27516688ad97c3e9f98bae82" identifierref="gf520a6285e585cf540279bf5a5c5434c">
+            <title>Thursday: Lesson 27.0 - Math Properties: Math.PI</title>
+          </item>
+          <item identifier="gc29b03827b00a9823edc2f7eea1a0336" identifierref="gce19afe046eb54a66a5dc0cd3cb7fba8">
+            <title>Lesson 27.1: Math.Round-2</title>
+          </item>
+          <item identifier="g1e7a777f986a24d29457b9038b4452c2" identifierref="g2e9c9d078da3a3f027704a4dc1969343">
+            <title>Lesson 27.2: Math. ceil</title>
+          </item>
+          <item identifier="gacee0a92bd7d2845687b7e02c75900f1" identifierref="g35e000b955fe724252fc3c7d4b1a56a4">
+            <title>Lesson 27.3: Math.floor</title>
+          </item>
+          <item identifier="g3a30bb35e43d87e15294c4a000dd439e" identifierref="g6e301607adc044a4d7c8e6eed24bd42b">
+            <title>Lesson 27.4: Math.pow</title>
+          </item>
+          <item identifier="g6acb3e740164badb78796737fb18fa49" identifierref="gb78e899fae50d3d9ff68d02eca0f946c">
+            <title>Lesson 27.5: Math.sqrt</title>
+          </item>
+          <item identifier="g5a3f885a8d770445b4e3ec6a7fde6d45" identifierref="g86b6a12b598f4d38920425922a97fc12">
+            <title>Lesson 27.6: Math.max</title>
+          </item>
+          <item identifier="gd89246b599cdea009520992a1c090c84" identifierref="g4a523620d2d1793495c38a133e4bebfa">
+            <title>Lesson 27.7: Math.random</title>
+          </item>
+          <item identifier="ga1afc8972481f628232c67a695f31aaa" identifierref="g53b5deb265ad7840b9f00c3d5ebcdf08">
+            <title>Wednesday: Conflict Resolution Workshop</title>
+          </item>
+          <item identifier="gca1b57f8824a3747b6a3a3149381545d" identifierref="g5d425c823bb9768186e7b569169e3609">
+            <title>Week 3 Independent Project | Dairy Business</title>
+          </item>
+          <item identifier="gef87611fc45570839e93a58165e1eb46" identifierref="g8463dbd2119c316bd090f5e5c49a08b4">
+            <title>Week 3 Independent Project | Dairy Business Copy</title>
+          </item>
+        </item>
+        <item identifier="g9eb829a4cc51453675cd67be450b64b0">
+          <title>Week 4</title>
+          <item identifier="ge6be18dcce658e67c6f0a0558fb7db00" identifierref="gf66c93dfbf6e126c5e1f07899aedf625">
+            <title>Team Week Objectives</title>
+          </item>
+          <item identifier="g8d9ae2130ac457e48fb6883a4d270ea5" identifierref="gea192bad007ed33c836adeb1a2ca51f3">
+            <title>Prep Expectations</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="gb39db5dac44cc6c1c92afd1b0e14cbb5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/course_settings.xml"/>
+      <file href="course_settings/module_meta.xml"/>
+      <file href="course_settings/assignment_groups.xml"/>
+      <file href="course_settings/rubrics.xml"/>
+      <file href="course_settings/files_meta.xml"/>
+      <file href="course_settings/late_policy.xml"/>
+      <file href="course_settings/canvas_export.txt"/>
+    </resource>
+    <resource identifier="g3f2f1708094f193a58a33ddeb96e349f" type="webcontent" href="wiki_content/lesson-7-dot-8-3-column-page-continued.html">
+      <file href="wiki_content/lesson-7-dot-8-3-column-page-continued.html"/>
+    </resource>
+    <resource identifier="gbc181816178b4faf77da0bf3254cae2f" type="webcontent" href="wiki_content/lesson-9-dot-2-html-comments.html">
+      <file href="wiki_content/lesson-9-dot-2-html-comments.html"/>
+    </resource>
+    <resource identifier="g783159cb955810e1058d96b0fd273940" type="webcontent" href="wiki_content/tuesday-introduction-and-interaction-with-the-command-line.html">
+      <file href="wiki_content/tuesday-introduction-and-interaction-with-the-command-line.html"/>
+    </resource>
+    <resource identifier="g010cded075ab94f4e5c496481e5319e9" type="webcontent" href="wiki_content/tuesday-getting-started.html">
+      <file href="wiki_content/tuesday-getting-started.html"/>
+    </resource>
+    <resource identifier="g89983de18b99dd8a8161480b0de08a8b" type="webcontent" href="wiki_content/lesson-1-dot-15-unordered-list-pt2.html">
+      <file href="wiki_content/lesson-1-dot-15-unordered-list-pt2.html"/>
+    </resource>
+    <resource identifier="gbdf9220aed9f4a14ee335a0a03cac5d7" type="webcontent" href="wiki_content/lesson-3-dot-5-color.html">
+      <file href="wiki_content/lesson-3-dot-5-color.html"/>
+    </resource>
+    <resource identifier="g0bf6434738704cb510a416cf21b24c1d" type="webcontent" href="wiki_content/git-branching.html">
+      <file href="wiki_content/git-branching.html"/>
+    </resource>
+    <resource identifier="g2e9c9d078da3a3f027704a4dc1969343" type="webcontent" href="wiki_content/lesson-27-dot-2-math-ceil.html">
+      <file href="wiki_content/lesson-27-dot-2-math-ceil.html"/>
+    </resource>
+    <resource identifier="g5a051c643f7fa56bf3532cfc4aba1d45" type="webcontent" href="wiki_content/lesson-1-dot-10-subheadings.html">
+      <file href="wiki_content/lesson-1-dot-10-subheadings.html"/>
+    </resource>
+    <resource identifier="g588841b73e93c817cf28356d471939d4" type="webcontent" href="wiki_content/lesson-1-dot-11-subheadings-pt2.html">
+      <file href="wiki_content/lesson-1-dot-11-subheadings-pt2.html"/>
+    </resource>
+    <resource identifier="g8a6dc51923804d21a494342d0c21c05c" type="webcontent" href="wiki_content/lesson-1-dot-12-paragraph.html">
+      <file href="wiki_content/lesson-1-dot-12-paragraph.html"/>
+    </resource>
+    <resource identifier="g0fd6970c3ea9b839129b4ce8f82f0841" type="webcontent" href="wiki_content/lesson-3-dot-10-font-family.html">
+      <file href="wiki_content/lesson-3-dot-10-font-family.html"/>
+    </resource>
+    <resource identifier="g92205886de06f1682186f8195e61a067" type="webcontent" href="wiki_content/resource-cheat-sheet-git-commands.html">
+      <file href="wiki_content/resource-cheat-sheet-git-commands.html"/>
+    </resource>
+    <resource identifier="ga7ec60619ec0a607db74f1d05535347d" type="webcontent" href="wiki_content/lesson-1-dot-13-paragraph-pt2.html">
+      <file href="wiki_content/lesson-1-dot-13-paragraph-pt2.html"/>
+    </resource>
+    <resource identifier="g65ef98ecc0c93faf9ba1caf1024d2bce" type="webcontent" href="wiki_content/lesson-22-dot-11-assignment-operators.html">
+      <file href="wiki_content/lesson-22-dot-11-assignment-operators.html"/>
+    </resource>
+    <resource identifier="gb4efccaaadb6c147d2d64ae6d4ea6b69" type="webcontent" href="wiki_content/lesson-23-dot-1-accessing-arrays.html">
+      <file href="wiki_content/lesson-23-dot-1-accessing-arrays.html"/>
+    </resource>
+    <resource identifier="gf4262d33c770db60b06cfcb9a79e20c5" type="webcontent" href="wiki_content/lesson-2-dot-2-images-and-attributes-src.html">
+      <file href="wiki_content/lesson-2-dot-2-images-and-attributes-src.html"/>
+    </resource>
+    <resource identifier="g1109bde18a97e839e97af2d0b9151347" type="webcontent" href="wiki_content/lesson-23-dot-4-array-methods.html">
+      <file href="wiki_content/lesson-23-dot-4-array-methods.html"/>
+    </resource>
+    <resource identifier="gcd581d8506764515fa896777b2958e67" type="webcontent" href="wiki_content/lesson-23-dot-7-finding-the-index-of-an-item-in-an-array.html">
+      <file href="wiki_content/lesson-23-dot-7-finding-the-index-of-an-item-in-an-array.html"/>
+    </resource>
+    <resource identifier="gff7c22f1eb35e31472e86faa81a31f7f" type="webcontent" href="wiki_content/lesson-24-dot-0-objects.html">
+      <file href="wiki_content/lesson-24-dot-0-objects.html"/>
+    </resource>
+    <resource identifier="g8cca54808291ab3b3cf43d268178f082" type="webcontent" href="wiki_content/lesson-5-dot-8-inheritance.html">
+      <file href="wiki_content/lesson-5-dot-8-inheritance.html"/>
+    </resource>
+    <resource identifier="g247ff9eb98aed6dc39c596bb9839ad47" type="webcontent" href="wiki_content/lesson-24-dot-2-adding-values-to-objects.html">
+      <file href="wiki_content/lesson-24-dot-2-adding-values-to-objects.html"/>
+    </resource>
+    <resource identifier="gfb2d22bfcc13c2720287cfbd9cb6968f" type="webcontent" href="wiki_content/lesson-25-dot-7-loops-while-loops.html">
+      <file href="wiki_content/lesson-25-dot-7-loops-while-loops.html"/>
+    </resource>
+    <resource identifier="g0c91d5eabcadc512f994f87df6f412e2" type="webcontent" href="wiki_content/lesson-26-introduction-to-function.html">
+      <file href="wiki_content/lesson-26-introduction-to-function.html"/>
+    </resource>
+    <resource identifier="g2704f23f88c6cfc8233556f1262f5266" type="webcontent" href="wiki_content/lesson-26-dot-1-creating-a-sample-function.html">
+      <file href="wiki_content/lesson-26-dot-1-creating-a-sample-function.html"/>
+    </resource>
+    <resource identifier="g4a523620d2d1793495c38a133e4bebfa" type="webcontent" href="wiki_content/lesson-27-dot-7-math-dot-random.html">
+      <file href="wiki_content/lesson-27-dot-7-math-dot-random.html"/>
+    </resource>
+    <resource identifier="g66a1dcc883a0690f8a627109435f8b5e" type="webcontent" href="wiki_content/lesson-22-dot-7-fun-with-strings-length-of-a-string.html">
+      <file href="wiki_content/lesson-22-dot-7-fun-with-strings-length-of-a-string.html"/>
+    </resource>
+    <resource identifier="ga375dc9664de4fc634a4a35219b695fc" type="webcontent" href="wiki_content/lesson-4-dot-7-padding.html">
+      <file href="wiki_content/lesson-4-dot-7-padding.html"/>
+    </resource>
+    <resource identifier="g726786107b56c8390f3738f5e4f7af7b" type="webcontent" href="wiki_content/lesson-1-dot-1-introduction-to-html.html">
+      <file href="wiki_content/lesson-1-dot-1-introduction-to-html.html"/>
+    </resource>
+    <resource identifier="g28e2d9e0649ec621e2f16e0e3421cfac" type="webcontent" href="wiki_content/lesson-10-dot-5-first-child-pseudo-selector.html">
+      <file href="wiki_content/lesson-10-dot-5-first-child-pseudo-selector.html"/>
+    </resource>
+    <resource identifier="g15ac66ee1ed157e29a7810ac437be561" type="webcontent" href="wiki_content/lesson-3-dot-9-background-color-pt2.html">
+      <file href="wiki_content/lesson-3-dot-9-background-color-pt2.html"/>
+    </resource>
+    <resource identifier="g0e7972922f97b52b5efeefb7f1ca51bb" type="webcontent" href="wiki_content/lesson-11-dot-6-static-position.html">
+      <file href="wiki_content/lesson-11-dot-6-static-position.html"/>
+    </resource>
+    <resource identifier="g6705c6173b4984d50e8f39a43e75fc72" type="webcontent" href="wiki_content/lesson-12-dot-1-background-color-refresher.html">
+      <file href="wiki_content/lesson-12-dot-1-background-color-refresher.html"/>
+    </resource>
+    <resource identifier="gc84e0f1879f78943526e183c323d60e4" type="webcontent" href="wiki_content/lesson-14-dot-1-css-shadows.html">
+      <file href="wiki_content/lesson-14-dot-1-css-shadows.html"/>
+    </resource>
+    <resource identifier="ge57c73e55cbbbab5321af8f33d792e40" type="webcontent" href="wiki_content/lesson-15-dot-1-responsive-design-intro.html">
+      <file href="wiki_content/lesson-15-dot-1-responsive-design-intro.html"/>
+    </resource>
+    <resource identifier="g153a9109bb148936f892680536b722be" type="webcontent" href="wiki_content/lesson-15-dot-2-media-queries-pt-1-the-viewport.html">
+      <file href="wiki_content/lesson-15-dot-2-media-queries-pt-1-the-viewport.html"/>
+    </resource>
+    <resource identifier="gd535c60b6b8b9c239be24e1af12eeb87" type="webcontent" href="wiki_content/lesson-22-dot-0-variable.html">
+      <file href="wiki_content/lesson-22-dot-0-variable.html"/>
+    </resource>
+    <resource identifier="g29d3af3f7234b3da9fd9dca6cc2d0102" type="webcontent" href="wiki_content/lesson-22-dot-5-review.html">
+      <file href="wiki_content/lesson-22-dot-5-review.html"/>
+    </resource>
+    <resource identifier="g12043554dd0f4dce7e64bfa74881d2da" type="webcontent" href="wiki_content/forking-with-git.html">
+      <file href="wiki_content/forking-with-git.html"/>
+    </resource>
+    <resource identifier="g6e301607adc044a4d7c8e6eed24bd42b" type="webcontent" href="wiki_content/lesson-27-dot-4-math-dot-pow.html">
+      <file href="wiki_content/lesson-27-dot-4-math-dot-pow.html"/>
+    </resource>
+    <resource identifier="g3675d44ac8daed28fcba5ccfe81204e6" type="webcontent" href="wiki_content/lesson-25-dot-2-if-statement-pt-ii.html">
+      <file href="wiki_content/lesson-25-dot-2-if-statement-pt-ii.html"/>
+    </resource>
+    <resource identifier="g07b95a0390fc549071ef58a8ecb07ec1" type="webcontent" href="wiki_content/lesson-5-dot-2-css-selectors-introduction.html">
+      <file href="wiki_content/lesson-5-dot-2-css-selectors-introduction.html"/>
+    </resource>
+    <resource identifier="gfe2cb5a4616e9633ecff8d7ea5078681" type="webcontent" href="wiki_content/lesson-7-dot-5-flex-grow.html">
+      <file href="wiki_content/lesson-7-dot-5-flex-grow.html"/>
+    </resource>
+    <resource identifier="ge2bf667fc87297690d9c4a1fe85a4977" type="webcontent" href="wiki_content/monday-capstone-week-objectives.html">
+      <file href="wiki_content/monday-capstone-week-objectives.html"/>
+    </resource>
+    <resource identifier="gd3cdd44b7c1867f6e61e4b411c0c605a" type="webcontent" href="wiki_content/lesson-22-dot-10-fun-with-strings-upper-case-and-lower-case.html">
+      <file href="wiki_content/lesson-22-dot-10-fun-with-strings-upper-case-and-lower-case.html"/>
+    </resource>
+    <resource identifier="gbe7cb59755d7ce506a438985d3d60154" type="webcontent" href="wiki_content/lesson-4-dot-6-border-pt2.html">
+      <file href="wiki_content/lesson-4-dot-6-border-pt2.html"/>
+    </resource>
+    <resource identifier="g19654f354046a7ce2a1c03b702b92250" type="webcontent" href="wiki_content/lesson-10-dot-4-direct-descendant-selector.html">
+      <file href="wiki_content/lesson-10-dot-4-direct-descendant-selector.html"/>
+    </resource>
+    <resource identifier="g64c683fd1c306f153f8c0772269dbe97" type="webcontent" href="wiki_content/lesson-17-dot-1-tembea-africa.html">
+      <file href="wiki_content/lesson-17-dot-1-tembea-africa.html"/>
+    </resource>
+    <resource identifier="g7811a178dc28cddb8c14472791ce3493" type="webcontent" href="wiki_content/lesson-3-dot-6-rgb-colors.html">
+      <file href="wiki_content/lesson-3-dot-6-rgb-colors.html"/>
+    </resource>
+    <resource identifier="g0177589de6870b0987bd7fbeaa49a927" type="webcontent" href="wiki_content/lesson-27-dot-1-math-dot-round.html">
+      <file href="wiki_content/lesson-27-dot-1-math-dot-round.html"/>
+    </resource>
+    <resource identifier="g1e99a8698e7362d2b29528017365668c" type="webcontent" href="wiki_content/lesson-21-dot-7-the-remainder-percent-operator.html">
+      <file href="wiki_content/lesson-21-dot-7-the-remainder-percent-operator.html"/>
+    </resource>
+    <resource identifier="g5411e2306fc2267974c384dcc14dd293" type="webcontent" href="wiki_content/lesson-26-dot-2-calling-a-function.html">
+      <file href="wiki_content/lesson-26-dot-2-calling-a-function.html"/>
+    </resource>
+    <resource identifier="g0849a7ff649baa780f3662ea14ddd6e3" type="webcontent" href="wiki_content/lesson-5-dot-7-id-selectors-pt2.html">
+      <file href="wiki_content/lesson-5-dot-7-id-selectors-pt2.html"/>
+    </resource>
+    <resource identifier="g6243b565426cda79c5c5e662dc654f60" type="webcontent" href="wiki_content/using-git.html">
+      <file href="wiki_content/using-git.html"/>
+    </resource>
+    <resource identifier="gf520a6285e585cf540279bf5a5c5434c" type="webcontent" href="wiki_content/thursday-lesson-27-dot-0-math-properties-math-dot-pi.html">
+      <file href="wiki_content/thursday-lesson-27-dot-0-math-properties-math-dot-pi.html"/>
+    </resource>
+    <resource identifier="g3abae49ca28208523b54cf93c2a8f444" type="webcontent" href="wiki_content/lesson-1-dot-18-review.html">
+      <file href="wiki_content/lesson-1-dot-18-review.html"/>
+    </resource>
+    <resource identifier="gfd682247a8b30b37461b7ab4b339d9ea" type="webcontent" href="wiki_content/lesson-4-dot-15-summary.html">
+      <file href="wiki_content/lesson-4-dot-15-summary.html"/>
+    </resource>
+    <resource identifier="ge9c37ad412233cf9a5612add28c3ccf7" type="webcontent" href="wiki_content/lesson-3-dot-1-introduction-to-css.html">
+      <file href="wiki_content/lesson-3-dot-1-introduction-to-css.html"/>
+    </resource>
+    <resource identifier="g6f8b5f71c4e8b72e736e57043cb321b6" type="webcontent" href="wiki_content/lesson-22-dot-16-hungry-customer-challenge.html">
+      <file href="wiki_content/lesson-22-dot-16-hungry-customer-challenge.html"/>
+    </resource>
+    <resource identifier="ga159a5e5f5569457834428ac17c09ce0" type="webcontent" href="wiki_content/readme.html">
+      <file href="wiki_content/readme.html"/>
+    </resource>
+    <resource identifier="gb1553caf4f6fd9b8e7e4aa0395415919" type="webcontent" href="wiki_content/lesson-2-dot-6-image-exercise-alt-text.html">
+      <file href="wiki_content/lesson-2-dot-6-image-exercise-alt-text.html"/>
+    </resource>
+    <resource identifier="g3cb49de2e50e2c5bb8154e0a9d3ed2ab" type="webcontent" href="wiki_content/lesson-2-dot-13-open-project.html">
+      <file href="wiki_content/lesson-2-dot-13-open-project.html"/>
+    </resource>
+    <resource identifier="g8abc5bf70509bbdb6cb0ba554daa7f37" type="webcontent" href="wiki_content/lesson-3-review-2.html">
+      <file href="wiki_content/lesson-3-review-2.html"/>
+    </resource>
+    <resource identifier="g557709973be55701218516606ffd26cb" type="webcontent" href="wiki_content/lesson-26-dot-7-variable-scope.html">
+      <file href="wiki_content/lesson-26-dot-7-variable-scope.html"/>
+    </resource>
+    <resource identifier="g945eeb97057fc7a3c34ed704f79696f5" type="webcontent" href="wiki_content/thursday-branching.html">
+      <file href="wiki_content/thursday-branching.html"/>
+    </resource>
+    <resource identifier="ge1c00447c94f118e254c8af9c4dc3df5" type="webcontent" href="wiki_content/lesson-23-dot-6-joining-multiple-arrays.html">
+      <file href="wiki_content/lesson-23-dot-6-joining-multiple-arrays.html"/>
+    </resource>
+    <resource identifier="g09a12a5f07f355ed0b2fc1262aa02c9d" type="webcontent" href="wiki_content/lesson-23-dot-2-setting-or-changing-items-in-array.html">
+      <file href="wiki_content/lesson-23-dot-2-setting-or-changing-items-in-array.html"/>
+    </resource>
+    <resource identifier="gb78e899fae50d3d9ff68d02eca0f946c" type="webcontent" href="wiki_content/lesson-27-dot-5-math-dot-sqrt.html">
+      <file href="wiki_content/lesson-27-dot-5-math-dot-sqrt.html"/>
+    </resource>
+    <resource identifier="g09a41e5ab97347294dea277c3437f82b" type="webcontent" href="wiki_content/lesson-14-dot-5-css-box-sizing.html">
+      <file href="wiki_content/lesson-14-dot-5-css-box-sizing.html"/>
+    </resource>
+    <resource identifier="g35086fceb8c44b3d585b827636ddb516" type="webcontent" href="wiki_content/lesson-3-dot-18-em-tag.html">
+      <file href="wiki_content/lesson-3-dot-18-em-tag.html"/>
+    </resource>
+    <resource identifier="gc077a69d849b3826053f7dd8b840a13c" type="webcontent" href="wiki_content/lesson-11-dot-8-absolute-position.html">
+      <file href="wiki_content/lesson-11-dot-8-absolute-position.html"/>
+    </resource>
+    <resource identifier="g1f25937b721924935b160c934c1f6797" type="webcontent" href="wiki_content/wednesday-conflict-resolution-workshop-3.html">
+      <file href="wiki_content/wednesday-conflict-resolution-workshop-3.html"/>
+    </resource>
+    <resource identifier="g4e278f058583f24bd84a8b5105e16cb1" type="webcontent" href="wiki_content/thursday-lesson-16-dot-1-project-1.html">
+      <file href="wiki_content/thursday-lesson-16-dot-1-project-1.html"/>
+    </resource>
+    <resource identifier="gf65392aa2dded7303ebbc34d16efcb8b" type="webcontent" href="wiki_content/lesson-22-dot-3-changing-the-value-of-a-variable.html">
+      <file href="wiki_content/lesson-22-dot-3-changing-the-value-of-a-variable.html"/>
+    </resource>
+    <resource identifier="g936fa63fcf8b34e9b43177238af06698" type="webcontent" href="wiki_content/lesson-12-dot-4-background-size-pt2.html">
+      <file href="wiki_content/lesson-12-dot-4-background-size-pt2.html"/>
+    </resource>
+    <resource identifier="g69a6ae807a0cd1634dbe415da95bd0cb" type="webcontent" href="wiki_content/lesson-25-dot-4-if-statement-pt-iv.html">
+      <file href="wiki_content/lesson-25-dot-4-if-statement-pt-iv.html"/>
+    </resource>
+    <resource identifier="g24cda8b808fd7556dab74a90f02bdef6" type="webcontent" href="wiki_content/week-1-independent-project.html">
+      <file href="wiki_content/week-1-independent-project.html"/>
+    </resource>
+    <resource identifier="g206c3ed7d0959014221100c05a0f6707" type="webcontent" href="wiki_content/lesson-13-dot-6-html-video-pt2.html">
+      <file href="wiki_content/lesson-13-dot-6-html-video-pt2.html"/>
+    </resource>
+    <resource identifier="ga83f82d479ae5ef7a319ed2319c23527" type="webcontent" href="wiki_content/lesson-4-dot-14-elements.html">
+      <file href="wiki_content/lesson-4-dot-14-elements.html"/>
+    </resource>
+    <resource identifier="g0b005ca756c2073d01db11296d83a928" type="webcontent" href="wiki_content/lesson-12-dot-8-project.html">
+      <file href="wiki_content/lesson-12-dot-8-project.html"/>
+    </resource>
+    <resource identifier="g860ce7f98e51fb11fb0d02235d72e28e" type="webcontent" href="wiki_content/lesson-22-dot-1-naming-variables.html">
+      <file href="wiki_content/lesson-22-dot-1-naming-variables.html"/>
+    </resource>
+    <resource identifier="g86b6a12b598f4d38920425922a97fc12" type="webcontent" href="wiki_content/lesson-27-dot-6-math-dot-max.html">
+      <file href="wiki_content/lesson-27-dot-6-math-dot-max.html"/>
+    </resource>
+    <resource identifier="g62f93671314535365db30ed07c7ccae5" type="webcontent" href="wiki_content/lesson-11-dot-7-fixed-position.html">
+      <file href="wiki_content/lesson-11-dot-7-fixed-position.html"/>
+    </resource>
+    <resource identifier="g3913e268a1efab54fb0a395b83b1d8cb" type="webcontent" href="wiki_content/lesson-8-dot-2-project-2.html">
+      <file href="wiki_content/lesson-8-dot-2-project-2.html"/>
+    </resource>
+    <resource identifier="g96808d93d57c9d0c0e65bef5bb549636" type="webcontent" href="wiki_content/lesson-21-dot-9-javascript-files.html">
+      <file href="wiki_content/lesson-21-dot-9-javascript-files.html"/>
+    </resource>
+    <resource identifier="g4893cc531746b040a197254bb7ce5c40" type="webcontent" href="wiki_content/lesson-1-dot-17-ordered-list-pt2.html">
+      <file href="wiki_content/lesson-1-dot-17-ordered-list-pt2.html"/>
+    </resource>
+    <resource identifier="g5eaad224188c1c29fe3101b70e63055c" type="webcontent" href="wiki_content/lesson-11-dot-2-left-property.html">
+      <file href="wiki_content/lesson-11-dot-2-left-property.html"/>
+    </resource>
+    <resource identifier="g9742ac55bb3d8e88a450bc924968fe73" type="webcontent" href="wiki_content/lesson-23-dot-8-turning-arrays-into-string.html">
+      <file href="wiki_content/lesson-23-dot-8-turning-arrays-into-string.html"/>
+    </resource>
+    <resource identifier="g2e08a3966e5fe235dae623bc86b3e2af" type="webcontent" href="wiki_content/lesson-26-dot-6-returning-values-from-a-function.html">
+      <file href="wiki_content/lesson-26-dot-6-returning-values-from-a-function.html"/>
+    </resource>
+    <resource identifier="gfbb95f9794653ba6e99e3eb36a8f8eea" type="webcontent" href="wiki_content/lesson-11-dot-4-top-property.html">
+      <file href="wiki_content/lesson-11-dot-4-top-property.html"/>
+    </resource>
+    <resource identifier="ga595724bfef2bcd283e33a2762f1f81b" type="webcontent" href="wiki_content/lesson-7-dot-1-flexbox-basics.html">
+      <file href="wiki_content/lesson-7-dot-1-flexbox-basics.html"/>
+    </resource>
+    <resource identifier="gdd901e862e893d2797b4be1f7507d429" type="webcontent" href="wiki_content/lesson-4-dot-9-margin.html">
+      <file href="wiki_content/lesson-4-dot-9-margin.html"/>
+    </resource>
+    <resource identifier="g4dd732f0124a5b17e6a39d13e632af25" type="webcontent" href="wiki_content/lesson-23-dot-5-joining-arrays.html">
+      <file href="wiki_content/lesson-23-dot-5-joining-arrays.html"/>
+    </resource>
+    <resource identifier="gc68ff7df0ae8249f620de3a56575fd20" type="webcontent" href="wiki_content/lesson-3-dot-12-font-size.html">
+      <file href="wiki_content/lesson-3-dot-12-font-size.html"/>
+    </resource>
+    <resource identifier="g78c4cbcf30b3ae35afdb61d15c54e9a6" type="webcontent" href="wiki_content/lesson-24-dot-5-combining-arrays-and-objects.html">
+      <file href="wiki_content/lesson-24-dot-5-combining-arrays-and-objects.html"/>
+    </resource>
+    <resource identifier="gfa3f7aa521682007df7d57917de360ed" type="webcontent" href="wiki_content/lesson-15-dot-6-project.html">
+      <file href="wiki_content/lesson-15-dot-6-project.html"/>
+    </resource>
+    <resource identifier="g3f8e7ffa66f22d2cf01a3d98b5bc772f" type="webcontent" href="wiki_content/lesson-13-dot-4-html-audio-pt-3.html">
+      <file href="wiki_content/lesson-13-dot-4-html-audio-pt-3.html"/>
+    </resource>
+    <resource identifier="g59c89638d6d04e02025943f4c22a5511" type="webcontent" href="wiki_content/lesson-23-dot-3-finding-the-length-of-an-array.html">
+      <file href="wiki_content/lesson-23-dot-3-finding-the-length-of-an-array.html"/>
+    </resource>
+    <resource identifier="gb772d1b8e4b5f4e670c8e89a77b4b8c1" type="webcontent" href="wiki_content/lesson-3-dot-14-font-style.html">
+      <file href="wiki_content/lesson-3-dot-14-font-style.html"/>
+    </resource>
+    <resource identifier="g1f99eb66409f3686ab1e95ff2ec9c6c9" type="webcontent" href="wiki_content/lesson-14-dot-2-css-text-shadow.html">
+      <file href="wiki_content/lesson-14-dot-2-css-text-shadow.html"/>
+    </resource>
+    <resource identifier="g053238bb52cc11876f82850643dedfb1" type="webcontent" href="wiki_content/lesson-9-dot-8-project.html">
+      <file href="wiki_content/lesson-9-dot-8-project.html"/>
+    </resource>
+    <resource identifier="g8f4d6a0f7dd2e77f42f289a0f0fff956" type="webcontent" href="wiki_content/lesson-26-dot-3-passing-arguments-to-a-function.html">
+      <file href="wiki_content/lesson-26-dot-3-passing-arguments-to-a-function.html"/>
+    </resource>
+    <resource identifier="g48c39341b42dd6f026caed0b19349a19" type="webcontent" href="wiki_content/lesson-16-dot-3-project-3.html">
+      <file href="wiki_content/lesson-16-dot-3-project-3.html"/>
+    </resource>
+    <resource identifier="ge72c67ddc830fb47d95260883f770731" type="webcontent" href="wiki_content/lesson-17-dot-4-styling-and-add-content-to-the-divs.html">
+      <file href="wiki_content/lesson-17-dot-4-styling-and-add-content-to-the-divs.html"/>
+    </resource>
+    <resource identifier="g30b2bc9e7973ff2105fa2ff5c365c2a0" type="webcontent" href="wiki_content/lesson-3-dot-7-color-pt-2.html">
+      <file href="wiki_content/lesson-3-dot-7-color-pt-2.html"/>
+    </resource>
+    <resource identifier="g012aafbe8db475de529e87ce1f414d65" type="webcontent" href="wiki_content/lesson-4-dot-2-dimensions.html">
+      <file href="wiki_content/lesson-4-dot-2-dimensions.html"/>
+    </resource>
+    <resource identifier="gbb37ec992700a0a9b268ac719deb5a39" type="webcontent" href="wiki_content/lesson-12-dot-2-background-image.html">
+      <file href="wiki_content/lesson-12-dot-2-background-image.html"/>
+    </resource>
+    <resource identifier="gb36d8d62c7d052e01c6cc7cb1d6ace6b" type="webcontent" href="wiki_content/lesson-12-dot-7-background-position.html">
+      <file href="wiki_content/lesson-12-dot-7-background-position.html"/>
+    </resource>
+    <resource identifier="gbcd82b3edff2ab5a4ffa4241ae30cc3d" type="webcontent" href="wiki_content/tuesday-giving-and-receiving-feedback-workshop.html">
+      <file href="wiki_content/tuesday-giving-and-receiving-feedback-workshop.html"/>
+    </resource>
+    <resource identifier="gda1890f29cd7b33ed3a3202483c01016" type="webcontent" href="wiki_content/lesson-24-dot-1-accessing-values-in-objects.html">
+      <file href="wiki_content/lesson-24-dot-1-accessing-values-in-objects.html"/>
+    </resource>
+    <resource identifier="g06f9d96afc752373a59ab1abd320f6df" type="webcontent" href="wiki_content/lesson-7-dot-9-3-column-page-continued.html">
+      <file href="wiki_content/lesson-7-dot-9-3-column-page-continued.html"/>
+    </resource>
+    <resource identifier="gef6d09d47e6efa1fdf68a6b205e997ee" type="webcontent" href="wiki_content/wednesday-conflict-resolution-workshop-2.html">
+      <file href="wiki_content/wednesday-conflict-resolution-workshop-2.html"/>
+    </resource>
+    <resource identifier="gd52d08baf767bd8ba3d58fe8f63f7aa1" type="webcontent" href="wiki_content/git-merging.html">
+      <file href="wiki_content/git-merging.html"/>
+    </resource>
+    <resource identifier="gec6470b8488c81a2ea8502e03da74af7" type="webcontent" href="wiki_content/lesson-6-dot-7-float-project-star.html">
+      <file href="wiki_content/lesson-6-dot-7-float-project-star.html"/>
+    </resource>
+    <resource identifier="g71140ee803d3e18ec73031c1d1c17e28" type="webcontent" href="wiki_content/lesson-5-dot-5-type-dot-class-selectors.html">
+      <file href="wiki_content/lesson-5-dot-5-type-dot-class-selectors.html"/>
+    </resource>
+    <resource identifier="gdbe569543ce7b33b5caefd5901440da3" type="webcontent" href="wiki_content/lesson-13-dot-7-project.html">
+      <file href="wiki_content/lesson-13-dot-7-project.html"/>
+    </resource>
+    <resource identifier="g0945c1c5bce5b2b56263a4fb264e952e" type="webcontent" href="wiki_content/lesson-7-dot-7-3-column-page-using-flexbox.html">
+      <file href="wiki_content/lesson-7-dot-7-3-column-page-using-flexbox.html"/>
+    </resource>
+    <resource identifier="g8965b3a451797fc20db30ff9dae1ba5e" type="webcontent" href="wiki_content/lesson-5-dot-13-lesson-review.html">
+      <file href="wiki_content/lesson-5-dot-13-lesson-review.html"/>
+    </resource>
+    <resource identifier="ge659873a28445987ed5f20589dd00968" type="webcontent" href="wiki_content/lesson-22-dot-4-increment-and-decrement-operator.html">
+      <file href="wiki_content/lesson-22-dot-4-increment-and-decrement-operator.html"/>
+    </resource>
+    <resource identifier="g2e4ebb2d0c9a1f6c513e4d3b320d19e7" type="webcontent" href="wiki_content/lesson-11-dot-9-summary.html">
+      <file href="wiki_content/lesson-11-dot-9-summary.html"/>
+    </resource>
+    <resource identifier="g26c521c9bf033cac77d3fe05e837931a" type="webcontent" href="wiki_content/lesson-5-dot-4-class-selectors-pt2.html">
+      <file href="wiki_content/lesson-5-dot-4-class-selectors-pt2.html"/>
+    </resource>
+    <resource identifier="g9fc198170d67d894f3cba55e4ce6d656" type="webcontent" href="wiki_content/lesson-9-dot-6-html-tables-pt3.html">
+      <file href="wiki_content/lesson-9-dot-6-html-tables-pt3.html"/>
+    </resource>
+    <resource identifier="g24624370fbd86ccca32e23e7cf2cf982" type="webcontent" href="wiki_content/introduction-to-computers.html">
+      <file href="wiki_content/introduction-to-computers.html"/>
+    </resource>
+    <resource identifier="gf4ee9c2d77bbf8e26fb5f69e39328026" type="webcontent" href="wiki_content/tuesday-welcome-to-access.html">
+      <file href="wiki_content/tuesday-welcome-to-access.html"/>
+    </resource>
+    <resource identifier="gac9f3c62454dbc609a1db66931424e3d" type="webcontent" href="wiki_content/wednesday-lesson-13-dot-1-html-media-introduction-media-introduction.html">
+      <file href="wiki_content/wednesday-lesson-13-dot-1-html-media-introduction-media-introduction.html"/>
+    </resource>
+    <resource identifier="g983c0838d743731e0da1160da396bd31" type="webcontent" href="wiki_content/lesson-25-dot-3-if-statement-pt-iii.html">
+      <file href="wiki_content/lesson-25-dot-3-if-statement-pt-iii.html"/>
+    </resource>
+    <resource identifier="gf899fbbad53425584b8a93dba5b2e353" type="webcontent" href="wiki_content/lesson-16-dot-2-project-2.html">
+      <file href="wiki_content/lesson-16-dot-2-project-2.html"/>
+    </resource>
+    <resource identifier="g53f7f5341413a4b730bb2d77d2eae493" type="webcontent" href="wiki_content/lesson-3-dot-4-selectors-pt2.html">
+      <file href="wiki_content/lesson-3-dot-4-selectors-pt2.html"/>
+    </resource>
+    <resource identifier="gde8aab54fa16fa6bfa6322af387ad82e" type="webcontent" href="wiki_content/lesson-25-dot-11-for-loops-and-arrays.html">
+      <file href="wiki_content/lesson-25-dot-11-for-loops-and-arrays.html"/>
+    </resource>
+    <resource identifier="g5d73ff18e0912185f449a621ede8aa2c" type="webcontent" href="wiki_content/lesson-25-dot-12-get-loopy.html">
+      <file href="wiki_content/lesson-25-dot-12-get-loopy.html"/>
+    </resource>
+    <resource identifier="g45420e70a7e8536b23f3101d3c4321ed" type="webcontent" href="wiki_content/tuesday-lesson-23-dot-0-introduction-to-arrays.html">
+      <file href="wiki_content/tuesday-lesson-23-dot-0-introduction-to-arrays.html"/>
+    </resource>
+    <resource identifier="g2ed5b9cf3114ced8b6670d17fdbc871f" type="webcontent" href="wiki_content/lesson-25-dot-1-if-statement-pt-1.html">
+      <file href="wiki_content/lesson-25-dot-1-if-statement-pt-1.html"/>
+    </resource>
+    <resource identifier="ge2a87d2997420731cf5ca77873abc875" type="webcontent" href="wiki_content/lesson-4-dot-13-inline-elements.html">
+      <file href="wiki_content/lesson-4-dot-13-inline-elements.html"/>
+    </resource>
+    <resource identifier="g3ac96ffb5928714a7bacbf439ff8d788" type="webcontent" href="wiki_content/lesson-9-dot-3-css-comments.html">
+      <file href="wiki_content/lesson-9-dot-3-css-comments.html"/>
+    </resource>
+    <resource identifier="gb0bfe6a78b45992b83fa9308f4d49c48" type="webcontent" href="wiki_content/tuesday-lesson-10-dot-1-selectors-review.html">
+      <file href="wiki_content/tuesday-lesson-10-dot-1-selectors-review.html"/>
+    </resource>
+    <resource identifier="gd089479737236674c5ee9d8f85c9e1be" type="webcontent" href="wiki_content/lesson-25-dot-10-for-loop-and-if-statement-pt-ii.html">
+      <file href="wiki_content/lesson-25-dot-10-for-loop-and-if-statement-pt-ii.html"/>
+    </resource>
+    <resource identifier="g3bf9c7d88f7d95aca5dd5f951a084b93" type="webcontent" href="wiki_content/lesson-1-dot-20-html-mind-map.html">
+      <file href="wiki_content/lesson-1-dot-20-html-mind-map.html"/>
+    </resource>
+    <resource identifier="g0c2eddecb4529545d539d3ecfc3a6aeb" type="webcontent" href="wiki_content/lesson-3-dot-19-conclusion.html">
+      <file href="wiki_content/lesson-3-dot-19-conclusion.html"/>
+    </resource>
+    <resource identifier="gd1385427f40cce08e0fae2c2a1efa2e6" type="webcontent" href="wiki_content/lesson-8-project-1.html">
+      <file href="wiki_content/lesson-8-project-1.html"/>
+    </resource>
+    <resource identifier="g103da1c262d376c22ce21821276499e0" type="webcontent" href="wiki_content/lesson-15-dot-4-media-queries-pt-3-css.html">
+      <file href="wiki_content/lesson-15-dot-4-media-queries-pt-3-css.html"/>
+    </resource>
+    <resource identifier="gda8f05ff64b55999e7ab83305aaba8fd" type="webcontent" href="wiki_content/practice-github-pages.html">
+      <file href="wiki_content/practice-github-pages.html"/>
+    </resource>
+    <resource identifier="g112dcb34739a492718c9729e986ba59e" type="webcontent" href="wiki_content/lesson-15-dot-3-media-queries-pt-2-css.html">
+      <file href="wiki_content/lesson-15-dot-3-media-queries-pt-2-css.html"/>
+    </resource>
+    <resource identifier="gce19afe046eb54a66a5dc0cd3cb7fba8" type="webcontent" href="wiki_content/lesson-27-dot-1-math-dot-round-2.html">
+      <file href="wiki_content/lesson-27-dot-1-math-dot-round-2.html"/>
+    </resource>
+    <resource identifier="gb4a4a7b3d8d3fd502a9284c00d3b4996" type="webcontent" href="wiki_content/lesson-3-dot-20-project.html">
+      <file href="wiki_content/lesson-3-dot-20-project.html"/>
+    </resource>
+    <resource identifier="g13c1a651eed49d190ca9fd6e8117a617" type="webcontent" href="wiki_content/lesson-21-dot-2-pop-up.html">
+      <file href="wiki_content/lesson-21-dot-2-pop-up.html"/>
+    </resource>
+    <resource identifier="g329bbcc50e1226b502c82fbb1f4c2ec3" type="webcontent" href="wiki_content/readme-practice.html">
+      <file href="wiki_content/readme-practice.html"/>
+    </resource>
+    <resource identifier="g984c9dfe64395acc5bf92d6a59486fb1" type="webcontent" href="wiki_content/lesson-10-dot-3-descendant-selector.html">
+      <file href="wiki_content/lesson-10-dot-3-descendant-selector.html"/>
+    </resource>
+    <resource identifier="g26c264637ecabf03849b4094eade595d" type="webcontent" href="wiki_content/wednesday-debugging-html-and-css.html">
+      <file href="wiki_content/wednesday-debugging-html-and-css.html"/>
+    </resource>
+    <resource identifier="g9cb849b426c4a353c95b9459036b58ea" type="webcontent" href="wiki_content/week-1-objectives.html">
+      <file href="wiki_content/week-1-objectives.html"/>
+    </resource>
+    <resource identifier="gdf79fd7f8f1e1ec19f554196492a5636" type="webcontent" href="wiki_content/lesson-1-dot-2-what-is-html.html">
+      <file href="wiki_content/lesson-1-dot-2-what-is-html.html"/>
+    </resource>
+    <resource identifier="g53b5deb265ad7840b9f00c3d5ebcdf08" type="webcontent" href="wiki_content/wednesday-conflict-resolution-workshop.html">
+      <file href="wiki_content/wednesday-conflict-resolution-workshop.html"/>
+    </resource>
+    <resource identifier="g2a750de3a39ce09eceafb77431323111" type="webcontent" href="wiki_content/tuesday-making-the-most-of-moringa-school.html">
+      <file href="wiki_content/tuesday-making-the-most-of-moringa-school.html"/>
+    </resource>
+    <resource identifier="gc61e00e9fe9fffb147ce8cf20bbb2a20" type="webcontent" href="wiki_content/resource-cheat-sheet-command-line.html">
+      <file href="wiki_content/resource-cheat-sheet-command-line.html"/>
+    </resource>
+    <resource identifier="g351ba7f01dc5c1278ee7d8d2a0856148" type="webcontent" href="wiki_content/tuesday-practice-the-command-line.html">
+      <file href="wiki_content/tuesday-practice-the-command-line.html"/>
+    </resource>
+    <resource identifier="g9c950e0ee1a93129b7c3c05eec144eb8" type="webcontent" href="wiki_content/lesson-1-dot-3-tags.html">
+      <file href="wiki_content/lesson-1-dot-3-tags.html"/>
+    </resource>
+    <resource identifier="gd2791befc7b67c3f9f4d9c7839c13f9e" type="webcontent" href="wiki_content/lesson-1-dot-4-doctype.html">
+      <file href="wiki_content/lesson-1-dot-4-doctype.html"/>
+    </resource>
+    <resource identifier="gb22c27c6fc859e202f2d02a450723eeb" type="webcontent" href="wiki_content/lesson-1-dot-14-unordered-list.html">
+      <file href="wiki_content/lesson-1-dot-14-unordered-list.html"/>
+    </resource>
+    <resource identifier="gc171854b82bad87e1d90557dfe765287" type="webcontent" href="wiki_content/lesson-1-dot-5-html.html">
+      <file href="wiki_content/lesson-1-dot-5-html.html"/>
+    </resource>
+    <resource identifier="gae96b31bfe663362fbe4088711493cc7" type="webcontent" href="wiki_content/lesson-1-dot-6-head.html">
+      <file href="wiki_content/lesson-1-dot-6-head.html"/>
+    </resource>
+    <resource identifier="g14799973add8f2b845cfd0674dc634b3" type="webcontent" href="wiki_content/lesson-1-dot-8-body.html">
+      <file href="wiki_content/lesson-1-dot-8-body.html"/>
+    </resource>
+    <resource identifier="gbf9eb0d94261caf11b95bdd258d63fc0" type="webcontent" href="wiki_content/lesson-1-dot-9-headings.html">
+      <file href="wiki_content/lesson-1-dot-9-headings.html"/>
+    </resource>
+    <resource identifier="gc8a5f07921ee52c98eea33cf519b9ad5" type="webcontent" href="wiki_content/lesson-1-dot-16-ordered-lists.html">
+      <file href="wiki_content/lesson-1-dot-16-ordered-lists.html"/>
+    </resource>
+    <resource identifier="g4608235c9dcd534af11e8402544dadbe" type="webcontent" href="wiki_content/lesson-1-dot-19-custom-web-page.html">
+      <file href="wiki_content/lesson-1-dot-19-custom-web-page.html"/>
+    </resource>
+    <resource identifier="gaad642bec507126f9a5b66984b388c1e" type="webcontent" href="wiki_content/wednesday-lesson-2-dot-0-review.html">
+      <file href="wiki_content/wednesday-lesson-2-dot-0-review.html"/>
+    </resource>
+    <resource identifier="g061262ec2d89ba83d52e4d79fec027da" type="webcontent" href="wiki_content/lesson-2-dot-5-images-exercises-supermarket-catalogue.html">
+      <file href="wiki_content/lesson-2-dot-5-images-exercises-supermarket-catalogue.html"/>
+    </resource>
+    <resource identifier="gb0704c3ee0d71b9255355dfa83cc7025" type="webcontent" href="wiki_content/lesson-2-dot-1-images-introduction.html">
+      <file href="wiki_content/lesson-2-dot-1-images-introduction.html"/>
+    </resource>
+    <resource identifier="gdc1a2320b501d112556fd0092b82b5ce" type="webcontent" href="wiki_content/lesson-2-dot-3-images-and-attributes-height-and-width.html">
+      <file href="wiki_content/lesson-2-dot-3-images-and-attributes-height-and-width.html"/>
+    </resource>
+    <resource identifier="g1c473dc0b3f4473ba70b778d417002a7" type="webcontent" href="wiki_content/lesson-2-dot-4-image-attributes-alt-text.html">
+      <file href="wiki_content/lesson-2-dot-4-image-attributes-alt-text.html"/>
+    </resource>
+    <resource identifier="gc8ecbf5bbb66dc8245151bfca65a9fc9" type="webcontent" href="wiki_content/lesson-3-dot-8-background-color.html">
+      <file href="wiki_content/lesson-3-dot-8-background-color.html"/>
+    </resource>
+    <resource identifier="gbb0be3005a7f964cdc8e6f6764367d0d" type="webcontent" href="wiki_content/lesson-2-dot-7-links-introduction-href-part-1.html">
+      <file href="wiki_content/lesson-2-dot-7-links-introduction-href-part-1.html"/>
+    </resource>
+    <resource identifier="gc615ec609374da825a3eb54bcb1e0df5" type="webcontent" href="wiki_content/lesson-2-dot-8-link-attributes-href-part-2.html">
+      <file href="wiki_content/lesson-2-dot-8-link-attributes-href-part-2.html"/>
+    </resource>
+    <resource identifier="gf15fd8ef8081de0af8ad315341e9a2b9" type="webcontent" href="wiki_content/lesson-2-dot-9-links-target-attribute.html">
+      <file href="wiki_content/lesson-2-dot-9-links-target-attribute.html"/>
+    </resource>
+    <resource identifier="g5d2f054344daa9af6e0467a01d8f79ab" type="webcontent" href="wiki_content/lesson-2-dot-10-link-exercises.html">
+      <file href="wiki_content/lesson-2-dot-10-link-exercises.html"/>
+    </resource>
+    <resource identifier="gc964d18b59be349d6053879b1982ad5f" type="webcontent" href="wiki_content/lesson-2-dot-11-images-as-links.html">
+      <file href="wiki_content/lesson-2-dot-11-images-as-links.html"/>
+    </resource>
+    <resource identifier="gcd1839021bdb8de0ff2b13905dac0a60" type="webcontent" href="wiki_content/lesson-2-dot-12-lesson-review.html">
+      <file href="wiki_content/lesson-2-dot-12-lesson-review.html"/>
+    </resource>
+    <resource identifier="gb3035f34df1b6d4fb5c4be4602c1b38d" type="webcontent" href="wiki_content/lesson-3-review.html">
+      <file href="wiki_content/lesson-3-review.html"/>
+    </resource>
+    <resource identifier="gf1e17a2ec81f3615f9adad32676bbc48" type="webcontent" href="wiki_content/lesson-3-dot-2-linking-a-stylesheet.html">
+      <file href="wiki_content/lesson-3-dot-2-linking-a-stylesheet.html"/>
+    </resource>
+    <resource identifier="g1daa9e948b452618c5b77e6d3c7c0346" type="webcontent" href="wiki_content/lesson-3-dot-3-selectors-pt-1.html">
+      <file href="wiki_content/lesson-3-dot-3-selectors-pt-1.html"/>
+    </resource>
+    <resource identifier="g2f62dcadbc7b0c20d629b363057ee712" type="webcontent" href="wiki_content/lesson-3-dot-11-font-family-part-2.html">
+      <file href="wiki_content/lesson-3-dot-11-font-family-part-2.html"/>
+    </resource>
+    <resource identifier="g4f7e87a1931d9e83c3dd1dfa482bbeec" type="webcontent" href="wiki_content/lesson-3-dot-13-font-size-pt2.html">
+      <file href="wiki_content/lesson-3-dot-13-font-size-pt2.html"/>
+    </resource>
+    <resource identifier="g889cb56e2aeca918a527f7f6f3c46a32" type="webcontent" href="wiki_content/lesson-3-dot-15-font-weight.html">
+      <file href="wiki_content/lesson-3-dot-15-font-weight.html"/>
+    </resource>
+    <resource identifier="ga471445c423f023385213d0dfe25465a" type="webcontent" href="wiki_content/lesson-3-dot-16-font-weight-pt2.html">
+      <file href="wiki_content/lesson-3-dot-16-font-weight-pt2.html"/>
+    </resource>
+    <resource identifier="g5d60adb1f339d4d76d801f0f100dfc96" type="webcontent" href="wiki_content/lesson-3-dot-17-strong-tag.html">
+      <file href="wiki_content/lesson-3-dot-17-strong-tag.html"/>
+    </resource>
+    <resource identifier="g2ba9c22ad36caf1f13dc580a5fd15e5d" type="webcontent" href="wiki_content/lesson-4-dot-1-box-model.html">
+      <file href="wiki_content/lesson-4-dot-1-box-model.html"/>
+    </resource>
+    <resource identifier="g2ca5b9f9cf3cc8f8c00b998a4c294aa1" type="webcontent" href="wiki_content/lesson-4-dot-3-dimension-pt2.html">
+      <file href="wiki_content/lesson-4-dot-3-dimension-pt2.html"/>
+    </resource>
+    <resource identifier="g708ae1b06cd74241912b65a7072f528a" type="webcontent" href="wiki_content/lesson-4-dot-8-padding-pt2.html">
+      <file href="wiki_content/lesson-4-dot-8-padding-pt2.html"/>
+    </resource>
+    <resource identifier="ge4aa5449f1e3357aeee70f73006ae280" type="webcontent" href="wiki_content/lesson-4-dot-10-block-elements.html">
+      <file href="wiki_content/lesson-4-dot-10-block-elements.html"/>
+    </resource>
+    <resource identifier="g7aecb4a2d94e87c92c291627395563a0" type="webcontent" href="wiki_content/lesson-4-dot-4-overflow.html">
+      <file href="wiki_content/lesson-4-dot-4-overflow.html"/>
+    </resource>
+    <resource identifier="g3f6baef334590b0e6402fac575dc04e5" type="webcontent" href="wiki_content/lesson-4-dot-5-border.html">
+      <file href="wiki_content/lesson-4-dot-5-border.html"/>
+    </resource>
+    <resource identifier="g6ddc227cf549c5bb6a8f62f7589531d6" type="webcontent" href="wiki_content/lesson-4-dot-11-block-element-pt2.html">
+      <file href="wiki_content/lesson-4-dot-11-block-element-pt2.html"/>
+    </resource>
+    <resource identifier="g7c0883b1437dcf8deeb70a1f479b85d9" type="webcontent" href="wiki_content/lesson-4-dot-12-element.html">
+      <file href="wiki_content/lesson-4-dot-12-element.html"/>
+    </resource>
+    <resource identifier="gc5f532443ad733097a3d538bda06b876" type="webcontent" href="wiki_content/lesson-6-dot-4-clear-intro.html">
+      <file href="wiki_content/lesson-6-dot-4-clear-intro.html"/>
+    </resource>
+    <resource identifier="gdc0165a8b859fd09125462ebc7922921" type="webcontent" href="wiki_content/lesson-6-dot-5-clear-pt-1.html">
+      <file href="wiki_content/lesson-6-dot-5-clear-pt-1.html"/>
+    </resource>
+    <resource identifier="g665288bd1c7f393bce13a0258faec684" type="webcontent" href="wiki_content/lesson-6-dot-6-clear-pt2.html">
+      <file href="wiki_content/lesson-6-dot-6-clear-pt2.html"/>
+    </resource>
+    <resource identifier="g6ed156aad2db8f4aaecdda0e2adbe057" type="webcontent" href="wiki_content/thursday-lesson-5-dot-1-css-layout-review.html">
+      <file href="wiki_content/thursday-lesson-5-dot-1-css-layout-review.html"/>
+    </resource>
+    <resource identifier="gc4d4afc9c504aa8a2e987c394495f67c" type="webcontent" href="wiki_content/lesson-5-dot-3-class-selectors-pt1.html">
+      <file href="wiki_content/lesson-5-dot-3-class-selectors-pt1.html"/>
+    </resource>
+    <resource identifier="ge19b38966b6b101d4cc4fe6fb7f80d99" type="webcontent" href="wiki_content/lesson-7-dot-2-flex-direction.html">
+      <file href="wiki_content/lesson-7-dot-2-flex-direction.html"/>
+    </resource>
+    <resource identifier="ga4c7f5668b352970f7dc0405bf488258" type="webcontent" href="wiki_content/lesson-5-dot-6-id-selector-pt1.html">
+      <file href="wiki_content/lesson-5-dot-6-id-selector-pt1.html"/>
+    </resource>
+    <resource identifier="gda80aa3814708e01c7bdb0b14b406c0e" type="webcontent" href="wiki_content/lesson-5-dot-9-overriding-styles-pt-1.html">
+      <file href="wiki_content/lesson-5-dot-9-overriding-styles-pt-1.html"/>
+    </resource>
+    <resource identifier="gfe2a874223492829064c7707301b7cea" type="webcontent" href="wiki_content/lesson-5-dot-10-overriding-styles-and-specificity.html">
+      <file href="wiki_content/lesson-5-dot-10-overriding-styles-and-specificity.html"/>
+    </resource>
+    <resource identifier="gbe3d4e8ff21ba003ee761a95e784ffdf" type="webcontent" href="wiki_content/lesson-5-dot-11-pseudo-classes.html">
+      <file href="wiki_content/lesson-5-dot-11-pseudo-classes.html"/>
+    </resource>
+    <resource identifier="g69ed091ea862c8fdb77526f3f95f32fc" type="webcontent" href="wiki_content/practice-using-git.html">
+      <file href="wiki_content/practice-using-git.html"/>
+    </resource>
+    <resource identifier="g03b01bfa1a49fad06dc3663a30dba76a" type="webcontent" href="wiki_content/github-pages.html">
+      <file href="wiki_content/github-pages.html"/>
+    </resource>
+    <resource identifier="g9e506c0db69ebb150ad7f15aaa001258" type="webcontent" href="wiki_content/lesson-5-dot-12-pseudo-classes-pt-2.html">
+      <file href="wiki_content/lesson-5-dot-12-pseudo-classes-pt-2.html"/>
+    </resource>
+    <resource identifier="gc37f49a9dbc6cf0beee935d87b2af6bb" type="webcontent" href="wiki_content/practice-branching-and-merging.html">
+      <file href="wiki_content/practice-branching-and-merging.html"/>
+    </resource>
+    <resource identifier="gd5bdcb92faf68abee52b7b792e119595" type="webcontent" href="wiki_content/monday-lesson-6-dot-1-css-float-intro.html">
+      <file href="wiki_content/monday-lesson-6-dot-1-css-float-intro.html"/>
+    </resource>
+    <resource identifier="g093de168c17cf1d1085d419b5d4c4103" type="webcontent" href="wiki_content/lesson-6-dot-2-float-pt-1.html">
+      <file href="wiki_content/lesson-6-dot-2-float-pt-1.html"/>
+    </resource>
+    <resource identifier="gdd8f94d07a7f2f7c989bfc9c125f8da3" type="webcontent" href="wiki_content/lesson-6-dot-3-float-pt-2.html">
+      <file href="wiki_content/lesson-6-dot-3-float-pt-2.html"/>
+    </resource>
+    <resource identifier="g658c0ff9e41652669f0c257932db4f1c" type="webcontent" href="wiki_content/lesson-7-dot-3-justify-content.html">
+      <file href="wiki_content/lesson-7-dot-3-justify-content.html"/>
+    </resource>
+    <resource identifier="g61fee6a36dcc22d9c1ed83338fee132a" type="webcontent" href="wiki_content/lesson-7-dot-4-align-items.html">
+      <file href="wiki_content/lesson-7-dot-4-align-items.html"/>
+    </resource>
+    <resource identifier="g13ca741b854bbe82e4b8a0ad7afc9cb0" type="webcontent" href="wiki_content/lesson-7-dot-6-flex-wrap.html">
+      <file href="wiki_content/lesson-7-dot-6-flex-wrap.html"/>
+    </resource>
+    <resource identifier="g047c531a9ae611841062f85eb9598522" type="webcontent" href="wiki_content/lesson-7-dot-10-3-column-page-continued.html">
+      <file href="wiki_content/lesson-7-dot-10-3-column-page-continued.html"/>
+    </resource>
+    <resource identifier="g150c9b1963e868233c0fdec9d44c02f6" type="webcontent" href="wiki_content/lesson-9-dot-1-comments-intro.html">
+      <file href="wiki_content/lesson-9-dot-1-comments-intro.html"/>
+    </resource>
+    <resource identifier="ged1ddb555b2789f518ba909a4e166559" type="webcontent" href="wiki_content/lesson-9-dot-4-html-tables-pt1.html">
+      <file href="wiki_content/lesson-9-dot-4-html-tables-pt1.html"/>
+    </resource>
+    <resource identifier="g2d487defaa5cfa6028d974d92f60cf30" type="webcontent" href="wiki_content/lesson-9-dot-5-html-tables-pt2.html">
+      <file href="wiki_content/lesson-9-dot-5-html-tables-pt2.html"/>
+    </resource>
+    <resource identifier="g9456f162dc7fc82c0443fcabadfe4f3e" type="webcontent" href="wiki_content/lesson-9-dot-7-html-tables-styling.html">
+      <file href="wiki_content/lesson-9-dot-7-html-tables-styling.html"/>
+    </resource>
+    <resource identifier="g4591369835eb0408e2d4c784b1d488c3" type="webcontent" href="wiki_content/lesson-10-dot-2-combining-selectors.html">
+      <file href="wiki_content/lesson-10-dot-2-combining-selectors.html"/>
+    </resource>
+    <resource identifier="gcf121eb0d0fadb5bdead1141237cf935" type="webcontent" href="wiki_content/lesson-10-dot-6-project.html">
+      <file href="wiki_content/lesson-10-dot-6-project.html"/>
+    </resource>
+    <resource identifier="g87e2c1c26591b878e7f2c2992a40270e" type="webcontent" href="wiki_content/lesson-11-dot-1-relative-position.html">
+      <file href="wiki_content/lesson-11-dot-1-relative-position.html"/>
+    </resource>
+    <resource identifier="gb5728ae8349c9637ac60c4e50da1b9ce" type="webcontent" href="wiki_content/lesson-11-dot-3-right-property.html">
+      <file href="wiki_content/lesson-11-dot-3-right-property.html"/>
+    </resource>
+    <resource identifier="g7459596a18a279be3424ed43d42ee970" type="webcontent" href="wiki_content/lesson-11-dot-5-bottom-property.html">
+      <file href="wiki_content/lesson-11-dot-5-bottom-property.html"/>
+    </resource>
+    <resource identifier="g4ca4894b2e92e5dbaf4af7a89266db6f" type="webcontent" href="wiki_content/lesson-12-dot-3-background-size-pt1.html">
+      <file href="wiki_content/lesson-12-dot-3-background-size-pt1.html"/>
+    </resource>
+    <resource identifier="gb68c063dda3ce4cdbd9d55998d426506" type="webcontent" href="wiki_content/lesson-12-dot-5-background-repeat-pt-1.html">
+      <file href="wiki_content/lesson-12-dot-5-background-repeat-pt-1.html"/>
+    </resource>
+    <resource identifier="ga31f802a5e5922711a49b85582c8415d" type="webcontent" href="wiki_content/lesson-12-dot-6-background-repeat-pt-2.html">
+      <file href="wiki_content/lesson-12-dot-6-background-repeat-pt-2.html"/>
+    </resource>
+    <resource identifier="g827bb1dbc883fed1dd3281f1d52d7914" type="webcontent" href="wiki_content/lesson-13-dot-2-html-audio-pt-1.html">
+      <file href="wiki_content/lesson-13-dot-2-html-audio-pt-1.html"/>
+    </resource>
+    <resource identifier="g3457e192a6662952e29fb1af1c61b82d" type="webcontent" href="wiki_content/lesson-13-dot-3-html-audio-pt-2.html">
+      <file href="wiki_content/lesson-13-dot-3-html-audio-pt-2.html"/>
+    </resource>
+    <resource identifier="g1ed2f71782164298e96836a7063836ad" type="webcontent" href="wiki_content/lesson-13-dot-5-html-video-pt-1.html">
+      <file href="wiki_content/lesson-13-dot-5-html-video-pt-1.html"/>
+    </resource>
+    <resource identifier="g6e82d3075cfadff90cad29b23f321c7b" type="webcontent" href="wiki_content/lesson-14-dot-3-css-box-shadow.html">
+      <file href="wiki_content/lesson-14-dot-3-css-box-shadow.html"/>
+    </resource>
+    <resource identifier="g398f9d011bf06300e3d9bc9620e9f85c" type="webcontent" href="wiki_content/lesson-14-dot-4-background-opacity.html">
+      <file href="wiki_content/lesson-14-dot-4-background-opacity.html"/>
+    </resource>
+    <resource identifier="g74490f29de214c41e9d48ed10c946e36" type="webcontent" href="wiki_content/lesson-14-dot-6-project.html">
+      <file href="wiki_content/lesson-14-dot-6-project.html"/>
+    </resource>
+    <resource identifier="g94db5ae00fed00bf02f423b58eebccc2" type="webcontent" href="wiki_content/lesson-15-dot-5-media-queries-4-percentages.html">
+      <file href="wiki_content/lesson-15-dot-5-media-queries-4-percentages.html"/>
+    </resource>
+    <resource identifier="g239b707db425d25c32233879a8baa6c5" type="webcontent" href="wiki_content/lesson-17-dot-2-navigation.html">
+      <file href="wiki_content/lesson-17-dot-2-navigation.html"/>
+    </resource>
+    <resource identifier="gaa5f89a7f21874c4e04de4a517ea69a8" type="webcontent" href="wiki_content/lesson-17-dot-3-styling-the-navigation-bar.html">
+      <file href="wiki_content/lesson-17-dot-3-styling-the-navigation-bar.html"/>
+    </resource>
+    <resource identifier="gae472157776f99c12d4122164e0d046e" type="webcontent" href="wiki_content/lesson-18-school-wesite.html">
+      <file href="wiki_content/lesson-18-school-wesite.html"/>
+    </resource>
+    <resource identifier="g7a36e15000d0ef7cf91769dd1ed2f61f" type="webcontent" href="wiki_content/lesson-21-dot-5-data-types-booleans.html">
+      <file href="wiki_content/lesson-21-dot-5-data-types-booleans.html"/>
+    </resource>
+    <resource identifier="g6f8d74f471146f5a47932da74931c84d" type="webcontent" href="wiki_content/monday-introduction-to-javascript.html">
+      <file href="wiki_content/monday-introduction-to-javascript.html"/>
+    </resource>
+    <resource identifier="g33e9704603ff0006a490a3360a6af35c" type="webcontent" href="wiki_content/lesson-21-dot-1-console.html">
+      <file href="wiki_content/lesson-21-dot-1-console.html"/>
+    </resource>
+    <resource identifier="g448d4ddd1b358ff18aab31e74d47e9de" type="webcontent" href="wiki_content/lesson-21-dot-3-introduction-to-data-type-strings.html">
+      <file href="wiki_content/lesson-21-dot-3-introduction-to-data-type-strings.html"/>
+    </resource>
+    <resource identifier="g60b8a2c88667e32fab68891e1b45cc20" type="webcontent" href="wiki_content/lesson-21-dot-4-data-types-numbers.html">
+      <file href="wiki_content/lesson-21-dot-4-data-types-numbers.html"/>
+    </resource>
+    <resource identifier="ge74ea98367fc3a3b61ec13490c7c64eb" type="webcontent" href="wiki_content/lesson-21-dot-6-math-operators.html">
+      <file href="wiki_content/lesson-21-dot-6-math-operators.html"/>
+    </resource>
+    <resource identifier="g4e7418aa1612ab2d47d70aef831cdab7" type="webcontent" href="wiki_content/lesson-21-dot-8-math-operator-exercise.html">
+      <file href="wiki_content/lesson-21-dot-8-math-operator-exercise.html"/>
+    </resource>
+    <resource identifier="gf318c7cf65b0e04640d49f0d4f6922a3" type="webcontent" href="wiki_content/lesson-22-dot-8-fun-with-strings-getting-a-single-character.html">
+      <file href="wiki_content/lesson-22-dot-8-fun-with-strings-getting-a-single-character.html"/>
+    </resource>
+    <resource identifier="g62b98e0d05bc3b3ee85f73e851b1a5b4" type="webcontent" href="wiki_content/lesson-22-dot-9-fun-with-strings-cutting-up-strings.html">
+      <file href="wiki_content/lesson-22-dot-9-fun-with-strings-cutting-up-strings.html"/>
+    </resource>
+    <resource identifier="g677cbf172f7690a6706acfb2c9705c4a" type="webcontent" href="wiki_content/lesson-22-dot-12-comparison-operator.html">
+      <file href="wiki_content/lesson-22-dot-12-comparison-operator.html"/>
+    </resource>
+    <resource identifier="gbc4c43e2976a591b346e93db5348f66b" type="webcontent" href="wiki_content/lesson-22-dot-13-logical-operator.html">
+      <file href="wiki_content/lesson-22-dot-13-logical-operator.html"/>
+    </resource>
+    <resource identifier="gc89bbb1d649888eb1a04f081ec9c4bed" type="webcontent" href="wiki_content/lesson-22-dot-14-logical-operators-or-||.html">
+      <file href="wiki_content/lesson-22-dot-14-logical-operators-or-||.html"/>
+    </resource>
+    <resource identifier="g3aebff010d29493b93776c36c2ee9b5c" type="webcontent" href="wiki_content/lesson-22-dot-15-logical-operator-not.html">
+      <file href="wiki_content/lesson-22-dot-15-logical-operator-not.html"/>
+    </resource>
+    <resource identifier="g46fad6fca73394c907f1e4c9576e6d7e" type="webcontent" href="wiki_content/lesson-24-dot-3-deleting-properties.html">
+      <file href="wiki_content/lesson-24-dot-3-deleting-properties.html"/>
+    </resource>
+    <resource identifier="g3765b30a74d1509edf85feb1494f134b" type="webcontent" href="wiki_content/lesson-24-dot-4-nested-objects.html">
+      <file href="wiki_content/lesson-24-dot-4-nested-objects.html"/>
+    </resource>
+    <resource identifier="g3a3459ec324226242a72140cdcf052db" type="webcontent" href="wiki_content/lesson-24-dot-6-an-array-of-friends.html">
+      <file href="wiki_content/lesson-24-dot-6-an-array-of-friends.html"/>
+    </resource>
+    <resource identifier="g23ccb1f29502d2ce027af0cd4286ca37" type="webcontent" href="wiki_content/lesson-24-dot-7-animal-fun-fact-challenge.html">
+      <file href="wiki_content/lesson-24-dot-7-animal-fun-fact-challenge.html"/>
+    </resource>
+    <resource identifier="g65f431fd699bccc21a1d978bfbfc43be" type="webcontent" href="wiki_content/wednesday-lesson-25-dot-0-introduction-conditional-and-loops.html">
+      <file href="wiki_content/wednesday-lesson-25-dot-0-introduction-conditional-and-loops.html"/>
+    </resource>
+    <resource identifier="g738cb440793d26a251e79dd40c48e4de" type="webcontent" href="wiki_content/lesson-25-dot-5-if-dot-dot-dot-else-statement.html">
+      <file href="wiki_content/lesson-25-dot-5-if-dot-dot-dot-else-statement.html"/>
+    </resource>
+    <resource identifier="g225b26f3bce04d3a2083b3eba1bda2fa" type="webcontent" href="wiki_content/lesson-25-dot-6-else-if-statement.html">
+      <file href="wiki_content/lesson-25-dot-6-else-if-statement.html"/>
+    </resource>
+    <resource identifier="gaa027bf21c42c650bc4db6093ed83b49" type="webcontent" href="wiki_content/lesson-25-dot-8-for-loop.html">
+      <file href="wiki_content/lesson-25-dot-8-for-loop.html"/>
+    </resource>
+    <resource identifier="g2732e27c1f3901d6a5c6be50878b370c" type="webcontent" href="wiki_content/lesson-25-dot-9-for-loops-and-if-statements.html">
+      <file href="wiki_content/lesson-25-dot-9-for-loops-and-if-statements.html"/>
+    </resource>
+    <resource identifier="gfaa0a715d2e56bfe6c4ca41e92caa4b5" type="webcontent" href="wiki_content/lesson-25-dot-13-not-operator.html">
+      <file href="wiki_content/lesson-25-dot-13-not-operator.html"/>
+    </resource>
+    <resource identifier="g85efb5f675f3d8cc3a1cc57a0744f832" type="webcontent" href="wiki_content/lesson-26-dot-4-looping-through-functions.html">
+      <file href="wiki_content/lesson-26-dot-4-looping-through-functions.html"/>
+    </resource>
+    <resource identifier="g8e8e9c173b55e513c56fec0515036fc9" type="webcontent" href="wiki_content/lesson-26-dot-5-passing-multiple-arguments-to-a-function.html">
+      <file href="wiki_content/lesson-26-dot-5-passing-multiple-arguments-to-a-function.html"/>
+    </resource>
+    <resource identifier="g35e000b955fe724252fc3c7d4b1a56a4" type="webcontent" href="wiki_content/lesson-27-dot-3-math-dot-floor.html">
+      <file href="wiki_content/lesson-27-dot-3-math-dot-floor.html"/>
+    </resource>
+    <resource identifier="gf66c93dfbf6e126c5e1f07899aedf625" type="webcontent" href="wiki_content/team-week-objectives.html">
+      <file href="wiki_content/team-week-objectives.html"/>
+    </resource>
+    <resource identifier="gea192bad007ed33c836adeb1a2ca51f3" type="webcontent" href="wiki_content/prep-expectations.html">
+      <file href="wiki_content/prep-expectations.html"/>
+    </resource>
+    <resource identifier="g775f28dce5afcaccfa9f2b57c37053b6" type="webcontent" href="wiki_content/lesson-1-dot-7-title.html">
+      <file href="wiki_content/lesson-1-dot-7-title.html"/>
+    </resource>
+    <resource identifier="g72dc52ac97ce79bad17b0089ba25d6aa" type="webcontent" href="wiki_content/lesson-22-dot-2-camelcase.html">
+      <file href="wiki_content/lesson-22-dot-2-camelcase.html"/>
+    </resource>
+    <resource identifier="g97822a299ce7b08860aa39c49e7f1945" type="webcontent" href="wiki_content/lesson-22-dot-6-fun-with-strings-concantenation.html">
+      <file href="wiki_content/lesson-22-dot-6-fun-with-strings-concantenation.html"/>
+    </resource>
+    <resource identifier="g1454bcfe6bb532d760b946750d6495e4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1454bcfe6bb532d760b946750d6495e4/roll-call-attendance.html">
+      <file href="g1454bcfe6bb532d760b946750d6495e4/roll-call-attendance.html"/>
+      <file href="g1454bcfe6bb532d760b946750d6495e4/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g34b1f2e6d9b143d6a8085aa15a478253" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g34b1f2e6d9b143d6a8085aa15a478253/week-1-independent-project-|-favorite-band.html">
+      <file href="g34b1f2e6d9b143d6a8085aa15a478253/week-1-independent-project-|-favorite-band.html"/>
+      <file href="g34b1f2e6d9b143d6a8085aa15a478253/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ge3f2b443d505c5ac085ff44f14c87467" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge3f2b443d505c5ac085ff44f14c87467/week-1-independent-project-|-photography-website.html">
+      <file href="ge3f2b443d505c5ac085ff44f14c87467/week-1-independent-project-|-photography-website.html"/>
+      <file href="ge3f2b443d505c5ac085ff44f14c87467/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g32c5f30589e180f3dd938978a0110aaf" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g32c5f30589e180f3dd938978a0110aaf/week-2-independent-project-|-anitas-kitchen.html">
+      <file href="g32c5f30589e180f3dd938978a0110aaf/week-2-independent-project-|-anitas-kitchen.html"/>
+      <file href="g32c5f30589e180f3dd938978a0110aaf/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g892d516cbbf61c26ed3fb581e2adc476" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g892d516cbbf61c26ed3fb581e2adc476/week-2-independent-project-|-streetfood-website.html">
+      <file href="g892d516cbbf61c26ed3fb581e2adc476/week-2-independent-project-|-streetfood-website.html"/>
+      <file href="g892d516cbbf61c26ed3fb581e2adc476/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g5d425c823bb9768186e7b569169e3609" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g5d425c823bb9768186e7b569169e3609/week-3-independent-project-|-dairy-business.html">
+      <file href="g5d425c823bb9768186e7b569169e3609/week-3-independent-project-|-dairy-business.html"/>
+      <file href="g5d425c823bb9768186e7b569169e3609/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g8463dbd2119c316bd090f5e5c49a08b4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g8463dbd2119c316bd090f5e5c49a08b4/week-3-independent-project-|-dairy-business-copy.html">
+      <file href="g8463dbd2119c316bd090f5e5c49a08b4/week-3-independent-project-|-dairy-business-copy.html"/>
+      <file href="g8463dbd2119c316bd090f5e5c49a08b4/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g9227c5e5dea13d2689cffacbe581e3c1" type="imsdt_xmlv1p1">
+      <file href="g9227c5e5dea13d2689cffacbe581e3c1.xml"/>
+      <dependency identifierref="g2227905d3295b459053604f84879cc72"/>
+    </resource>
+    <resource identifier="g2227905d3295b459053604f84879cc72" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2227905d3295b459053604f84879cc72.xml">
+      <file href="g2227905d3295b459053604f84879cc72.xml"/>
+    </resource>
+    <resource identifier="g3ff9e8efe59b21b1de112f3d26d50b27" type="imsdt_xmlv1p1">
+      <file href="g3ff9e8efe59b21b1de112f3d26d50b27.xml"/>
+      <dependency identifierref="g8e02acf34418e09edb9ead08f3f3b5eb"/>
+    </resource>
+    <resource identifier="g8e02acf34418e09edb9ead08f3f3b5eb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g8e02acf34418e09edb9ead08f3f3b5eb.xml">
+      <file href="g8e02acf34418e09edb9ead08f3f3b5eb.xml"/>
+    </resource>
+    <resource identifier="gd5fce2c66f2da259da36716625ad44d8" type="imsdt_xmlv1p1">
+      <file href="gd5fce2c66f2da259da36716625ad44d8.xml"/>
+      <dependency identifierref="g3a3bd38e7656a0f3322a0c0099a51ce5"/>
+    </resource>
+    <resource identifier="g3a3bd38e7656a0f3322a0c0099a51ce5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g3a3bd38e7656a0f3322a0c0099a51ce5.xml">
+      <file href="g3a3bd38e7656a0f3322a0c0099a51ce5.xml"/>
+    </resource>
+    <resource identifier="gfc83d1d7b0d0c38c7e339f539e1e1d17" type="imsdt_xmlv1p1">
+      <file href="gfc83d1d7b0d0c38c7e339f539e1e1d17.xml"/>
+      <dependency identifierref="gb25e1eaa7e4be2564c795cdf5fdeb6f9"/>
+    </resource>
+    <resource identifier="gb25e1eaa7e4be2564c795cdf5fdeb6f9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gb25e1eaa7e4be2564c795cdf5fdeb6f9.xml">
+      <file href="gb25e1eaa7e4be2564c795cdf5fdeb6f9.xml"/>
+    </resource>
+    <resource identifier="g825a046faefea69ca2c400fbe6c1779f" type="imsdt_xmlv1p1">
+      <file href="g825a046faefea69ca2c400fbe6c1779f.xml"/>
+      <dependency identifierref="gfaadd479234d0cdda8a5461d9dbc21db"/>
+    </resource>
+    <resource identifier="gfaadd479234d0cdda8a5461d9dbc21db" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gfaadd479234d0cdda8a5461d9dbc21db.xml">
+      <file href="gfaadd479234d0cdda8a5461d9dbc21db.xml"/>
+    </resource>
+    <resource identifier="gd3e595c298fc7eae94c319d5f1e97675" type="imsdt_xmlv1p1">
+      <file href="gd3e595c298fc7eae94c319d5f1e97675.xml"/>
+      <dependency identifierref="gfd20c4e58938ab5e8d0f6aca19da8d60"/>
+    </resource>
+    <resource identifier="gfd20c4e58938ab5e8d0f6aca19da8d60" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gfd20c4e58938ab5e8d0f6aca19da8d60.xml">
+      <file href="gfd20c4e58938ab5e8d0f6aca19da8d60.xml"/>
+    </resource>
+    <resource identifier="ga43f9d2b1f9d8e391e9b546fd7d15bf2" type="imsdt_xmlv1p1">
+      <file href="ga43f9d2b1f9d8e391e9b546fd7d15bf2.xml"/>
+      <dependency identifierref="g91079505ceb799ae5f93c94592efd586"/>
+    </resource>
+    <resource identifier="g91079505ceb799ae5f93c94592efd586" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g91079505ceb799ae5f93c94592efd586.xml">
+      <file href="g91079505ceb799ae5f93c94592efd586.xml"/>
+    </resource>
+    <resource identifier="gdae30b684b840dd974afd31cb5c0584f" type="imsdt_xmlv1p1">
+      <file href="gdae30b684b840dd974afd31cb5c0584f.xml"/>
+      <dependency identifierref="g28cea9d38736ad90eff37862ab61fe9e"/>
+    </resource>
+    <resource identifier="g28cea9d38736ad90eff37862ab61fe9e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g28cea9d38736ad90eff37862ab61fe9e.xml">
+      <file href="g28cea9d38736ad90eff37862ab61fe9e.xml"/>
+    </resource>
+    <resource identifier="g1e50bf1d91a3b731637722b07cfbcbd1" type="imswl_xmlv1p1">
+      <file href="g1e50bf1d91a3b731637722b07cfbcbd1.xml"/>
+    </resource>
+    <resource type="webcontent" identifier="ged7f4a31a5ef3ead1d4344bee8f928a8" href="web_resources/2020-03-20-104816_1600x900_scrot.png">
+      <file href="web_resources/2020-03-20-104816_1600x900_scrot.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ge29e48ba1d815e0cb1944b8db4b141be" href="web_resources/MP-W1D1-03-atom_hello_world.jpg">
+      <file href="web_resources/MP-W1D1-03-atom_hello_world.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="ge3ab51183863fb689d343ae0fae40f8a" href="web_resources/MP-W1D1-03-new_repo_screen-1.png">
+      <file href="web_resources/MP-W1D1-03-new_repo_screen-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g4fc63178506cc71f824aa0dc876fcf77" href="web_resources/MP-W1D1-04-empty_repo.png">
+      <file href="web_resources/MP-W1D1-04-empty_repo.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gec7fa05bb08bafecb508e894e2c24df4" href="web_resources/MP-W1D1-06-submodule.png">
+      <file href="web_resources/MP-W1D1-06-submodule.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g28a2fd6a5af581793e6419e079bf1aa6" href="web_resources/MP-W1D2-02-failed_to_load_resource.png">
+      <file href="web_resources/MP-W1D2-02-failed_to_load_resource.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g05089ab5ea7811bda1165b40a490b331" href="web_resources/MP-W1D2-03-inspect_element_dock_options.png">
+      <file href="web_resources/MP-W1D2-03-inspect_element_dock_options.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb13ea46d5033040582618ccc2d6a753d" href="web_resources/MP-W1D2-04-overridden_rules.png">
+      <file href="web_resources/MP-W1D2-04-overridden_rules.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g6838a7691d8b44812246f8552eb1d9de" href="web_resources/Tuesday Content Images/MP-W1D2-05-github_branch_tab.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-05-github_branch_tab.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ge0a0927957691f31fec4e041e11665ea" href="web_resources/Tuesday Content Images/MP-W1D2-06-github_branch_delete.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-06-github_branch_delete.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb907cc543575406a0707f75f3cefb959" href="web_resources/Tuesday Content Images/MP-W1D2-07-github_repo_main.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-07-github_repo_main.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd1ce3eb5f7ea4c7cc7f57895f21b5e28" href="web_resources/Tuesday Content Images/MP-W1D2-08-github_branch_dropdown.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-08-github_branch_dropdown.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g3472fa89712c82f70ac736d1fbb4c2e8" href="web_resources/Tuesday Content Images/MP-W1D2-09-project_structure_branching.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-09-project_structure_branching.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ga54bb6d09ba5c1491076bfd93c738e5e" href="web_resources/Tuesday Content Images/MP-W1D2-10-test_site_blue_headers.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-10-test_site_blue_headers.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gf9994cf24a4281d74499315be9af6fca" href="web_resources/Tuesday Content Images/MP-W1D2-11-test_site_blue_theme.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-11-test_site_blue_theme.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g2dd36cf958c82e5c66b8df667138e574" href="web_resources/Tuesday Content Images/MP-W1D2-13-flow_chart_1.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-13-flow_chart_1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb179232b01abfd9e66b4e208e7c0f96b" href="web_resources/Tuesday Content Images/MP-W1D2-14-test_site_red_theme.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-14-test_site_red_theme.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g685bbc89c2de408718cf194311d7a786" href="web_resources/Tuesday Content Images/MP-W1D2-15-flow_chart_2.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-15-flow_chart_2.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd9332c9cfcd8a121319b3789ecd214d0" href="web_resources/Tuesday Content Images/MP-W1D2-16-red_theme_sans_serif.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-16-red_theme_sans_serif.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ge67d65cd0600e3b0dfce33274d48a372" href="web_resources/Tuesday Content Images/MP-W1D2-17-flow_chart_3.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-17-flow_chart_3.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gde37602b66034c3297d2d459937ce343" href="web_resources/Tuesday Content Images/MP-W1D2-18-flow_chart_4.png">
+      <file href="web_resources/Tuesday Content Images/MP-W1D2-18-flow_chart_4.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g5eb19caa30628335cb3dc0640226a5b0" href="web_resources/Tuesday Content Images/fork-button-1.png">
+      <file href="web_resources/Tuesday Content Images/fork-button-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gf45aabb2f8ec1f423def822fc86bf736" href="web_resources/Uploaded Media/1611269229584.jpeg">
+      <file href="web_resources/Uploaded Media/1611269229584.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="g9f79135c473bcc48b9f06d7bfa1e8eb8" href="web_resources/Uploaded Media/Hel.png">
+      <file href="web_resources/Uploaded Media/Hel.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g3c6b3c1da06cfc6e74255c10e26b8546" href="web_resources/Uploaded Media/Kijabe.png">
+      <file href="web_resources/Uploaded Media/Kijabe.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g4ae1cf7a814ca6746185da397d9c4508" href="web_resources/Uploaded Media/Laptop.jpeg">
+      <file href="web_resources/Uploaded Media/Laptop.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="gc90cf34ad696222f7a689f62010fa827" href="web_resources/Uploaded Media/Lesson1.png">
+      <file href="web_resources/Uploaded Media/Lesson1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb1d6d2233291b52a66c844bc5a261fdb" href="web_resources/Uploaded Media/Lineup.png">
+      <file href="web_resources/Uploaded Media/Lineup.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g177b3016b44c0a91d4af971ce9f82a11" href="web_resources/Uploaded Media/Navbar.png">
+      <file href="web_resources/Uploaded Media/Navbar.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd9acb89c4779865477db7ae99a296f48" href="web_resources/Uploaded Media/Project2.png">
+      <file href="web_resources/Uploaded Media/Project2.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g6a3e0ae6b5658456a7a7d66295157ea7" href="web_resources/Uploaded Media/StreetFood.png">
+      <file href="web_resources/Uploaded Media/StreetFood.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd3640e0d58b23297ea4d76f33496f9f2" href="web_resources/Uploaded Media/Tablet.jpeg">
+      <file href="web_resources/Uploaded Media/Tablet.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="g5ab8b15ab2eb607c3a8771803ee44b2b" href="web_resources/Uploaded Media/big cats.png">
+      <file href="web_resources/Uploaded Media/big cats.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb3c0713721313de8c3f8613c351f96e3" href="web_resources/Uploaded Media/body.png">
+      <file href="web_resources/Uploaded Media/body.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g3f43b242fe771f767131127f1e75254c" href="web_resources/Uploaded Media/code_results.png">
+      <file href="web_resources/Uploaded Media/code_results.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd24dc98e896a0ba31693faa969d661d4" href="web_resources/Uploaded Media/code_runner.png">
+      <file href="web_resources/Uploaded Media/code_runner.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g737fe298ae48bc731a4e57f431e3316d" href="web_resources/Uploaded Media/desktop.jpeg">
+      <file href="web_resources/Uploaded Media/desktop.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="g44e19e4419bd8b41317f5f6cb13c4796" href="web_resources/Uploaded Media/extensions-view-icon.png">
+      <file href="web_resources/Uploaded Media/extensions-view-icon.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g35bbb9739ca35bb8f8c6d12f28d82c44" href="web_resources/Uploaded Media/flex.png">
+      <file href="web_resources/Uploaded Media/flex.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g99dd7e124fcd4273274f3bcde2edced8" href="web_resources/Uploaded Media/go.png">
+      <file href="web_resources/Uploaded Media/go.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gd4df74f0ec83906bd7075656e0bbdd1b" href="web_resources/Uploaded Media/padding-1.png">
+      <file href="web_resources/Uploaded Media/padding-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gea6ccf8c7bad4cd368724640fc9b9f59" href="web_resources/Uploaded Media/padding.png">
+      <file href="web_resources/Uploaded Media/padding.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g7bff1c11f4bac905d6d6b41f5f912137" href="web_resources/Uploaded Media/play.png">
+      <file href="web_resources/Uploaded Media/play.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ge93f68fed96fce38970d3779be701865" href="web_resources/Uploaded Media/rendered page.png">
+      <file href="web_resources/Uploaded Media/rendered page.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ga52b3c13b856d8e76f852f3737a1a19e" href="web_resources/Uploaded Media/space launch-1.png">
+      <file href="web_resources/Uploaded Media/space launch-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gfd0ab2c6fff3616ff6bababec5692de4" href="web_resources/Uploaded Media/space launch.png">
+      <file href="web_resources/Uploaded Media/space launch.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g6236e08f5949fb29f104b1e3f1e755a3" href="web_resources/Uploaded Media/tags.png">
+      <file href="web_resources/Uploaded Media/tags.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gbcbce3561c9f21e43546930b866868f6" href="web_resources/Uploaded Media/tittle-1.png">
+      <file href="web_resources/Uploaded Media/tittle-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g55948f0742983c5ae089de5fa06afbcf" href="web_resources/Uploaded Media/tittle.png">
+      <file href="web_resources/Uploaded Media/tittle.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g218ced490104bfeeaaba2458875508d0" href="web_resources/Uploaded Media/vscode_extension.png">
+      <file href="web_resources/Uploaded Media/vscode_extension.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g075c9118b7c46c473168dc44007958af" href="web_resources/Uploaded Media/windows button.jpg">
+      <file href="web_resources/Uploaded Media/windows button.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g4fcd3f4a7574a43c442e8192ba4e8623" href="web_resources/unfiled/2020-03-23-024723_1600x900_scrot.png">
+      <file href="web_resources/unfiled/2020-03-23-024723_1600x900_scrot.png"/>
+    </resource>
+  </resources>
+</manifest>

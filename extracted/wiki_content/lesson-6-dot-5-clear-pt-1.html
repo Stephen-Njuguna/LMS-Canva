@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 6.5: Clear pt 1</title>
+<meta name="identifier" content="gdc0165a8b859fd09125462ebc7922921"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction:</h3>
+<ul>
+<li>As you may have noticed, setting the clear property to none has no effect, since it is the default value.</li>
+<li>To actually clear an element, we set the clear property to either<span>&nbsp;</span><strong>left</strong>,<span>&nbsp;</span><strong>right</strong>.</li>
+<li>When set to right, the elements cleared elements floated to the right.</li>
+<li>Likewise, when cleared left, the element clears elements floated left.</li>
+</ul>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>clear</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>,&nbsp;</span></em><em>index.css and style.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" type="text/css" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Clear&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="f-right"&gt;&lt;p&gt;I am floated right&lt;/p&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="c-left"&gt;&lt;p&gt;I am cleared left&lt;/p&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="c-right"&gt;&lt;p&gt;I am cleared right&lt;/p&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file</li>
+</ul>
+<div>
+<div>
+<pre>div {<br>&nbsp; height: 200px;<br>&nbsp; width: 200px;<br>&nbsp; margin: 5px;<br>&nbsp; background-color: rgb(120, 4, 237);<br>&nbsp; background-clip: border-box;<br>&nbsp; box-shadow: 5px 5px 2em;<br>&nbsp; text-align: center;<br>}<br><br>f-right {<br>&nbsp; float: right;<br>}</pre>
+</div>
+</div>
+<ul>
+<li>Run the code to see the&nbsp; initial appearance of the page</li>
+<li>Add your CSS in the<span>&nbsp;</span><em>style.css</em><span>&nbsp;</span>file and remember to link it to the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file.</li>
+<li>Set the value of the<span>&nbsp;</span><code>clear</code><span>&nbsp;</span>property for the element with the class c-right to<span>&nbsp;</span><code>right</code>.</li>
+<li>Set the value of the<span>&nbsp;</span><code>clear</code><span>&nbsp;</span>property for the element with the class c-left to<span>&nbsp;</span><code>left</code>.</li>
+<li>Refresh the page to see the changes&nbsp;</li>
+</ul>
+</body>
+</html>
