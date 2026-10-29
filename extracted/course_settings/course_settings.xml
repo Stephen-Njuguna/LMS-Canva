@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course identifier="gb39db5dac44cc6c1c92afd1b0e14cbb5" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>SD- Pre - Prep</title>
+  <course_code>Pre-Prep-BD</course_code>
+  <start_at/>
+  <conclude_at/>
+  <is_public>false</is_public>
+  <is_public_to_auth_users>false</is_public_to_auth_users>
+  <public_syllabus>false</public_syllabus>
+  <public_syllabus_to_auth>false</public_syllabus_to_auth>
+  <allow_student_wiki_edits>false</allow_student_wiki_edits>
+  <allow_student_forum_attachments>true</allow_student_forum_attachments>
+  <lock_all_announcements>true</lock_all_announcements>
+  <default_wiki_editing_roles>teachers</default_wiki_editing_roles>
+  <allow_student_organized_groups>true</allow_student_organized_groups>
+  <default_view>modules</default_view>
+  <open_enrollment>false</open_enrollment>
+  <self_enrollment>false</self_enrollment>
+  <license>private</license>
+  <indexed>false</indexed>
+  <hide_final_grade>false</hide_final_grade>
+  <hide_distribution_graphs>false</hide_distribution_graphs>
+  <allow_student_discussion_topics>true</allow_student_discussion_topics>
+  <allow_student_discussion_editing>true</allow_student_discussion_editing>
+  <show_announcements_on_home_page>false</show_announcements_on_home_page>
+  <home_page_announcement_limit>3</home_page_announcement_limit>
+  <enable_offline_web_export>true</enable_offline_web_export>
+  <usage_rights_required>false</usage_rights_required>
+  <restrict_student_future_view>true</restrict_student_future_view>
+  <restrict_student_past_view>false</restrict_student_past_view>
+  <restrict_enrollments_to_course_dates>true</restrict_enrollments_to_course_dates>
+  <homeroom_course>false</homeroom_course>
+  <grading_standard_enabled>false</grading_standard_enabled>
+  <storage_quota>524288000</storage_quota>
+  <overridden_course_visibility/>
+  <root_account_uuid>f7psXsJDwVKchf9ff7s4us8fe44UKMfDPh2Hhudx</root_account_uuid>
+  <default_post_policy>
+    <post_manually>false</post_manually>
+  </default_post_policy>
+</course>

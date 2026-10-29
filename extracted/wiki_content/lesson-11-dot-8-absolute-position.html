@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 11.8: Absolute Position</title>
+<meta name="identifier" content="gc077a69d849b3826053f7dd8b840a13c"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>Finally, we have the<span>&nbsp;</span><code>absolute</code><span>&nbsp;</span>position. If you can remember, the<span>&nbsp;</span><code>fixed</code><span>&nbsp;</span>position positions elements relative to the viewport. In the case of the<span>&nbsp;</span><code>absolute</code><span>&nbsp;</span>position, elements are aligned relative to the nearest parent element. However, should the element not have parent element, it uses the viewport as the parent element.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>absolute_position</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="parent"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Absolute position&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Positions relative to the nearest parent. In the case of my parent div the parent element is the div above&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>
+<span>Add the following css code to the</span><span>&nbsp;</span><em>index.css</em><span>&nbsp;</span><span>file</span>
+</li>
+</ul>
+<pre><span>#parent{<br>&nbsp; background-color: #C8AB83;<br>&nbsp; color: white;<br>&nbsp; padding: 10px;<br>&nbsp; height: 300px;<br>}</span></pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>In the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file, add the following code:</li>
+</ul>
+<pre>.absolute{<br>&nbsp; &nbsp;position: relative;<br>&nbsp; &nbsp;right: 0;<br>&nbsp; &nbsp;border: 3px solid #abba00;<br>}</pre>
+<ul>
+<li>
+<p>Give the div inside the div a class name "<code>absolute</code>".</p>
+</li>
+<li>
+<p><span>Refresh the page </span>to see the rendered page. You notice that the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>with the class name "<code>absolute</code>" has not moved to the right.</p>
+</li>
+<li>
+<p>Change the value of the<span>&nbsp;</span><code>position</code><span>&nbsp;</span>property of the ".absolute" selector to have the value<span>&nbsp;</span><code>absolute</code>.</p>
+</li>
+<li>
+<p>Give the ".<code>absolute</code>" selector a<span>&nbsp;</span><code>background-color</code><span>&nbsp;</span>of white and<span>&nbsp;</span><code>color</code><span>&nbsp;</span>black.</p>
+</li>
+<li>
+<p><span>Refresh the page </span>to see the rendered page. Now the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>with the class name "absolute" has moved to the right.</p>
+</li>
+</ul>
+</body>
+</html>

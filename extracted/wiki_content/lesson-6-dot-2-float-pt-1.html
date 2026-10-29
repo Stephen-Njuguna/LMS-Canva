@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 6.2: Float pt 1</title>
+<meta name="identifier" content="g093de168c17cf1d1085d419b5d4c4103"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction:</h3>
+<ul>
+<li>To float an element to the left or right, we set its float value to left or right.</li>
+<li>For example, to float an image to the right, we write:</li>
+</ul>
+<pre><code>img {
+ float: right;
+}</code></pre>
+<ul>
+<li>This would move the image to the left until it is in contact with the edge of its containing border.</li>
+</ul>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>Float</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>, </span></em><em>index.css and style.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" type="text/css" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Float&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="left"&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="left"&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="right"&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the <em>index.css</em> file</li>
+</ul>
+<pre>body {<br>&nbsp; height: 100vh;<br>}<br>div {<br>&nbsp; margin: 5px;<br>&nbsp; width: 200px;<br>&nbsp; height: 200px;<br>}<br>.left {<br>&nbsp; background-color: rgb(252, 6, 2);<br>}<br>.right {<br>&nbsp; background-color: rgb(10, 252, 1);<br>}</pre>
+<ul>
+<li>Add your CSS to the<span>&nbsp;</span><em>style.css</em><span>&nbsp;</span>file and remember to link it to the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file.</li>
+<li>Float the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>with the class "left" to the left.</li>
+<li>Float the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>with the class "right" to the right.</li>
+<li>Run the code on your browser. <span>What do you notice about the floated elements?</span>
+</li>
+</ul>
+</body>
+</html>

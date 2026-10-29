@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 25.7: Loops: While Loops</title>
+<meta name="identifier" content="gfb2d22bfcc13c2720287cfbd9cb6968f"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>As we have seen, conditionals allow us to run a piece of code one time if a condition is<span>&nbsp;</span><code>true.</code><span>&nbsp;</span>Loops on the other hand, allow us to run a piece of code multiple times, depending on whether a condition remains<span>&nbsp;</span><code>true.</code></p>
+<p>A<span>&nbsp;</span><code>while</code><span>&nbsp;</span>loop is the simplest kind of loop. It repeatedly runs a body of code until a particular condition stops being<span>&nbsp;</span><code>true</code><span>&nbsp;</span>.</p>
+<p>We can start by creating a variable<span>&nbsp;</span><code>raining</code><span>&nbsp;</span>and assign it<span>&nbsp;</span><code>true</code><span>&nbsp;</span>.</p>
+<pre><code class="language-js">var raining = true;</code></pre>
+<p>Now let's create a<span>&nbsp;</span><code>while</code><span>&nbsp;</span>loop to tell us that while it's raining, use an umbrella,</p>
+<pre><code class="language-js">var raining = true;
+
+while (raining) {
+console.log("Use umbrella");
+}</code></pre>
+<p>Notice that when you click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>the console displays this error<span>&nbsp;</span><code>Potential infinite loop...</code></p>
+<p>This is because we haven't specified how many times we would like the output to repeat, the computer will just take it as infinity number of times.</p>
+<p>We can exit an infinite loop by using the<span>&nbsp;</span><code>break</code><span>&nbsp;</span>statement. We can do this using the<span>&nbsp;</span><code>if</code><span>&nbsp;</span>statement and a comparison operator. We will go deeper into this further in the lesson.</p>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it&nbsp;</span><em>while_loop.js.</em>
+</li>
+<li>Type the code above&nbsp;</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console.</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 14.2: CSS text shadow</title>
+<meta name="identifier" content="g1f99eb66409f3686ab1e95ff2ec9c6c9"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>To add shadows to only the text in an element, we use the<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>CSS property. The<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>property takes multiple values. We will go over them using the example below:</p>
+<pre><code>#shadow{</code></pre>
+<pre><code>  text-shadow: 2px 2px 5px #c0c0c0;</code></pre>
+<pre><code>  padding: 10px;</code></pre>
+<pre><code>}</code></pre>
+<p>The first two values of the<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>are the horizontal and vertical values of the shadow respectively.</p>
+<p>The first value defines the horizontal value. The greater the horizontal value, the farther away the shadow moves, in the right (opposite of left) direction.</p>
+<p>The second value defines the vertical value. The greater the vertical value, the farther away the shadow moves, downwards.</p>
+<p>These two values<span>&nbsp;</span><strong>MUST</strong><span>&nbsp;</span>be included when using the<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>property.</p>
+<p>The third value is used to specify the amount of blur of the shadow. When we increase the number of pixels of the third value, the higher the amount of blur of the shadow.</p>
+<p><strong>NOTE:</strong><span>&nbsp;</span>Using too much of the third value (the blur value) makes the shadows look bad, hence 5px is recommended as the value.</p>
+<p>The fourth value is used to define the color of the shadow. You can use hexadecimal codes or even rgb values to define the color.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>We'll use the same code we used in the previous lesson.</li>
+<li>Give the p element an id of "shadow".</li>
+<li>Style the p element using the shadow id selector to have the following:
+<ul>
+<li>
+<pre><code>Set the `padding` to have a value of 5px</code></pre>
+</li>
+<li>
+<pre><code>Set the `font-size` to have a value of 24px.</code></pre>
+</li>
+<li>
+<pre><code>Set the `text-shadow` to have the value of `2px 2px 0px yellow`.</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><span>Refresh the page </span>to see the rendered page with the p element having a yellow shadow behind it.</p>
+</li>
+<li>
+<p>Change the first two values of the<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>property to be<span>&nbsp;</span><code>3px 3px</code>.</p>
+</li>
+<li>
+<p>Change the third value of the<span>&nbsp;</span><code>text-shadow</code><span>&nbsp;</span>property to be<span>&nbsp;</span><code>5px</code>.</p>
+</li>
+<li>
+<p><span>Refresh the page </span>to see the rendered page. Notice the change in the positioning of the shadow and also the increased blur of the shadow.</p>
+</li>
+</ul>
+</body>
+</html>

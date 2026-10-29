@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 26.6: Returning Values From A Function</title>
+<meta name="identifier" content="g2e08a3966e5fe235dae623bc86b3e2af"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>So far we have been printing text to the console using<span>&nbsp;</span><code>console.log()</code><span>&nbsp;</span>It's a great way to display values on the console however, we may not be able to use that value later in the program. When you call a function, it returns a value, and you can use that value for the rest of your code. .</p>
+<p>This time, instead of using<span>&nbsp;</span><code>console.log()</code><span>&nbsp;</span>we will use<span>&nbsp;</span><code>return</code><span>&nbsp;</span>here's how:</p>
+<p>Let's create a funtion that doubles a number.</p>
+<pre><code class="language-js">var double = function ( number ) {
+	return number * 2;
+};</code></pre>
+<p>We can now double any number we pass through our argument<span>&nbsp;</span><code>number</code></p>
+<pre><code class="language-js">var double = function ( number ) {
+	return number * 2;
+};
+
+double(3);</code></pre>
+<p><code>3</code><span>&nbsp;</span>will be passed to number in the parenthesis and then return<span>&nbsp;</span><code>number 2</code><span>&nbsp;</span>which is<span>&nbsp;</span><code>6</code><span>&nbsp;</span>.</p>
+<p><em>NB: if you don't tell the function to return anything, it will return undefined .</em></p>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it&nbsp; returning_values_from_functions</span><em>.js.</em>
+</li>
+<li>Type the code above</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console.</li>
+<li>Create a new function that triples a number, name variable<span>&nbsp;</span><code>triple</code><span>&nbsp;</span>and the argument<span>&nbsp;</span><code>number</code><span>&nbsp;</span>.</li>
+<li>Pass<span>&nbsp;</span><code>4</code><span>&nbsp;</span>into the function.</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results.</li>
+</ol>
+</body>
+</html>

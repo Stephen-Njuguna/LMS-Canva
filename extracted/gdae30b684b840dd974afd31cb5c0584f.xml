@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1  http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imsdt_v1p1.xsd">
+  <title>New Slack Workspace</title>
+  <text texttype="text/html">&lt;p&gt;We have successfully moved into a new slack workspace to support your learning.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Previous workspace: moringaschool&lt;/p&gt;
+&lt;p&gt;Current workspace: moringaclassroom&lt;/p&gt;
+&lt;p&gt;You should have received invites to the new workspace, If not, please send a Direct Message from the old workspace to @boydndonga(bicycle as prof pic) and your query shall be addressed&lt;/p&gt;</text>
+  <attachments>
+    <attachment href="$IMS-CC-FILEBASE$/unfiled/2020-03-23-024723_1600x900_scrot.png"/>
+  </attachments>
+</topic>

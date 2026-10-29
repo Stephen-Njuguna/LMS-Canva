@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 4.4: Overflow</title>
+<meta name="identifier" content="g7aecb4a2d94e87c92c291627395563a0"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Introduction:</strong></p>
+<ul>
+<li>As you noticed in the previous lesson, our list looked strange after limiting the height using either an absolute value or a maximum value.</li>
+<li>We use the CSS overflow property to handle content that lies outside its content box.</li>
+<li>By default, the overflow property has its value set to visible, which is why we see elements that "overflow" outside the list box.</li>
+<li>The overflow property can take two other values, hidden and auto.</li>
+<li>Setting the value to hidden would hide the "overflowing" content, and we would not see it.</li>
+<li>Setting the value to auto on the other hand would also hide "overflowing" content but would add scroll bars allowing us to scroll and see the hidden content.</li>
+</ul>
+<p><strong>Instructions:</strong></p>
+<ul>
+<li>Create a new folder and name it overflow. Inside the folder create the index.html and index.css files.</li>
+<li>Add the following code in the index.html file;<strong></strong>
+</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt; Decision 2017&lt;/title&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css" type="text/css"&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Decision 2017&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With the general elections only a couple of weeks away, below<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; are the names of those eyeing for the country's top office:<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;2017 Presidential Candidates&lt;/h4&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Uhuru Kenyatta&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Raila Odinga&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Abduba Dida&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Ekuru Aukot&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Shakhalaga Jirongo&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Japheth Kaluyu&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Michael Mwaura&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Joseph Nyagah&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Add the following css code in the index.css file</li>
+</ul>
+<pre>ul {<br>&nbsp; border: 3px dotted grey;<br>&nbsp; &nbsp;&nbsp;<br>&nbsp; /*Add your CSS below this line*/<br>&nbsp; &nbsp;&nbsp;<br>}</pre>
+<ul>
+<li>Run the code on the browser to see how the page looks like</li>
+<li>Set the <code>height</code> and <code>width</code> of the unordered list to <code>100px</code>.</li>
+<li>Refresh the page to see the current appearance of the page after limiting the height and width&nbsp;</li>
+<li>Set the <code>overflow</code> property of the unordered list to <code>auto</code>.</li>
+<li>Refresh the page again and try scrolling on the list.</li>
+</ul>
+<p>Your css code should look like this</p>
+<pre>ul {<br>&nbsp; border: 3px dotted grey;<br>&nbsp; /*Add your CSS below this line*/<br>&nbsp;&nbsp;<br>&nbsp; &nbsp; width: 100px;<br>&nbsp; &nbsp; height: 100px;<br>&nbsp; &nbsp; overflow: auto;<br>}</pre>
+</body>
+</html>

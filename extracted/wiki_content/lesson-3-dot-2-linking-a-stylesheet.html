@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 3.2: Linking a Stylesheet</title>
+<meta name="identifier" content="gf1e17a2ec81f3615f9adad32676bbc48"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Introduction:</strong></p>
+<p>In order to style our page with CSS, we first need to link a stylesheet.</p>
+<p>A<span>&nbsp;</span><strong>stylesheet</strong><span>&nbsp;</span>is a file that contains the CSS code that styles our web page.</p>
+<p>We link the stylesheet file from our HTML file using the<span>&nbsp;</span><code>&lt;link&gt;</code><span>&nbsp;</span>tag, like this:</p>
+<pre><code>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</code></pre>
+<p><code>rel="stylesheet"</code><span>&nbsp;</span>and<span>&nbsp;</span><code>type="text/css"</code><span>&nbsp;</span>tells the browser that this link is to a CSS stylesheet.</p>
+<p><code>href="style.css"</code><span>&nbsp;</span>tells the browser it can find the CSS in a file named<span>&nbsp;</span><em>style.css</em>.</p>
+<p><strong>Instructions:</strong></p>
+<ul>
+<li>Create a new folder called <strong><em>html_things</em></strong>. Inside the folder, two files; index.html and index.css (notice this time we did not name our css stylesheet style.css. This is just to show you that you can name your css stylesheet whatever you want as long as it has the .css extension).</li>
+<li>In the index.html file, add the following code;</li>
+</ul>
+<pre style="padding-left: 40px;">&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Holiday Things&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Things to do over the holiday&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;ol&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Sleep.&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Sleep a little more.&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Sleep just a little bit more.&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Heck, just keep on sleeping!&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/ol&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;&nbsp;</pre>
+<ul>
+<li><span>Add the following CSS code to the&nbsp; .css file:</span></li>
+</ul>
+<pre style="padding-left: 40px;"><span>h1 {color: blue;}</span></pre>
+<ul>
+<li><span>Can you guess what that line does?</span></li>
+<li>
+<span>In the html file, link our css file </span>by adding this inside the head element:
+<p><code>`&lt;link rel="stylesheet" type="text/css" href="index.css"&gt;<br></code></p>
+</li>
+<li>Run the code on the browser to see what the CSS code does.</li>
+</ul>
+</body>
+</html>

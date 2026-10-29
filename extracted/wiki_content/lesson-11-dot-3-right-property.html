@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 11.3: Right Property</title>
+<meta name="identifier" content="gb5728ae8349c9637ac60c4e50da1b9ce"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>In the previous lesson, we learnt of the<span>&nbsp;</span><code>left</code><span>&nbsp;</span>property and how it works. In this lesson, we will learn about the<span>&nbsp;</span><code>right</code><span>&nbsp;</span>property which does the opposite of the<span>&nbsp;</span><code>left</code><span>&nbsp;</span>property. It sets the right margin edge of an element and also takes values in pixels. To move elements away from the right,we add more pixels and vice versa.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>right_property</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;The Right Property (Obviously not the wrong one)&lt;/h1&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;I am just here to give some perspective.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="relative"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;In the previous lesson, elements moved away from the left.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;But it's the opposite here.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;We move away from the right.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;So we're always wrong.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;We on the other hand are always on the right side of things&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;em&gt;Puns galore.&lt;/em&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>
+<span>Add the following css code to the</span><span>&nbsp;</span><em>index.css</em><span>&nbsp;</span><span>file</span>
+</li>
+</ul>
+<pre><span>div:first-child{<br>&nbsp; background-color: lime;<br>&nbsp; padding: 10px;<br>}<br>#relative{<br>&nbsp; /*delete this line and add your styling here*/<br>}<br>div:last-child{<br>&nbsp; background-color: lime;<br>&nbsp; padding: 10px;<br>}</span></pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>Set the<span>&nbsp;</span><code>right</code><span>&nbsp;</span>property of the div with the id "relative" and give it the value of<span>&nbsp;</span><code>'-30px'</code>.</li>
+<li>Give the div with the id "relative" a<span>&nbsp;</span><code>relative</code><span>&nbsp;</span>position.</li>
+<li>
+<span>Refresh the page </span>to see the rendered page and see the<span>&nbsp;</span>&lt;div&gt;<span>&nbsp;</span>having moved more to the right.</li>
+<li>Set the<span>&nbsp;</span><code>right</code><span>&nbsp;</span>property of the div with the id "relative" and give it the value of<span>&nbsp;</span><code>'30px'</code>.</li>
+<li>Refresh the page to see the rendered page with the div in its new position.</li>
+</ul>
+</body>
+</html>

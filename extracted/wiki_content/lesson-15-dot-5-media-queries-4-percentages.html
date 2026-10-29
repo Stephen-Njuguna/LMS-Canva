@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 15.5: Media queries 4 ( Percentages)</title>
+<meta name="identifier" content="g94db5ae00fed00bf02f423b58eebccc2"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>When designing responsive websites, it is recommended that when using properties such as<span>&nbsp;</span><code>width</code>, we use percentages as a value as compared to pixels because you may set a width larger than the screen width resulting in horizontal scrolling which is bad user experience. When using percentages, there's more consistency in the design of the website across different screen sizes. It gives the elements a length relative to the screen size. Therefore, instead of:</p>
+<pre><code>div{</code></pre>
+<pre><code> width: 400px;</code></pre>
+<pre><code>}</code></pre>
+<p>we will write it like:</p>
+<pre><code> div{</code></pre>
+<pre><code>  width: 100%;</code></pre>
+<pre><code>}</code></pre>
+<p>This is particularly helpful when dealing with image sizes on responsive websites. Another thing to consider when building responsive websites is the size of the background images you use. Large background images are great for desktop websites but not very useful for mobile users. Resizing the background images can result in part of the background image being hidden from the user's view.</p>
+<p>A solution for this is to have an alternate background image for mobile users. With the help of media queries we can have the responsive website display a different background image when the viewport has a different size. Let's look at an example of such:</p>
+<pre><code>body {</code></pre>
+<pre><code>    background-image: url('flowers.jpg');</code></pre>
+<pre><code> }
+/* For width 400px and smaller: */</code></pre>
+<pre><code>@media only screen and (max-width: 400px) {</code></pre>
+<pre><code>    body {</code></pre>
+<pre><code>         background-image: url('small_flower.jpg');</code></pre>
+<pre><code>     }</code></pre>
+<pre><code>}</code></pre>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it Media_queries_pt4. Inside the folder create the index.html and index.css files.</li>
+<li>Add the following code in the index.html file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Responsive design is all about making a website respond to different screen sizes and the two orientations. Long texts and elements do not go beyond the screen unless intended.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>Style the<span>&nbsp;</span><code>div</code><span>&nbsp;</span>element to have a<span>&nbsp;</span><code>width</code><span>&nbsp;</span>of 40<code>0px</code>.</li>
+<li>
+<span>Refresh the page </span>to see the rendered page and resize the result window to at least 350px in width. Notice the<span>&nbsp;</span><code>width</code><span>&nbsp;</span>of the<span>&nbsp;</span><code>div</code><span>&nbsp;</span>element causes the window to scroll horizontally.</li>
+<li>Change the width of the<span>&nbsp;</span><code>div</code><span>&nbsp;</span>element to<span>&nbsp;</span><code>70%</code>.</li>
+<li>Give the<span>&nbsp;</span><code>div</code><span>&nbsp;</span>element a<span>&nbsp;</span><code>margin</code><span>&nbsp;</span>set to<span>&nbsp;</span><code>auto</code>.</li>
+<li>
+<span>Refresh the page</span>to see the rendered page. Resize the window to 350px in width. Notice that now the width of the<span>&nbsp;</span><code>div</code><span>&nbsp;</span>element is consistent.</li>
+</ul>
+</body>
+</html>

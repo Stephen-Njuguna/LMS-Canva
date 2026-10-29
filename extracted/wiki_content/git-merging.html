@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Git Merging.</title>
+<meta name="identifier" content="gd52d08baf767bd8ba3d58fe8f63f7aa1"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>In the last lesson we explored creating and managing multiple branches in a single Git repository. As we learned, branches allow us to create multiple copies of our code. These copies may be used to experiment with implementing new code, without putting the "final version" or master branch at risk of bugs or errors.</p>
+<p>Additionally, branches can be used to simply try out different options before deciding which should end up in the final iteration of the project; like we did in the previous lesson with different sets of CSS styles.</p>
+<p>However, once we confirm the code located in a feature branch works, and that we want to include it in the final version of our project, we need to integrate this code into the master branch that represents our final product. The act of incorporating code from multiple branches together is called <strong>merging</strong>. In this lesson, we'll walk through merging branches together in our example project.</p>
+<h2>Merging Branches</h2>
+<p>Let's say we've decided to use the CSS we wrote in the<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>branch in the final version of our project. Since the master branch represents the final product, we'll need to merge the<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>branch with<span>&nbsp;</span><code>master</code>.</p>
+<p>To merge two branches you must first navigate to the branch you'd like to introduce new code into. In our case, this is the master branch, because we'd like to integrate the CSS we created in<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>into<span>&nbsp;</span><code>master</code>.</p>
+<p>Let's run<span>&nbsp;</span><code>$ git branch</code><span>&nbsp;</span>to see where we are currently located:</p>
+<pre><code>$ git branch
+  <span class="hljs-keyword">blue_t</span>heme
+  master
+* <span class="hljs-keyword">red_t</span>heme
+</code></pre>
+<p>If you followed along with the previous lesson exactly, you should still be located in<span>&nbsp;</span><code>red_theme</code>. Let's navigate into<span>&nbsp;</span><code>master</code><span>&nbsp;</span>using<span>&nbsp;</span><code>$ git checkout</code>:</p>
+<pre><code><span class="hljs-variable">$ </span>git checkout master
+<span class="hljs-constant">Switched</span> to branch <span class="hljs-string">'master'</span>
+</code></pre>
+<p>Then, we'll run<span>&nbsp;</span><code>$ git branch</code><span>&nbsp;</span>again to confirm we've successfully navigated to<span>&nbsp;</span><code>master</code>:</p>
+<pre><code>$ git branch
+  <span class="hljs-keyword">blue_t</span>heme
+* master
+  <span class="hljs-keyword">red_t</span>heme
+</code></pre>
+<p>We can use the<span>&nbsp;</span><code>$ git merge</code><span>&nbsp;</span>command to bring the contents and commits of an outside branch into our current branch. In our case, we'll bring the commits from<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>into the<span>&nbsp;</span><code>master</code><span>&nbsp;</span>branch we are currently located in. We'll run the following command:</p>
+<pre><code>$ git merge <span class="hljs-keyword">red_t</span>heme
+</code></pre>
+<p>This should result in something that looks like this:</p>
+<pre><code><span class="hljs-title">Updating</span> 982b0f2..d5bae64
+Fast-forward
+ css/styles.css | <span class="hljs-number">17</span> ++++++++++++++++-
+ <span class="hljs-number">1</span> file changed, <span class="hljs-number">16</span> insertions(+), <span class="hljs-number">1</span> deletion(-)
+</code></pre>
+<p>Now, let's run<span>&nbsp;</span><code>$ git log</code><span>&nbsp;</span>to view our commit history:</p>
+<pre><code>$ git log
+<span class="hljs-operator"><span class="hljs-keyword">commit</span> d5bae6406669988e154608ce990e08fed51e9cb3
+Author: Albert Einstien &lt;einstein@email.com&gt;
+<span class="hljs-built_in">Date</span>:   Mon Jul <span class="hljs-number">17</span> <span class="hljs-number">13</span>:<span class="hljs-number">00</span>:<span class="hljs-number">42</span> <span class="hljs-number">2017</span> -<span class="hljs-number">0700</span>
+    Make <span class="hljs-keyword">all</span> font sans-serif style.
+<span class="hljs-keyword">commit</span> <span class="hljs-number">5</span>f2d9510cdc76736c7c5cf7e5d56264cd405fcd1
+Author: Albert Einstien &lt;einstein@email.com&gt;
+<span class="hljs-built_in">Date</span>:   Mon Jul <span class="hljs-number">17</span> <span class="hljs-number">12</span>:<span class="hljs-number">51</span>:<span class="hljs-number">11</span> <span class="hljs-number">2017</span> -<span class="hljs-number">0700</span>
+    <span class="hljs-keyword">Add</span> styles <span class="hljs-keyword">to</span> h1, h2, p, <span class="hljs-keyword">and</span> body <span class="hljs-keyword">to</span> fit red theme.
+<span class="hljs-keyword">commit</span> <span class="hljs-number">982</span>b0f21463be34d909c45dd67778d6ffe3d7668
+Author: Albert Einstien &lt;einstein@email.com&gt;
+<span class="hljs-built_in">Date</span>:   Mon Jul <span class="hljs-number">17</span> <span class="hljs-number">12</span>:<span class="hljs-number">06</span>:<span class="hljs-number">35</span> <span class="hljs-number">2017</span> -<span class="hljs-number">0700</span>
+    <span class="hljs-keyword">Add</span> CSS rule <span class="hljs-keyword">to</span> make H1 headers blue.
+<span class="hljs-keyword">commit</span> <span class="hljs-number">8e36</span>f8bfd58643487565c5a4fbcb5250fed0808b
+Author: Albert Einstien &lt;einstein@email.com&gt;
+<span class="hljs-built_in">Date</span>:   Mon Jul <span class="hljs-number">17</span> <span class="hljs-number">12</span>:<span class="hljs-number">04</span>:<span class="hljs-number">27</span> <span class="hljs-number">2017</span> -<span class="hljs-number">0700</span>
+    <span class="hljs-keyword">Create</span> stylesheet, link <span class="hljs-keyword">in</span> head <span class="hljs-keyword">of</span> website.
+</span></code></pre>
+<p>Notice that the two most recent commits from<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>are now part of the commit history here in<span>&nbsp;</span><code>master</code>. This is because we merged<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>into<span>&nbsp;</span><code>master</code>. This means all code and commits from<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>have been incorporated into<span>&nbsp;</span><code>master</code>, too.</p>
+<p>The commit structure of our project across all branches currently looks like this:</p>
+<p><img src="$IMS-CC-FILEBASE$/Tuesday%20Content%20Images/MP-W1D2-18-flow_chart_4.png" alt="MP-W1D2-18-flow_chart_4.png" width="794" height="723" data-api-endpoint="https://moringaschool.instructure.com/api/v1/courses/10/files/1384" data-api-returntype="File"></p>
+<p>Notice that merging<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>with<span>&nbsp;</span><code>master</code><span>&nbsp;</span>has brought all commits previously exclusive to<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>here in<span>&nbsp;</span><code>master</code>. Also, notice that the<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>commits don't instantly disappear when we merge them into<span>&nbsp;</span><code>master</code>. They still exist in the<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>branch.</p>
+<h3>Deleting Branches</h3>
+<p>After successfully merging a branch (always confirm all of the branch's commits are present), you may delete it if you do not plan on using it further. This is safe to do because all commits<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>once contained are now present in<span>&nbsp;</span><code>master</code>. So, we don't risk losing any work.</p>
+<p>We can delete a branch using the<span>&nbsp;</span><code>$ git branch -D</code><span>&nbsp;</span>command, like this:</p>
+<pre><code><span class="hljs-variable">$ </span>git branch -<span class="hljs-constant">D</span> red_theme
+<span class="hljs-constant">Deleted</span> branch red_theme (was d5bae64).
+</code></pre>
+<p>We can run<span>&nbsp;</span><code>$ git branch</code><span>&nbsp;</span>and see<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>has been removed from the repository entirely:</p>
+<pre><code>$ git branch
+  <span class="hljs-keyword">blue_t</span>heme
+* master
+</code></pre>
+<p>And, since we opted to integrate the styles in<span>&nbsp;</span><code>red_theme</code><span>&nbsp;</span>instead of<span>&nbsp;</span><code>blue_theme</code>, we no longer need the<span>&nbsp;</span><code>blue_theme</code><span>&nbsp;</span>branch either. We'll delete it at this time, too:</p>
+<pre><code><span class="hljs-variable">$ </span>git branch -<span class="hljs-constant">D</span> blue_theme
+<span class="hljs-constant">Deleted</span> branch blue_theme (was <span class="hljs-number">268363</span>a).
+</code></pre>
+<p>Know that merging doesn't always go quite this smoothly, unfortunately. If multiple branches contain edits to the same lines of code, Git won't know which edit should supersede which, and requires the developer to manually intervene (this primarily occurs when branches are working on the same code simultaneously, and both attempt to merge with master). This is known as a merge conflict.</p>
+<p>However, we shouldn't encounter any merge conflicts quite yet. For now, simply make sure you're familiar with the general concepts of branching and merging, and able to create branches for use with GitHub Pages. We'll explore merge conflicts, what they look like, and how to resolve them later on.</p>
+<p>As you can see, merging and branching in Git is a powerful, complex feature. However, don't feel overwhelmed if you don't yet have a handle on everything we've covered in these past two lessons. Feel free to refer back to this content whenever necessary. Soon enough, branching and merging will become second nature!</p>
+</body>
+</html>

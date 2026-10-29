@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 24.5: Combining Arrays and Objects</title>
+<meta name="identifier" content="g78c4cbcf30b3ae35afdb61d15c54e9a6"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>We have already seen how we can add arrays to an object, now let us get a little bit more advanced with it.</p>
+<p>We can start by creating an array of Wambui's friends. In the array, Wambui's friends are all objects. Remember how we separated each item in an array with commas, we will do the same here. Each object is an item in the array, however, the object holds information about each friend.</p>
+<pre><code>var friends = [{
+ name: "Kiro",
+ age: 15
+    },
+    {
+ name: "Patty",
+ age: 17
+    },
+    {
+ name: "Sandy",
+ age: 14
+    }
+];</code></pre>
+<p>To get information about Wambui's second friend, we can use the same technique we used in arrays.</p>
+<pre><code class="language-js">console.log(friends[1]); // Wambui's second friend is index 1</code></pre>
+<p>Remember we start counting from 0.</p>
+<p>If we only want to get the name of Wambui's second friend, we can log the array index and use the dot notation after to get the name.</p>
+<pre><code class="language-js">console.log(friends[1].name); // "Kiro"</code></pre>
+<h3>Instructions</h3>
+<ol>
+<li>
+<span>Create a javascript file and name it&nbsp;</span><em>combining_arrays_and_objects.js.</em>
+</li>
+<li>Type the code above in the file created.</li>
+<li>Find the name of Wambui's first friend.</li>
+<li>Console log the<span>&nbsp;</span><code>age</code><span>&nbsp;</span>of her friend.</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the results in the console</li>
+</ol>
+</body>
+</html>

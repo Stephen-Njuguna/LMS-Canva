@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 7.4: Align-items</title>
+<meta name="identifier" content="g61fee6a36dcc22d9c1ed83338fee132a"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction:</h3>
+<ul>
+<li>A<em>lign-items</em><span>&nbsp;</span>determines how space is distributed between and around items along the<span>&nbsp;</span><strong>cross axis</strong><span>&nbsp;</span>of the container.</li>
+<li>This means that its effect on the layout of items is perpendicular to that of<span>&nbsp;</span><em>justify-content.</em>
+</li>
+<li>The property takes many values such as:
+<ul>
+<li>Center……………Packs items around the center.</li>
+<li>Start………………Packs items from the start.</li>
+<li>End……………….Packs items from the end.</li>
+<li>Flex-start…………Packs flex items from the start.</li>
+<li>Flex-end………….Packs flex items from the end.</li>
+<li>Left………………..Packs items from the left.</li>
+<li>Right……………...Pack items from the right.</li>
+<li>Stretch……………Items are stretched such that the cross-size of the item's margin box is the same as the line while respecting width and height constraints.</li>
+</ul>
+</li>
+</ul>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>flexbox: Align-items</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;repl.it&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;main&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;D&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;I&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;S&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;P&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;L&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;A&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;Y&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/main&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>div {<br>&nbsp; background-color: violet;<br>&nbsp; margin: 10px;<br>&nbsp; height: 100px;<br>&nbsp; width: 100px;<br>&nbsp; text-align: center;<br>}<br><br>main {<br>&nbsp; display: flex;<br>&nbsp; flex-direction: column;<br>&nbsp;&nbsp;<br>}</pre>
+<ul>
+<li>Run the code on your browser to see the initial layout of the page.</li>
+<li>Set<span>&nbsp;</span><code>align-items</code><span>&nbsp;</span>property of<span>&nbsp;</span>&lt;main&gt;<span>&nbsp;</span>to<span>&nbsp;</span><code>center</code>.</li>
+<li>Refresh the page. N<span>ote the difference in the page's layout.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+</body>
+</html>

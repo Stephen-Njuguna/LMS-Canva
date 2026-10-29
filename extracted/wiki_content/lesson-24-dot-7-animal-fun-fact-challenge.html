@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 24.7: Animal Fun Fact Challenge</title>
+<meta name="identifier" content="g23ccb1f29502d2ce027af0cd4286ca37"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p>There are so many animals in Africa. We would like tourists to know more about the animals we have in Africa. It would be great if we can store this information collectively so it's easy to access it.</p>
+<p>We will combine arrays, objects and nested objects.</p>
+<p>For this lesson, c<span>reate a javascript file and name it&nbsp;</span><em>challenge.js.</em></p>
+<p>Let's start by creating an object called<span>&nbsp;</span><code>animals</code></p>
+<pre><code class="language-js">var animals = {};</code></pre>
+<p>Next we will add facts about a few animals. In this case, we will have nest the<span>&nbsp;</span><code>animals</code><span>&nbsp;</span>facts within its name. Here's how we will do it.</p>
+<p><code>**DO NOT COPY AND PASTE CODE!**</code></p>
+<pre><code class="language-js">var animals = {
+zebra :{
+	 classification : "Mammal",
+	 appearance : [ "White with black stripes", "4 legs", "Looks like a donkey"],
+	 habitat : "Grasslands",
+	 lifespan (Years)" : 25,
+         diet : "Herbivore",
+         friendly : true	    
+       }, //remember to separate nested objects with commas
+crocodile : {
+         classification : "Reptile",
+	 appearance : [ "Long, wide mouth with many teeth", "Close relatives 
+                        to dinosaurs", "Looks like a big lizard"],
+	 habitat : "Grasslands",
+	 lifespan : 100,
+         diet : "Carnivore",
+         friendly : false
+};</code></pre>
+<p>We can easily add in new facts about another animal.</p>
+<p>Let's start by creating a new object for the last animal and add it to our<span>&nbsp;</span><code>animal</code><span>&nbsp;</span>object.</p>
+<pre><code class="language-js">var ostrich = { 
+classification : "Bird",
+appearance : [ "Big, tall bird", "2 legs", "Has a long neck"],	
+habitat : "Grasslands",</code></pre>
+<pre><code>lifespan : 45,
+diet : "Herbivore",
+friendly : true
+};</code></pre>
+<p>Now that we have created a new object, we can add it directly into our collection of fun facts as we did in<span>&nbsp;</span><em>Lesson 24.3 - Adding Values to an Object</em><span>&nbsp;</span>.</p>
+<pre><code class="language-js">animals.ostrich = ostrich;</code></pre>
+<p>We use the dot notation to create a new key property (in this case the key value is an object), we then assign it to the new object we created.</p>
+<h3>Instructions</h3>
+<ul>
+<li>Add the following animal fact into our object.</li>
+<li>Create a new object called<span>&nbsp;</span><code>shark</code>
+</li>
+<li>Add the following key-value pairs:</li>
+</ul>
+<pre style="padding-left: 40px;"><code>classification : "Fish", <br></code><code>appearance : ["Sharp teeth", "Has fins", "Has gills"], <br>habitat : "Water",<br></code><code>lifespan : 30, <br>diet : "Carnivore", <br></code><code>friendly : true</code></pre>
+<ul>
+<li>
+<p>Assign the new object <code>shark </code>to <code>aniimals.shark .</code></p>
+</li>
+<li>
+<p>Console log<span>&nbsp;</span><code>animals</code><span>&nbsp;</span>.</p>
+</li>
+<li>
+<p>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>and observe the new object on the console.</p>
+</li>
+</ul>
+</body>
+</html>

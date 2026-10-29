@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> Lesson 22.16: Hungry Customer Challenge</title>
+<meta name="identifier" content="g6f8b5f71c4e8b72e736e57043cb321b6"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h1>Combining Logical Operators</h1>
+<p>We can work with all the logical operators together.</p>
+<p><span>For this lesson, create a javascript file&nbsp; and name it&nbsp;</span><em>hungry_customer_challenge.js</em></p>
+<p>Say you run a burger shop and you have hungry customers making orders for a burger and you have all the following ingredients: the bun, patty, cheese and veggie.</p>
+<p>First, we will create the four variables and set to true:</p>
+<pre><code class="language-js">var bun = true;
+
+var patty = true;
+
+var cheese = True;
+
+var veggie = true;
+
+var mayonnaise = false; 
+
+var ketchup = false;</code></pre>
+<p>Your first hungry customer orders a veggie burger with no cheese and either ketchup or mayonnaise.</p>
+<p>Let's create another variable for the customer's order to store their order.</p>
+<pre><code class="language-js">var order = bun &amp;&amp; patty &amp;&amp; veggie &amp;&amp;( ketchup ||mayonnaise);
+
+var happyCustomer = order //true is for happy customer </code></pre>
+<pre><code>                          //and false is for angry customer</code></pre>
+<p>Just like in math, how we calculate multiplication before addition using BODMAS, JavaScript calculates<span>&nbsp;</span><code>&amp;&amp;</code><span>&nbsp;</span>AND before<span>&nbsp;</span><code>||</code><span>&nbsp;</span>OR &nbsp;therefore we put the OR operator in brackets. We can consider the AND operator as our multiplication and OR as division just to make things simpler,</p>
+<p>In this case the burger MUST have the bun, patty, veggie and ketchup or mayonnaise.</p>
+<p>The Ketchup or mayonnaise are options for the customer.</p>
+<h1>Instructions</h1>
+<p>Your second hungry customer orders a burger with no veggies but must have cheese and mayonnaise.</p>
+<ol>
+<li>Calculate the second hungry customer's order.</li>
+<li>Create a<span>&nbsp;</span><code>happyCustomer</code><span>&nbsp;</span>variable and assign it to the order</li>
+<li>Click<span>&nbsp;</span><em>run</em><span>&nbsp;</span>to see if you have a happy customer or not.</li>
+</ol>
+</body>
+</html>

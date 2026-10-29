@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 10.5: First-child Pseudo Selector</title>
+<meta name="identifier" content="g28e2d9e0649ec621e2f16e0e3421cfac"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h1>Introduction</h1>
+<p>So far, we have covered styling of both direct descendants and all descendants. However, in this lesson, we will be doing something slightly different. We will be styling only the first child of a parent element. For us to achieve this, we will use the<span>&nbsp;</span><code>:first-child</code><span>&nbsp;</span>pseudo-selector.</p>
+<h1>Instructions:</h1>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>pseudo_selector</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;link rel="stylesheet" href="index.css"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &lt;h1&gt;Meet the elements&lt;/h1&gt;<br>&nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;I am the first one. I'm obviously most significant one of all. I don't need borders to prop me together.&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;I am the second one. They say second is the best. They're not wrong&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;I am the third one and third times the charm&lt;/p&gt;<br>&nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li><span>Run the code on your browser to see the rendered page as it is.</span></li>
+<li>In the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file, insert the following code:</li>
+</ul>
+<pre>&nbsp;div p{<br>&nbsp; &nbsp; padding: 10px;<br>&nbsp; &nbsp; border-bottom: 2px solid black;<br>&nbsp; &nbsp;}&nbsp;</pre>
+<ul>
+<li>
+<span>Run the code on your browser to see the rendered page. </span><span>Note that the first child of the&nbsp;&lt;div&gt;&nbsp;which is a&nbsp;&lt;p&gt;&nbsp;element has different styling from all the other&nbsp;&lt;p&gt;&nbsp;element.</span>
+</li>
+</ul>
+</body>
+</html>

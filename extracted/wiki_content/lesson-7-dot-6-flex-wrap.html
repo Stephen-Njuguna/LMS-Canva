@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 7.6: Flex-wrap</title>
+<meta name="identifier" content="g13ca741b854bbe82e4b8a0ad7afc9cb0"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction:</h3>
+<ul>
+<li>The<span>&nbsp;</span><code>flex-wrap</code><span>&nbsp;</span>property specifies whether items are forced onto a single line or can be wrapped onto multiple lines.</li>
+<li>If wrapping is allowed, it also lets us control how the wrapping is done.</li>
+<li>
+<code>Flex-wrap</code><span>&nbsp;</span>takes three different value:
+<ul>
+<li>
+<code>nowrap</code><span>&nbsp;</span>- This is the default value and forces items to be stacked onto one line.</li>
+<li>
+<code>wrap</code><span>&nbsp;</span><em>-</em><span>&nbsp;</span>This value allows items to be wrapped onto multiple lines in a clockwise direction.</li>
+<li>
+<code>wrap-reverse</code><span>&nbsp;</span><em>-</em><span>&nbsp;</span>This value allows items to be wrapped onto multiple lines in an anti-clockwise direction.</li>
+</ul>
+</li>
+</ul>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;</span><em>flexbox: flex-wrap</em>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file;</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Flex-wrap&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;section id="first"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;A&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;B&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;C&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;D&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/section&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;section id="second"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;A&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;B&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;C&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;D&lt;/div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/section&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>Also, add the following css code to the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>body {<br>&nbsp; width: 300px;<br>&nbsp; margin: auto;<br>}<br>section {<br>&nbsp; display: flex;<br>&nbsp; padding: 10px;<br>}<br><br>div {<br>&nbsp; background-color: rgb(145, 2, 0);<br>&nbsp; width: 100px;<br>&nbsp; height: 100px;<br>&nbsp; margin: 10px;<br>}</pre>
+<ul>
+<li><span>Run the code on your browser and notice how all our flex items are squeezed on one line.</span></li>
+<li>Set the<span>&nbsp;</span><code>flex-wrap</code><span>&nbsp;</span>property of the first (id="first") flex container to<span>&nbsp;</span><code>wrap</code><em>.</em>
+</li>
+<li>Set the<span>&nbsp;</span><code>flex-wrap</code><span>&nbsp;</span>property of the second (id="second") flex-container to<span>&nbsp;</span><code>wrap-reverse</code><em>.</em>
+</li>
+<li>
+<span><span>Refresh the page </span></span>and notice how the items wrap onto the next line. Notice also the different ways in which the items wrap.</li>
+</ul>
+</body>
+</html>

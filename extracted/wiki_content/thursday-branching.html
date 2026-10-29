@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Thursday: Branching</title>
+<meta name="identifier" content="g945eeb97057fc7a3c34ed704f79696f5"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="unpublished"/>
+</head>
+<body>
+<h2>Homework: Branching</h2>
+<p>Now that we've learned the basics of how to manipulate web pages with jQuery, we're going to add some logic to our pages that will allow us to control the flow of our code based on certain conditions. This kind of logic is called<span>&nbsp;</span><strong>branching</strong>.<span>&nbsp;</span><br>As an example, we are going to create a website for a bar. We only want to show the drinks menu to the user if they are over 21. So, the condition is age. When we come to determining this condition in the code, it is like a fork in the road with two paths or branches. If the user is over 21, they'll see the drinks menu. If not, they will get a message indicating that they are not old enough to view the content.<span>&nbsp;</span><br>Here's an example:<span>&nbsp;</span></p>
+<pre><code class="html hljs xml">
+      <span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"css/bootstrap.css"</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/css"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"css/styles.css"</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/css"</span>&gt;<br></span></code><code class="html hljs xml"><span>          &lt;script &nbsp;&nbsp;</span><span>src="https://code.jquery.com/jquery-3.3.1.min.js" </span><span>integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" </span><span>crossorigin="anonymous"&gt;&lt;/script&gt;<br></span></code><code class="html hljs xml"><span class="hljs-tag">          &lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/scripts.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Drinks<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"drinks"</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Drink menu<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Beer<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>The King of Beer<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>The Queen of Beer<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Real cold beer<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Wine<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Red wine<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>White wine<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Blue wine&amp;li;/li&gt; <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"under-21"</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Sorry, we can't serve you.<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>It's illegal in the US. Try Mexico or Europe.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span> </code></pre>
+<p>In our<span>&nbsp;</span><em>style.css</em>:</p>
+<pre><code class="css hljs">
+      <span class="hljs-id">#drinks</span>, <span class="hljs-id">#under-21</span> <span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> none</span></span>;
+      }</span>
+    </code></pre>
+<p>And in our<span>&nbsp;</span><em>scripts.js</em>:</p>
+<pre><code class="javascript hljs">
+      $(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> age = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"How old are you?"</span>));
+
+        <span class="hljs-keyword">if</span> (age &gt;= <span class="hljs-number">21</span>) {
+          $(<span class="hljs-string">'#drinks'</span>).show();
+        }
+      });
+    </code></pre>
+<p>A value entered into a<span>&nbsp;</span><code>prompt()</code><span>&nbsp;</span>field always returns a string even if a number is entered. Since we want our age to be compared to another number, we have to change it into a number using the<span>&nbsp;</span><code>parseInt()</code>function.<span>&nbsp;</span><br>Once we collect the user's age, we can write a JavaScript<span>&nbsp;</span><strong><code>if</code><span>&nbsp;</span>statement</strong>, or a<span>&nbsp;</span><strong>branch</strong>. If statements consist of the keyword<span>&nbsp;</span><code>if</code><span>&nbsp;</span>followed by a condition in parentheses. The condition will always evaluate to a boolean value: either true or false. After the condition, we add the code that we want to execute if the condition is true. This code is set between two curly braces on it's own lines. (Note the standards for an if statement: spacing, two-space indentation and NO semicolon after the final curly brace.)<span>&nbsp;</span><br>When the condition evaluates to<span>&nbsp;</span><code>true</code>, the code that follows between the curly braces is executed. If the condition is false, the code in the curly braces is not executed and the JavaScript processing moves on.<span>&nbsp;</span><br>Let's work through a couple examples of our age condition. If our user indicates an age of 25, then the condition<span>&nbsp;</span><code>age &gt;= 21</code><span>&nbsp;</span>becomes<span>&nbsp;</span><code>25 &gt;= 21</code>, which evaluates to true. The code in the curly braces is run and the div with an id of drinks is shown.<span>&nbsp;</span><br>If age is 16,<span>&nbsp;</span><code>age &gt;= 21</code><span>&nbsp;</span>becomes<span>&nbsp;</span><code>16 &gt;= 21</code>, which evaluates to<span>&nbsp;</span><code>false</code>. In this case, the code in the curly braces is skipped and nothing is displayed.<span>&nbsp;</span><br>Back to our code, let's show a different message if the condition is<span>&nbsp;</span><code>false</code><span>&nbsp;</span>(the user is under 21). To do this we'll add an<span>&nbsp;</span><code>else</code><span>&nbsp;</span>branch:</p>
+<pre><code class="javascript hljs">
+      $(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> age = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"How old are you?"</span>));
+
+        <span class="hljs-keyword">if</span> (age &gt;= <span class="hljs-number">21</span>) {
+          $(<span class="hljs-string">'#drinks'</span>).show();
+        } <span class="hljs-keyword">else</span> {
+          $(<span class="hljs-string">'#under-21'</span>).show();
+        }
+      });
+    </code></pre>
+<p>Here, just like before, when the condition in parentheses evaluates to<span>&nbsp;</span><code>true</code>, the code in the first set of curly braces is run. But when the condition evaluates to<span>&nbsp;</span><code>false</code>, the code in the second set of curly braces, after the else keyword, is run.<span>&nbsp;</span><br>An else statement does not need a condition because the code in its curly braces is what will be run when the if condition is<span>&nbsp;</span><code>false</code>.<span>&nbsp;</span><br>Generally, your code is executed from top to bottom, like a car driving straight down the road. When your car encounters an if statement, it is like encountering a fork in the road. You can't take both paths - if the condition is<span>&nbsp;</span><code>true</code>, the if code runs, otherwise the else code runs.<span>&nbsp;</span><br>What if we need to have more conditions? What if we want to display a special third message if the user is exactly 21? Let's pop up an alert that says "Now don't go crazy!" if the age is equal to (===) 21:</p>
+<pre><code class="javascript hljs">
+      $(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> age = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"How old are you?"</span>));
+
+        <span class="hljs-keyword">if</span> (age &gt; <span class="hljs-number">21</span>) {
+          $(<span class="hljs-string">'#drinks'</span>).show();
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (age === <span class="hljs-number">21</span>) {
+          alert(<span class="hljs-string">"Now don't go crazy!"</span>);
+          $(<span class="hljs-string">'#drinks'</span>).show();
+        } <span class="hljs-keyword">else</span> {
+          $(<span class="hljs-string">'#under-21'</span>).show();
+        }
+      });
+    </code></pre>
+<p><code>else if</code><span>&nbsp;</span>is just like an alternate<span>&nbsp;</span><code>if</code>. It also has a condition to be checked in parenthesis next to it, and if that condition is true then the code in curly braces following it is run. But<span>&nbsp;</span><code>else if</code>'s condition is only checked when the if condition has already been found to be false. In real life, you use this idea of<span>&nbsp;</span><code>if, else if</code><span>&nbsp;</span>and<span>&nbsp;</span><code>else</code><span>&nbsp;</span>all the time. Say you're going to the beach with your friends over the weekend. You all decide that the easiest way to get there would be to drive, but only your friend Omera has a car. So, if Omera is free, you can all drive with her. But, he never picks up his phone. So, you all decide that as an alternate plan you will take the bus - but only if Omera is busy. Then one of your friends remembers that this is a holiday weekend, so the bus might not be running. You roll your eyes at your friend and say "Fine, if we can't find Omera, and the buses aren't running, we can all just go to my house and watch movies." That is an if statement! Let's re-interpret this discussion in pseudocode:</p>
+<pre><code class="javascript hljs">
+      <span class="hljs-keyword">if</span> (Omera === <span class="hljs-string">"available to drive"</span>) {          <span class="hljs-comment">// if Omera can drive...</span>
+        driveToBeach();                                <span class="hljs-comment">// call the function to drive to the beach.</span>
+      }
+      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (busesAreRunning === <span class="hljs-literal">true</span>) {             <span class="hljs-comment">// if Omera can't drive and the buses are running...</span>
+        busToBeach();                                  <span class="hljs-comment">// take the bus to the beach.</span>
+      }
+      <span class="hljs-keyword">else</span> {                                           <span class="hljs-comment">// if all the other options fail...</span>
+        watchMovies();                                 <span class="hljs-comment">// watch movies instead.</span>
+      }
+    </code></pre>
+<p>The triple equals sign<span>&nbsp;</span><code>===</code><span>&nbsp;</span>is easy to mix up with the single equals sign<span>&nbsp;</span><code>=</code>. Remember that the single equals sign (<code>=</code>) is used to assign a value to a variable. The triple equals (<code>===</code>) is used in conditions to check if the values on its left and right sides are equal.<span>&nbsp;</span><br>When you are writing an<span>&nbsp;</span><code>if</code><span>&nbsp;</span>statement, you can have as many<span>&nbsp;</span><code>else if</code>'s in it as you like, but you can only have one<span>&nbsp;</span><code>if</code><span>&nbsp;</span>and one<span>&nbsp;</span><code>else</code>.<span>&nbsp;</span><code>if</code><span>&nbsp;</span>must be the first statement, and<span>&nbsp;</span><code>else</code><span>&nbsp;</span>must be the last statement.<span>&nbsp;</span><br>When JavaScript tries to figure out if the condition is true, it's looking for a<span>&nbsp;</span><code>boolean</code>. You saw in the Assignment &amp; Comparison Operators lesson that comparisons return a boolean -<span>&nbsp;</span><code>true</code><span>&nbsp;</span>or<span>&nbsp;</span><code>false</code>. Check out what's going on here in the JavaScript console:</p>
+<pre><code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> age = <span class="hljs-number">22</span>;
+      &gt; age &gt; <span class="hljs-number">21</span>;
+      <span class="hljs-literal">true</span>
+    </code></pre>
+<p>We're getting a boolean. We could write the JavaScript for our drinks page like this:</p>
+<pre><code class="javascript hljs">
+      $(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> over21 = confirm(<span class="hljs-string">"Are you over 21? Click OK for yes or Cancel for no."</span>);
+
+        <span class="hljs-keyword">if</span> (over21) {
+          $(<span class="hljs-string">'#drinks'</span>).show();
+        } <span class="hljs-keyword">else</span> {
+          $(<span class="hljs-string">'#under-21'</span>).show();
+        }
+      });
+    </code></pre>
+<p>In other words, when I earlier said "If the condition in the parentheses is true, then the first statement is run," it's more precise to say "If the condition in the parentheses evaluates to<span>&nbsp;</span><code>true</code>, then the first statement is run." (Note: this isn't 100% correct, as we'll see in the next lesson, but don't worry about that for now.)</p>
+</body>
+</html>

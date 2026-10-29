@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 14.4: Background Opacity</title>
+<meta name="identifier" content="g398f9d011bf06300e3d9bc9620e9f85c"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h3>Introduction</h3>
+<p>Another interesting CSS property is the<span>&nbsp;</span><code>opacity</code><span>&nbsp;</span>property. This property describes the opacity of an element. In other words, the<span>&nbsp;</span><strong>lower</strong><span>&nbsp;</span>the opacity the<span>&nbsp;</span><strong>higher</strong><span>&nbsp;</span>the transparency of an element.</p>
+<p><strong>NOTE:</strong><span>&nbsp;</span>When using the opacity property, this also makes the content inside the element transparent making it less readable, so use it sparingly. The CSS implementation of this looks like this:</p>
+<pre><code>div{</code></pre>
+<pre><code>  background-color: red;</code></pre>
+<pre><code>  opacity: 0.5;</code></pre>
+<pre><code>}</code></pre>
+<p>The<span>&nbsp;</span><code>opacity</code><span>&nbsp;</span>property takes a value between 0 and 1. 1 means the element is not transparent at all. Values closer to 0 make the element more transparent.</p>
+<h3>Instructions:</h3>
+<ul>
+<li>Create a new folder and name it<span>&nbsp;<em>background_opacity</em></span>. Inside the folder create the<span>&nbsp;</span><em>index.html<span>&nbsp;</span></em>and<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>files.</li>
+<li>Add the following code in the<span>&nbsp;</span><em>index.html</em><span>&nbsp;</span>file</li>
+</ul>
+<pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&nbsp; &nbsp; &lt;head&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Now you see me, now you don't<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;</pre>
+<ul>
+<li>link the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file to the<span>&nbsp;</span><em>index.html</em>.</li>
+<li>Give the div an id "opaque".</li>
+<li>In the<span>&nbsp;</span><em>index.css</em><span>&nbsp;</span>file, give the div with the id "opaque", the following styling:
+<ul>
+<li>Set the<span>&nbsp;</span><code>padding</code><span>&nbsp;</span>to have the value<span>&nbsp;</span><code>5px</code>.</li>
+<li>Set the<span>&nbsp;</span><code>background-color</code><span>&nbsp;</span>to have the value<span>&nbsp;</span><code>red</code>
+</li>
+<li>
+<p>Set the<span>&nbsp;</span><code>opacity</code><span>&nbsp;</span>to have the value<span>&nbsp;</span><code>0.6</code></p>
+</li>
+</ul>
+</li>
+<li><span>Refresh the page to see the rendered page with the div with the id "opaque" looking transparent.</span></li>
+</ul>
+</body>
+</html>

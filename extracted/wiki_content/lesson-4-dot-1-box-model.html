@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lesson 4.1: Box Model</title>
+<meta name="identifier" content="g2ba9c22ad36caf1f13dc580a5fd15e5d"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<p><strong>Introduction:</strong></p>
+<ul>
+<li>The box model forms the basis of web layout.</li>
+<li>Each element is represented as a rectangular box with the content, padding, border and margin wrapped around one another.</li>
+<li>
+<p>The following picture helps illustrate this:</p>
+</li>
+</ul>
+<ul>
+<li>The padding is the space between the content box and the border, while the margin is the space surrounding the border.</li>
+<li>It is important to note that the border is hidden by default, but is always present around each element.</li>
+<li>Practise visualizing every element of a webpage as a box comprised of the above.</li>
+</ul>
+<p>Let's see a visual representation of the box model</p>
+<p><strong>Instruction:</strong></p>
+<ul>
+<li>Create a new folder and name it box_model. Inside the folder create the index.html and index.css files.</li>
+<li>Add the following code in the index.html file;</li>
+</ul>
+<div>
+<pre><span>&lt;!DOCTYPE</span><span> html</span><span>&gt;</span><br><span>&lt;</span><span>html</span><span>&gt;</span><br><span>&nbsp;&nbsp;</span><span>&lt;</span><span>head</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>meta</span> <span>charset</span><span>=</span><span>"utf-8"</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>meta</span> <span>name</span><span>=</span><span>"viewport"</span> <span>content</span><span>=</span><span>"width=device-width"</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>title</span><span>&gt;</span><span>repl.it</span><span>&lt;/</span><span>title</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>link</span> <span>rel</span><span>=</span><span>"stylesheet"</span> <span>href</span><span>=</span><span>"index.css"</span> <span>type</span><span>=</span><span>"text/css"</span><span>&gt;</span><br><span>&nbsp;&nbsp;</span><span>&lt;/</span><span>head</span><span>&gt;</span><br><span>&nbsp;&nbsp;</span><span>&lt;</span><span>body</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>h1</span><span>&gt;</span><span>The box-model</span><span>&lt;/</span><span>h1</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>p</span><span>&gt;</span><span>content box.</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>div</span> <span>id</span><span>=</span><span>"frame"</span><span>&gt;&lt;/</span><span>div</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>div</span> <span>id</span><span>=</span><span>"margin"</span><span>&gt;</span><span>margin</span><span>&lt;/</span><span>div</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>div</span> <span>id</span><span>=</span><span>"padding"</span><span>&gt;</span><span>padding</span><span>&lt;/</span><span>div</span><span>&gt;</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><br><span> &nbsp;</span><span>&lt;/</span><span>body</span><span>&gt;</span><br><span>&lt;/</span><span>html</span><span>&gt;</span></pre>
+<ul>
+<li><span>Also, add the following code in the index.css file</span></li>
+</ul>
+<pre>body {<br>&nbsp; display: flex;<br>&nbsp; flex-direction: column;<br>&nbsp; align-items: center;<br>}<br>p &nbsp;{<br>&nbsp; width: 100px;<br>&nbsp; height: 100px;<br>&nbsp; color: white;<br>&nbsp; padding: 20px;<br>&nbsp; background-color: blue;<br>&nbsp; background-clip: content-box;<br>&nbsp; border: 10px outset grey;<br>&nbsp; margin: 20px;<br>&nbsp; text-align: center;<br>}<br><br>#margin {<br>&nbsp; position: relative;<br>&nbsp; bottom: 400px;<br>&nbsp; height: 20px;<br>&nbsp; width: 200px;<br>&nbsp; margin: 0;<br>&nbsp; padding: 0;<br>&nbsp; text-align: center;<br>}<br><br>#padding {<br>&nbsp; position: relative;<br>&nbsp; bottom: 390px;<br>&nbsp; height: 20px;<br>&nbsp; width: 140px;<br>&nbsp; margin: 0;<br>&nbsp; padding: 0;<br>&nbsp; text-align: center;<br>}<br><br>#frame {<br>&nbsp; z-index: 1000;<br>&nbsp; height: 200px;<br>&nbsp; width: 200px;<br>&nbsp; position: relative;<br>&nbsp; bottom: 200px;<br>&nbsp; border: 1px dashed black;<br>}</pre>
+<ul>
+<li>Run the code on the browser to see <span>a representation of the box model.</span>
+</li>
+</ul>
+</div>
+</body>
+</html>
